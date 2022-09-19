@@ -1,7 +1,8 @@
 import Head from "next/head";
+import styles from "../styles/Home.module.scss";
 export default function Layout({ title, keywords, description, children }) {
   return (
-    <div className="container">
+    <div className={styles.container}>
       <Head>
         <meta charSet="UTF-8"></meta>
         <meta
