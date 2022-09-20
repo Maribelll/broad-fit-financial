@@ -14,7 +14,15 @@ a {
 * {
   box-sizing: border-box;
 }
-
+//buttons
+.dark_blue {
+  background-color: rgba(72, 104, 152, 1);
+  border-radius: 5px;
+  color: white;
+  padding: 14px 34px;
+  border: none;
+  font-family: "Noto Sans";
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

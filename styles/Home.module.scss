@@ -1,16 +1,6 @@
 .container {
-  padding: 0 20px;
-
   .main {
-    min-height: 100vh;
-    padding: 4rem 0;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-
-    background-size: 100%;
 
     .title,
     .description {
@@ -24,7 +14,6 @@
       margin: 4rem 0;
       line-height: 1.5;
       font-size: 1.5rem;
-
       font-size: 18px;
     }
   }

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Layout from "../Components/Layout";
 import styles from "../styles/error.module.scss";
+import { useCallback, useEffect, useState } from 'react'
 
 export default function NotFoundPage() {
   return (
