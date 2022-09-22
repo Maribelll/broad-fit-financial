@@ -32,6 +32,14 @@ $container-slider: 1346px;
     line-height: 14px;
     letter-spacing: 0.22em;
     text-align: left;
+    transition: 1s;
+    &:active {
+      color: #ad8024;
+    }
+    &:hover {
+      color: #ad8024;
+      transition: 1s;
+    }
   }
   button {
     font-family: $font-family;
@@ -39,6 +47,7 @@ $container-slider: 1346px;
     line-height: 14px;
     letter-spacing: 0.22em;
     font-size: 12px;
+    transition: 1s;
   }
 }
 
