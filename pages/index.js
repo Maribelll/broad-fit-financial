@@ -8,6 +8,7 @@ import { Menu } from "../Components/Menu";
 import banner from "../public/hero.jpg";
 import circle from "../public/sectors-illustration.svg";
 import { Icons } from "../Components/Icons";
+import { Cardleft } from "../Components/Cardleft";
 
 export default function Home() {
   return (
@@ -33,7 +34,9 @@ export default function Home() {
                 <div className={styles.main_text_buttons}>
                   <button className="dark_blue">Get in touch</button>
                   <Link href={"/"}>
-                    <a className={styles.main_link}>Learn More</a>
+                    <a style={{ marginLeft: "24px" }} className="main_link">
+                      Learn More
+                    </a>
                   </Link>
                 </div>
               </div>
@@ -61,6 +64,21 @@ export default function Home() {
                 <Image src={circle} width={369} height={369} alt="" />
               </div>
             </div>
+          </div>
+        </section>
+        <section>
+          <div className={styles.helping}>
+            <h2
+              style={{
+                maxWidth: "656px",
+                textAlign: "center",
+                margin: "0 auto",
+                paddingBottom: "58px",
+              }}
+            >
+              Helping you navigate equipment financing from start to finish
+            </h2>
+            <Cardleft />
           </div>
         </section>
       </main>
