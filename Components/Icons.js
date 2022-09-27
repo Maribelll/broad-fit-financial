@@ -8,7 +8,12 @@ import styles from "../styles/icons.module.scss";
 export function Icons() {
   return (
     <section>
-      <div className={styles.icons}>
+      <div
+        data-aos-duration="600"
+        data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom"
+        className={styles.icons}
+      >
         <h2>Your partner in funding</h2>
         <div className={styles.icons_all}>
           <div className={styles.icons_card}>

@@ -2,7 +2,9 @@ import Head from "next/head";
 import Link from "next/link";
 import styles from "../styles/Home.module.scss";
 import Layout from "../Components/Layout";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect } from "react";
 import Image from "next/image";
 import { Menu } from "../Components/Menu";
 import banner from "../public/hero.jpg";
@@ -12,6 +14,9 @@ import { Cardleft } from "../Components/Cardleft";
 import { Cardright } from "../Components/Cardright";
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <Layout title="" keywords="" description="">
       <Head>
@@ -49,7 +54,11 @@ export default function Home() {
         </section>
         <Icons />
         <section>
-          <div className={styles.industry}>
+          <div
+            data-aos-duration="600"
+            data-aos="flip-up"
+            className={styles.industry}
+          >
             <div className={styles.industry_all}>
               <div className={styles.industry_text}>
                 <h2 style={{ textAlign: "left" }}>
@@ -68,7 +77,7 @@ export default function Home() {
           </div>
         </section>
         <section>
-          <div className={styles.helping}>
+          <div data-aos="flip-left" className={styles.helping}>
             <h2
               style={{
                 maxWidth: "656px",
