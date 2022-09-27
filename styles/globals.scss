@@ -53,6 +53,13 @@ h3 {
 p {
   color: $grey;
 }
+ul {
+  list-style: none;
+}
+hr {
+  border: 1px solid $gold;
+  margin-top: -7px;
+}
 //buttons
 .dark_blue {
   background-color: $blue;

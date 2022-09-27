@@ -13,6 +13,7 @@ import { Icons } from "../Components/Icons";
 import { Cardleft } from "../Components/Cardleft";
 import { Cardright } from "../Components/Cardright";
 import { Action } from "../Components/Action";
+import { Footer } from "../Components/Footer";
 
 export default function Home() {
   useEffect(() => {
@@ -95,6 +96,7 @@ export default function Home() {
           </div>
         </section>
       </main>
+      <Footer />
     </Layout>
   );
 }
