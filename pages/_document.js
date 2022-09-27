@@ -4,15 +4,8 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          {/* <link rel="stylesheet" href="https://use.typekit.net/mod3ewt.css" />
-          <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-          />
-          <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/icon?family=Material+Icons"
-          /> */}
+          <link rel="stylesheet" href="https://use.typekit.net/kuq4bzj.css" />
+
           <meta property="og:type" content="website" />
           <meta property="og:site_name" content="Fit Boadr Financial" />
           <meta property="og:title" content="" />

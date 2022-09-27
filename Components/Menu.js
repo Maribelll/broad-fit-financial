@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import logo from "../public/logo.png";
+import logo from "../public/logo.svg";
 import style from "../styles/menu.module.scss";
 
 export function Menu() {
@@ -8,31 +8,31 @@ export function Menu() {
     <div className={style.menu_up}>
       <div className={style.logo_up}>
         <Link href={"/"}>
-          <Image src={logo} alt="logo" width={235} height={71} />
+          <Image src={logo} alt="logo" width={213} height={54} />
         </Link>
       </div>
 
       <div>
         <Link href={"/"}>
-          <a>SECTORS</a>
+          <a>Sectors</a>
         </Link>
 
         <Link href={"/"}>
-          <a>BENEFITS</a>
+          <a>Benefits</a>
         </Link>
 
         <Link href={"/"}>
-          <a>PROCESS</a>
+          <a>Process</a>
         </Link>
       </div>
       <div>
         <Link href={"/"}>
-          <a>ABOUT</a>
+          <a>About</a>
         </Link>
 
         <Link href={"/contact"}>
           <a>
-            <button className="dark_blue">CONTACT</button>
+            <button className="dark_blue">Contact</button>
           </a>
         </Link>
       </div>

@@ -27,10 +27,9 @@ $container-slider: 1346px;
   a {
     padding: 0 20px;
     color: rgba(87, 97, 111, 1);
-    font-size: 12px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 400;
     line-height: 14px;
-    letter-spacing: 0.22em;
     text-align: left;
     transition: 1s;
     &:active {
@@ -43,10 +42,9 @@ $container-slider: 1346px;
   }
   button {
     font-family: $font-family;
-    font-weight: 700;
-    line-height: 14px;
-    letter-spacing: 0.22em;
-    font-size: 12px;
+    font-weight: 400;
+    line-height: 19.2px;
+    font-size: 16px;
     transition: 1s;
   }
 }
