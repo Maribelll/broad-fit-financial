@@ -6,6 +6,7 @@ import Layout from "../Components/Layout";
 import Image from "next/image";
 import { Menu } from "../Components/Menu";
 import banner from "../public/hero.jpg";
+import { Icons } from "../Components/Icons";
 
 export default function Home() {
   return (
@@ -41,6 +42,8 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        <Icons />
       </main>
     </Layout>
   );

@@ -1,0 +1,38 @@
+section {
+  .icons {
+    padding: 0 20px;
+    .icons_all {
+      padding: 61px 0 86px 0;
+      max-width: 1112px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      .icons_card {
+        max-width: 300px;
+        .p19 {
+          padding-top: 10px;
+          font-size: 19px;
+          font-weight: 400;
+          line-height: 23px;
+          letter-spacing: 0em;
+          text-align: left;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1000px) {
+  section {
+    .icons {
+      .icons_all {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0;
+        .icons_card {
+          margin-top: 50px;
+        }
+      }
+    }
+  }
+}
