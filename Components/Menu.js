@@ -31,7 +31,7 @@ export function Menu() {
         </Link>
 
         <Link href={"/contact"}>
-          <a>
+          <a style={{ paddingRight: "0" }}>
             <button className="dark_blue">Contact</button>
           </a>
         </Link>
