@@ -9,6 +9,7 @@ import banner from "../public/hero.jpg";
 import circle from "../public/sectors-illustration.svg";
 import { Icons } from "../Components/Icons";
 import { Cardleft } from "../Components/Cardleft";
+import { Cardright } from "../Components/Cardright";
 
 export default function Home() {
   return (
@@ -79,6 +80,7 @@ export default function Home() {
               Helping you navigate equipment financing from start to finish
             </h2>
             <Cardleft />
+            <Cardright />
           </div>
         </section>
       </main>
