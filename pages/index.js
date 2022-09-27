@@ -6,6 +6,7 @@ import Layout from "../Components/Layout";
 import Image from "next/image";
 import { Menu } from "../Components/Menu";
 import banner from "../public/hero.jpg";
+import circle from "../public/sectors-illustration.svg";
 import { Icons } from "../Components/Icons";
 
 export default function Home() {
@@ -42,8 +43,26 @@ export default function Home() {
             </div>
           </div>
         </section>
-
         <Icons />
+        <section>
+          <div className={styles.industry}>
+            <div className={styles.industry_all}>
+              <div className={styles.industry_text}>
+                <h2 style={{ textAlign: "left" }}>
+                  Strong industry knowledge and laser-focused expertise
+                </h2>
+                <p>
+                  Our services are tailored to the specific needs of companies
+                  in the health, wellness, therapy, and fitness sectors.
+                </p>
+                <button className="dark_blue">See all sectors</button>
+              </div>
+              <div className={styles.circle}>
+                <Image src={circle} width={369} height={369} alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
     </Layout>
   );
