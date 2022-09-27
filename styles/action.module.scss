@@ -1,0 +1,21 @@
+.action {
+  margin: 45px 0;
+  .action_all {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .action_card1,
+    .action_card2 {
+      max-width: 520px;
+      background: rgba(243, 247, 252, 1);
+      padding: 48px 60px;
+      width: 520px;
+    }
+    .action_card1 {
+      margin-right: 15px;
+    }
+    .action_card2 {
+      margin-left: 15px;
+    }
+  }
+}

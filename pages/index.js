@@ -12,6 +12,7 @@ import circle from "../public/sectors-illustration.svg";
 import { Icons } from "../Components/Icons";
 import { Cardleft } from "../Components/Cardleft";
 import { Cardright } from "../Components/Cardright";
+import { Action } from "../Components/Action";
 
 export default function Home() {
   useEffect(() => {
@@ -77,7 +78,7 @@ export default function Home() {
           </div>
         </section>
         <section>
-          <div data-aos="flip-left" className={styles.helping}>
+          <div className={styles.helping}>
             <h2
               style={{
                 maxWidth: "656px",
@@ -90,6 +91,7 @@ export default function Home() {
             </h2>
             <Cardleft />
             <Cardright />
+            <Action />
           </div>
         </section>
       </main>
