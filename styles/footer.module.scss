@@ -7,7 +7,6 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
-    padding-top: 20px;
 
     .footer_text {
       margin-left: 121px;
@@ -23,7 +22,7 @@
         flex-direction: row;
         justify-content: space-between;
         background: rgba(24, 28, 63, 1);
-
+        padding-top: 20px;
         ul {
           padding-left: 0;
           li {
