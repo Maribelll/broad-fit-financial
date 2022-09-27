@@ -1,6 +1,7 @@
 $blue: rgba(66, 72, 128, 1);
+$blue_light: rgba(243, 247, 252, 1);
 $gold: rgba(173, 128, 36, 1);
-$black: rgba(87, 97, 111, 1);
+$black: rgba(54, 61, 76, 1);
 $grey: rgba(87, 97, 111, 1);
 $white: rgba(255, 255, 255, 1);
 
@@ -31,22 +32,23 @@ h1 {
   font-size: 44px;
   line-height: 53px;
 }
-.header1 {
-  font-size: 51px;
-  line-height: 107.44%;
-}
+
 p {
   color: $grey;
 }
 //buttons
 .dark_blue {
   background-color: $blue;
-
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
   border-radius: 5px;
   color: white;
   padding: 14px 34px;
   border: none;
-  font-family: "Noto Sans";
+
   &:active {
     background-color: #ad8024;
   }

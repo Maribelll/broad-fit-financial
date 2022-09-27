@@ -1,9 +1,11 @@
 import Head from "next/head";
-
+import Link from "next/link";
 import styles from "../styles/Home.module.scss";
 import Layout from "../Components/Layout";
-import Link from "next/link";
+
+import Image from "next/image";
 import { Menu } from "../Components/Menu";
+import banner from "../public/hero.jpg";
 
 export default function Home() {
   return (
@@ -14,7 +16,32 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Menu />
-      <main className={styles.main}></main>
+      <main className={styles.main}>
+        <section className={styles.mainscreen}>
+          <div className={styles.main}>
+            <div className={styles.main_text}>
+              <div className={styles.main_text_all}>
+                <h1 className={styles.header1}>
+                  Financing solutions for health &amp; wellness environments
+                </h1>
+                <p>
+                  Broad Fit Financial provides equipment financing for
+                  businesses of any size looking to acquire new equipment.
+                </p>
+                <div className={styles.main_text_buttons}>
+                  <button className="dark_blue">Get in touch</button>
+                  <Link href={"/"}>
+                    <a className={styles.main_link}>Learn More</a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className={styles.main_photo}>
+              <Image src={banner} alt="banner" width={668} height={561} />
+            </div>
+          </div>
+        </section>
+      </main>
     </Layout>
   );
 }
