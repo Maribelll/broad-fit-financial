@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import lines from "../public/footer.png";
+import lines2 from "../public/footer2.png";
 import logo from "../public/logo_footer.svg";
 import styles from "../styles/footer.module.scss";
 
@@ -45,16 +46,25 @@ export function Footer() {
           </div>
           <span className={styles.in}>in</span>
         </div>
-        <div className={styles.footer_img}>
-          <Image src={lines} alt="" />
-        </div>
+        <div className={styles.empty}></div>
+      </div>
+      <div className={styles.footer_img}>
+        <Image src={lines} alt="" />
+      </div>
+      <div className={styles.footer_img2}>
+        <Image src={lines2} alt="" />
       </div>
       <hr />
       <div className={styles.rights}>
-        <div>ALL RIGHTS RESERVED &copy; 2022 BROAD FIT FINANCIAL</div>
-        <div>
-          PRIVACY POLICY
-          <span style={{ paddingLeft: "31px" }}>TERMS &amp; CONDITIONS</span>
+        <div className={styles.rights_all}>
+          ALL RIGHTS RESERVED &copy; 2022 BROAD FIT FINANCIAL
+        </div>
+        <div className={styles.rights_all2}>
+          &copy; BROAD FIT FINANCIL / ALL RIGHTS RESERVED
+        </div>
+        <div className={styles.privacy}>
+          <div>PRIVACY POLICY</div>
+          <div className={styles.terms}>TERMS &amp; CONDITIONS</div>
         </div>
       </div>
     </div>
