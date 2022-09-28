@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import styles from "../styles/Home.module.scss";
+import style from "../styles/card.module.scss";
 import Layout from "../Components/Layout";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -74,14 +75,9 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section>
-          <div className={styles.helping}>
-            <h2
-              style={{
-                textAlign: "center",
-                margin: "0 auto",
-              }}
-            >
+        <section style={{ margin: "0 16px" }}>
+          <div className={style.helping}>
+            <h2>
               Helping you navigate equipment financing from start to finish
             </h2>
             <Cardleft />

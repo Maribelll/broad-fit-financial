@@ -72,15 +72,6 @@ $white: rgba(255, 255, 255, 1);
   }
 }
 
-//helping
-.helping {
-  margin-top: 65px;
-
-  h2 {
-    padding-bottom: 58px;
-    max-width: 656px;
-  }
-}
 @media (max-width: 1300px) {
   .mainscreen {
     .main {
@@ -143,13 +134,5 @@ $white: rgba(255, 255, 255, 1);
         width: 241px;
       }
     }
-  }
-}
-.helping {
-  margin: 37px auto 38px auto;
-
-  h2 {
-    padding-bottom: 38px;
-    max-width: 340px;
   }
 }
