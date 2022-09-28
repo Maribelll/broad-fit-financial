@@ -41,11 +41,11 @@ export default function Home() {
                 </p>
                 <div className={styles.main_text_buttons}>
                   <button className="dark_blue">Get in touch</button>
-                  <Link href={"/"}>
-                    <a style={{ marginLeft: "24px" }} className="main_link">
-                      Learn More
-                    </a>
-                  </Link>
+                  <div className={styles.link}>
+                    <Link href={"/"}>
+                      <a className="main_link">Learn More</a>
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
@@ -56,11 +56,7 @@ export default function Home() {
         </section>
         <Icons />
         <section>
-          <div
-            data-aos-duration="600"
-            data-aos="flip-up"
-            className={styles.industry}
-          >
+          <div className={styles.industry}>
             <div className={styles.industry_all}>
               <div className={styles.industry_text}>
                 <h2 style={{ textAlign: "left" }}>

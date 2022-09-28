@@ -6,11 +6,7 @@ import styles from "../styles/card.module.scss";
 
 export function Cardright() {
   return (
-    <div
-      data-aos="flip-down"
-      data-aos-duration="600"
-      className={styles.cardright}
-    >
+    <div className={styles.cardright}>
       <div className={styles.card_text}>
         <h3>Personal team dedicated to your growth and success</h3>
         <p>

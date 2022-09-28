@@ -25,10 +25,14 @@ section {
 @media (max-width: 1000px) {
   section {
     .icons {
+      h2 {
+        display: none;
+      }
       .icons_all {
         flex-direction: column;
         align-items: center;
         padding-top: 0;
+        padding-bottom: 42px;
         .icons_card {
           margin-top: 50px;
         }

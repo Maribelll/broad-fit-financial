@@ -9,9 +9,8 @@ export function Icons() {
   return (
     <section>
       <div
-        data-aos-duration="600"
+        // data-aos-duration="200"
         data-aos="fade-up"
-        data-aos-anchor-placement="bottom-bottom"
         className={styles.icons}
       >
         <h2>Your partner in funding</h2>
