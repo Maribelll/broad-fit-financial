@@ -1,6 +1,6 @@
 .cardleft {
   max-width: 1170px;
-  margin: 0 auto;
+  margin: 0 16px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -13,7 +13,7 @@
 //cardright
 .cardright {
   max-width: 1170px;
-  margin: 0 auto;
+  margin: 0 16px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -28,9 +28,32 @@
   .cardleft {
     flex-direction: column;
     align-items: center;
+    .card_text {
+      h3 {
+        font-size: 22px;
+        line-height: 26px;
+        letter-spacing: 0em;
+        padding-top: 27px;
+      }
+      p {
+        padding-bottom: 10px;
+      }
+    }
   }
   .cardright {
     flex-direction: column-reverse;
     align-items: center;
+    margin-top: 45px;
+    .card_text {
+      h3 {
+        font-size: 22px;
+        line-height: 26px;
+        letter-spacing: 0em;
+        padding-top: 27px;
+      }
+      p {
+        padding-bottom: 10px;
+      }
+    }
   }
 }

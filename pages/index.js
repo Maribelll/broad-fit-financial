@@ -69,7 +69,7 @@ export default function Home() {
                 <button className="dark_blue">See all sectors</button>
               </div>
               <div className={styles.circle}>
-                <Image src={circle} width={369} height={369} alt="" />
+                <Image src={circle} width={349} height={349} alt="" />
               </div>
             </div>
           </div>
@@ -78,10 +78,8 @@ export default function Home() {
           <div className={styles.helping}>
             <h2
               style={{
-                maxWidth: "656px",
                 textAlign: "center",
                 margin: "0 auto",
-                paddingBottom: "58px",
               }}
             >
               Helping you navigate equipment financing from start to finish

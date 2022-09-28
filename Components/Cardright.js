@@ -14,7 +14,7 @@ export function Cardright() {
           invested in your success.
         </p>
         <Link href={"/"}>
-          <a className="main_link">See all benefits</a>
+          <a className="main_link">Learn more</a>
         </Link>
       </div>
       <div className={styles.card_photo}>
