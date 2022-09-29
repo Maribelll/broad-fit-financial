@@ -1,0 +1,52 @@
+.container_icons {
+  background: rgba(243, 247, 252, 1);
+  padding-top: 69px;
+
+  .icons {
+    padding: 0 20px;
+    h2 {
+      max-width: 470px;
+      text-align: center;
+      margin: 0 auto;
+    }
+    .icons_all {
+      padding: 61px 0 69px 0;
+      max-width: 1112px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      .icons_card {
+        max-width: 300px;
+        .p19 {
+          padding-top: 10px;
+          font-size: 19px;
+          font-weight: 400;
+          line-height: 23px;
+          letter-spacing: 0em;
+          text-align: left;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1000px) {
+  .container_icons {
+    .icons {
+      h2 {
+        max-width: 290px;
+        font-size: 22px;
+        line-height: 26px;
+      }
+      .icons_all {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0;
+        padding-bottom: 42px;
+        .icons_card {
+          margin-top: 50px;
+        }
+      }
+    }
+  }
+}

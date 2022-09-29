@@ -6,6 +6,7 @@ import { Footer } from "../Components/Footer";
 import { Blocktop } from "../Components/Blocktop";
 import { Action } from "../Components/Action";
 import { Section } from "../Components/Section";
+import { Iconssectors } from "../Components/Iconssectors";
 
 // import Menu from "../Components/Menu";
 
@@ -23,6 +24,7 @@ export default function Sectors() {
       <main className={styles.main}>
         <Blocktop />
         <Section />
+        <Iconssectors />
         <Action />
       </main>
       <Footer />
