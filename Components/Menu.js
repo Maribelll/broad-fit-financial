@@ -13,7 +13,7 @@ export function Menu() {
       </div>
 
       <div>
-        <Link href={"/"}>
+        <Link href={"/sectors"}>
           <a>Sectors</a>
         </Link>
 
