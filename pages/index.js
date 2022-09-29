@@ -10,6 +10,7 @@ import Image from "next/image";
 import { Menu } from "../Components/Menu";
 import banner from "../public/hero.jpg";
 import circle from "../public/sectors-illustration.svg";
+import circle2 from "../public/sectors-illustration2.svg";
 import { Icons } from "../Components/Icons";
 import { Cardleft } from "../Components/Cardleft";
 import { Cardright } from "../Components/Cardright";
@@ -71,6 +72,9 @@ export default function Home() {
               </div>
               <div className={styles.circle}>
                 <Image src={circle} width={349} height={349} alt="" />
+              </div>
+              <div className={styles.circle2}>
+                <Image src={circle2} width={240} height={240} alt="" />
               </div>
             </div>
           </div>

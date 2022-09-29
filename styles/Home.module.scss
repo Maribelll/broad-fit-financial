@@ -69,6 +69,9 @@ $white: rgba(255, 255, 255, 1);
     .circle {
       margin: 10px 0 60px;
     }
+    .circle2 {
+      display: none;
+    }
   }
 }
 
@@ -127,8 +130,11 @@ $white: rgba(255, 255, 255, 1);
           margin-top: 0;
         }
       }
-
       .circle {
+        display: none;
+      }
+      .circle2 {
+        display: block;
         margin-top: 37px;
         margin-bottom: 30px;
         width: 241px;
