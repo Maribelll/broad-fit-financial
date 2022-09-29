@@ -4,6 +4,8 @@ import Layout from "../Components/Layout";
 import { Menu } from "../Components/Menu";
 import { Footer } from "../Components/Footer";
 import { Blocktop } from "../Components/Blocktop";
+import { Action } from "../Components/Action";
+import { Section } from "../Components/Section";
 
 // import Menu from "../Components/Menu";
 
@@ -20,6 +22,8 @@ export default function Sectors() {
       <Menu />
       <main className={styles.main}>
         <Blocktop />
+        <Section />
+        <Action />
       </main>
       <Footer />
     </Layout>
