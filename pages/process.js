@@ -7,6 +7,7 @@ import { Blocktop } from "../Components/process/Blocktop";
 import { Action } from "../Components/Action";
 import { Stage } from "../Components/process/Stage";
 import { Payment } from "../Components/process/Payment";
+import { Reviews } from "../Components/process/Reviews";
 
 // import Menu from "../Components/Menu";
 
@@ -25,6 +26,7 @@ export default function Process() {
         <Blocktop />
         <Stage />
         <Payment />
+        <Reviews />
         <Action />
       </main>
       <Footer />
