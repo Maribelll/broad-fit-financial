@@ -21,7 +21,7 @@ export function Menu() {
           <a>Benefits</a>
         </Link>
 
-        <Link href={"/"}>
+        <Link href={"/process"}>
           <a>Process</a>
         </Link>
       </div>

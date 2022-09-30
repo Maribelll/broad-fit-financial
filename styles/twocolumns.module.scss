@@ -1,6 +1,7 @@
 .container_twocolumns {
   background: #f3f7fc;
   padding: 64px 16px;
+  margin-top: 60px;
   h2 {
     margin-top: 0;
     margin-bottom: 76px;
@@ -44,9 +45,15 @@
     }
   }
 }
+@media (max-width: 1100px) {
+  .container_twocolumns {
+    margin-top: 0;
+  }
+}
 @media (max-width: 720px) {
   .container_twocolumns {
     padding-left: 46px;
+
     h2 {
       margin-bottom: 33px;
     }

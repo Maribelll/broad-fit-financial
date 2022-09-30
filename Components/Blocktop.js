@@ -1,8 +1,6 @@
-import Link from "next/link";
 import Image from "next/image";
 import lines from "../public/sectors/lines.svg";
 import lines2 from "../public/footer2.png";
-
 import styles from "../styles/blocktop.module.scss";
 
 export function Blocktop() {
@@ -10,7 +8,7 @@ export function Blocktop() {
     <div className={styles.container_blocktop}>
       <div className={styles.blocktop}>
         <div className={styles.blocktop_text}>
-          <p className={styles.gold}>PROCESS&mdash;</p>
+          <p className={styles.gold}>SECTORS&mdash;</p>
           <h2>Markets we serve</h2>
           <p>
             We offer financing to a broad range of companies looking to create,

@@ -6,14 +6,18 @@
     height: 317px;
     margin: 0 auto -5px;
     max-width: 1200px;
-
+    #blocktop_text {
+      max-width: 523px;
+    }
     .blocktop_text {
       max-width: 455px;
       padding: 56px 16px 0 16px;
+
       h2 {
         text-align: left;
         margin: 18px 0 27px;
       }
+
       .gold {
         color: rgba(173, 128, 36, 1);
         font-size: 12px;
@@ -51,6 +55,12 @@
         letter-spacing: 0em;
         text-align: left;
       }
+      .gold {
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 13px;
+        letter-spacing: 0.22em;
+      }
     }
     .blocktop_img {
       display: none;
@@ -58,7 +68,7 @@
     .blocktop_img2 {
       position: absolute;
       display: block;
-      width: 261px;
+      width: 212px;
       right: 0;
       bottom: 0;
     }
@@ -66,6 +76,11 @@
 }
 @media (max-width: 780px) {
   .container_blocktop {
+    .blocktop {
+      #h2id {
+        max-width: 240px;
+      }
+    }
     .blocktop_img {
       display: none;
     }
