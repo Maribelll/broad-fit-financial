@@ -1,0 +1,64 @@
+.container_stage {
+  padding: 65px 16px;
+  .stage {
+    max-width: 842px;
+    margin: 0 auto;
+
+    .stage_left,
+    .stage_right {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 46px;
+      .stage_card {
+        display: flex;
+        border-radius: 5px;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+        width: 332px;
+        height: 278px;
+        background: rgba(243, 247, 252, 1);
+        padding: 27px;
+        h4 {
+          font-size: 32px;
+          font-weight: 400;
+          line-height: 38px;
+          letter-spacing: 0em;
+          text-align: left;
+          margin-top: 21px;
+          margin-bottom: 0;
+        }
+      }
+      .stage_text {
+        max-width: 360px;
+        align-self: center;
+        p {
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 27px;
+          letter-spacing: 0em;
+          text-align: left;
+          padding: 27px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 850px) {
+  .container_stage {
+    padding: 23px 16px;
+    .stage {
+      .stage_left {
+        flex-direction: column;
+        margin-bottom: 0;
+        align-items: center;
+      }
+      .stage_right {
+        flex-direction: column-reverse;
+        margin-bottom: 0;
+        align-items: center;
+      }
+    }
+  }
+}

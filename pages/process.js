@@ -5,8 +5,7 @@ import { Menu } from "../Components/Menu";
 import { Footer } from "../Components/Footer";
 import { Blocktop } from "../Components/process/Blocktop";
 import { Action } from "../Components/Action";
-
-import { Iconssectors } from "../Components/Iconssectors";
+import { Stage } from "../Components/process/stage";
 
 // import Menu from "../Components/Menu";
 
@@ -23,7 +22,7 @@ export default function Process() {
       <Menu />
       <main className={styles.main}>
         <Blocktop />
-
+        <Stage />
         <Action />
       </main>
       <Footer />
