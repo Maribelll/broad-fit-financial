@@ -26,7 +26,7 @@ export function Menu() {
         </Link>
       </div>
       <div>
-        <Link href={"/"}>
+        <Link href={"/about"}>
           <a>About</a>
         </Link>
 

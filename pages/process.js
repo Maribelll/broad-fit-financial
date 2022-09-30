@@ -13,7 +13,7 @@ import { Reviews } from "../Components/process/Reviews";
 
 export default function Process() {
   return (
-    <Layout title="Sectors" keywords="" description="">
+    <Layout title="Process" keywords="" description="">
       <Head>
         <meta charSet="UTF-8"></meta>
         <meta

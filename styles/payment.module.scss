@@ -9,6 +9,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 0 75px 0 67px;
+    border-radius: 10px;
 
     .payment_title {
       max-width: 470px;
@@ -54,6 +55,7 @@
       flex-direction: column;
       height: auto;
       padding: 40px 0;
+
       .payment_details {
         margin-left: 55px;
         flex-direction: column;
