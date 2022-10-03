@@ -19,6 +19,16 @@
     }
   }
 }
+#backg {
+  padding-top: 45px;
+  background: linear-gradient(263.7deg, #eee4d0 6.62%, #f3f7fc 95.78%);
+  border-radius: 10px;
+  height: 315px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 16px;
+  padding-left: 16px;
+}
 @media (max-width: 500px) {
   .container_reviews {
     margin: 56px 16px;
@@ -32,5 +42,11 @@
         line-height: 14px;
       }
     }
+  }
+
+  #backg {
+    margin-top: 0;
+    padding-top: 80px;
+    background: linear-gradient(178deg, #eee4d0 6.62%, #f3f7fc 95.78%);
   }
 }
