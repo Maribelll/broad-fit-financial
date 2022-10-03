@@ -6,6 +6,7 @@ import { Action } from "../Components/Action";
 import { Blocktopabout } from "../Components/about/Blocktop";
 import { Team } from "../Components/about/Team";
 import { Reviews } from "../Components/about/Reviews";
+import { Clients } from "../Components/about/Clients";
 
 export default function About() {
   return (
@@ -22,6 +23,7 @@ export default function About() {
         <Blocktopabout />
         <Team />
         <Reviews />
+        <Clients />
         <Action />
       </main>
       <Footer />
