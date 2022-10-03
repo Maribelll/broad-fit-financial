@@ -4,6 +4,7 @@ import { Menu } from "../Components/Menu";
 import { Footer } from "../Components/Footer";
 import { Action } from "../Components/Action";
 import { Blocktopabout } from "../Components/about/Blocktop";
+import { Team } from "../Components/about/Team";
 
 export default function About() {
   return (
@@ -18,6 +19,7 @@ export default function About() {
       <Menu />
       <main>
         <Blocktopabout />
+        <Team />
         <Action />
       </main>
       <Footer />
