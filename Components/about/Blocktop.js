@@ -7,12 +7,12 @@ import lines3 from "../../public/footer2.png";
 export function Blocktopabout() {
   return (
     <div className={styles.container_blocktop}>
-      <div className={styles.line2}>
-        <Image src={lines2} alt="" />
-      </div>
       <div className={styles.blocktop}>
         <div className={styles.line1}>
           <Image src={lines1} alt="" />
+        </div>
+        <div className={styles.line2}>
+          <Image src={lines2} alt="" />
         </div>
         <div className={styles.blocktop_text}>
           <p className={styles.gold}>ABOUT BROAD FIT FINANCIAL&mdash;</p>
