@@ -5,6 +5,7 @@ import Layout from "../Components/Layout";
 import { Blocktopcontact } from "../Components/contact/Blocktop";
 import { Menu } from "../Components/Menu";
 import { Ask } from "../Components/contact/Ask";
+import { Form } from "../Components/contact/Form";
 
 export default function Contact() {
   return (
@@ -19,6 +20,7 @@ export default function Contact() {
       <Menu />
       <main className={styles.main}>
         <Blocktopcontact />
+        <Form />
         <Ask />
       </main>
     </Layout>
