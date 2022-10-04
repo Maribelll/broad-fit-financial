@@ -16,6 +16,7 @@ import { Cardleft } from "../Components/Cardleft";
 import { Cardright } from "../Components/Cardright";
 import { Action } from "../Components/Action";
 import { Footer } from "../Components/Footer";
+import { Clients } from "../Components/Clients";
 
 export default function Home() {
   useEffect(() => {
@@ -79,6 +80,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+
         <section style={{ margin: "0 16px" }}>
           <div className={style.helping}>
             <h2>
@@ -86,6 +88,7 @@ export default function Home() {
             </h2>
             <Cardleft />
             <Cardright />
+            <Clients />
             <Action />
           </div>
         </section>
