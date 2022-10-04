@@ -4,7 +4,7 @@ import styles from "../styles/action.module.scss";
 
 export function Action() {
   return (
-    <div className={styles.action}>
+    <div data-aos="fade-up" className={styles.action}>
       <div className={styles.action_all}>
         <div className={styles.action_card1}>
           <h3>Looking for assistance?</h3>

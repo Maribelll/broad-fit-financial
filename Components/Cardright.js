@@ -6,7 +6,7 @@ import styles from "../styles/card.module.scss";
 
 export function Cardright() {
   return (
-    <div className={styles.cardright}>
+    <div data-aos="fade-up" className={styles.cardright}>
       <div className={styles.card_text}>
         <h3>Personal team dedicated to your growth and success</h3>
         <p>

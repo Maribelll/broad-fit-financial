@@ -59,7 +59,7 @@ export default function Home() {
         </section>
         <Icons />
         <section>
-          <div className={styles.industry}>
+          <div data-aos="fade-up" className={styles.industry}>
             <div className={styles.industry_all}>
               <div className={styles.industry_text}>
                 <h2 style={{ textAlign: "left" }}>
@@ -81,7 +81,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section style={{ margin: "0 16px" }}>
+        <section data-aos="fade-up" style={{ margin: "0 16px" }}>
           <div className={style.helping}>
             <h2>
               Helping you navigate equipment financing from start to finish

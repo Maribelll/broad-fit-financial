@@ -18,7 +18,7 @@ export function Section() {
     <section>
       <div className={styles.container_section}>
         <div className={styles.section}>
-          <div className={styles.section_card}>
+          <div data-aos="fade-up" className={styles.section_card}>
             <Image src={img1} alt="" />
             <h4>Fitness and Mindful Movement Facilities</h4>
             <p>
@@ -26,7 +26,7 @@ export function Section() {
               need to start, expand and grow their operations.
             </p>
           </div>
-          <div className={styles.section_card}>
+          <div data-aos="fade-up" className={styles.section_card}>
             <Image src={img2} alt="" />
             <h4>Fitness and Mindful Movement Facilities</h4>
             <p>
@@ -34,7 +34,7 @@ export function Section() {
               need to start, expand and grow their operations.
             </p>
           </div>
-          <div className={styles.section_card}>
+          <div data-aos="fade-up" className={styles.section_card}>
             <Image src={img3} alt="" />
             <h4>Fitness and Mindful Movement Facilities</h4>
             <p>
@@ -42,7 +42,7 @@ export function Section() {
               need to start, expand and grow their operations.
             </p>
           </div>
-          <div className={styles.section_card}>
+          <div data-aos="fade-up" className={styles.section_card}>
             <Image src={img4} alt="" />
             <h4>Fitness and Mindful Movement Facilities</h4>
             <p>
@@ -50,7 +50,7 @@ export function Section() {
               need to start, expand and grow their operations.
             </p>
           </div>
-          <div className={styles.section_card}>
+          <div data-aos="fade-up" className={styles.section_card}>
             <Image src={img5} alt="" />
             <h4>Fitness and Mindful Movement Facilities</h4>
             <p>
@@ -58,7 +58,7 @@ export function Section() {
               need to start, expand and grow their operations.
             </p>
           </div>
-          <div className={styles.section_card}>
+          <div data-aos="fade-up" className={styles.section_card}>
             <Image src={img6} alt="" />
             <h4>Fitness and Mindful Movement Facilities</h4>
             <p>
@@ -66,7 +66,7 @@ export function Section() {
               need to start, expand and grow their operations.
             </p>
           </div>
-          <div className={styles.section_card}>
+          <div data-aos="fade-up" className={styles.section_card}>
             <Image src={img7} alt="" />
             <h4>Fitness and Mindful Movement Facilities</h4>
             <p>
@@ -74,7 +74,7 @@ export function Section() {
               need to start, expand and grow their operations.
             </p>
           </div>
-          <div className={styles.section_card}>
+          <div data-aos="fade-up" className={styles.section_card}>
             <Image src={img8} alt="" />
             <h4>Fitness and Mindful Movement Facilities</h4>
             <p>
@@ -82,7 +82,7 @@ export function Section() {
               need to start, expand and grow their operations.
             </p>
           </div>
-          <div className={styles.section_card}>
+          <div data-aos="fade-up" className={styles.section_card}>
             <Image src={img9} alt="" />
             <h4>Fitness and Mindful Movement Facilities</h4>
             <p>
@@ -90,7 +90,7 @@ export function Section() {
               need to start, expand and grow their operations.
             </p>
           </div>
-          <div className={styles.section_card}>
+          <div data-aos="fade-up" className={styles.section_card}>
             <Image src={img10} alt="" />
             <h4>Fitness and Mindful Movement Facilities</h4>
             <p>
@@ -98,7 +98,7 @@ export function Section() {
               need to start, expand and grow their operations.
             </p>
           </div>
-          <div className={styles.section_card}>
+          <div data-aos="fade-up" className={styles.section_card}>
             <Image src={img11} alt="" />
             <h4>Fitness and Mindful Movement Facilities</h4>
             <p>

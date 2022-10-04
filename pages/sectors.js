@@ -7,10 +7,15 @@ import { Blocktop } from "../Components/Blocktop";
 import { Action } from "../Components/Action";
 import { Section } from "../Components/Section";
 import { Iconssectors } from "../Components/Iconssectors";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect } from "react";
 // import Menu from "../Components/Menu";
 
 export default function Sectors() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <Layout title="Sectors" keywords="" description="">
       <Head>

@@ -8,10 +8,16 @@ import { Action } from "../Components/Action";
 import { Stage } from "../Components/process/Stage";
 import { Payment } from "../Components/process/Payment";
 import { Reviews } from "../Components/process/Reviews";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect } from "react";
 
 // import Menu from "../Components/Menu";
 
 export default function Process() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <Layout title="Process" keywords="" description="">
       <Head>
