@@ -1,12 +1,18 @@
 .container_blocktop {
   position: relative;
-  height: 585px;
-  max-width: 1340px;
-  background-image: url("../public/about_top.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin: 0 auto;
+  background: linear-gradient(263.7deg, #eee4d0 6.62%, #f3f7fc 95.78%);
+  .line1 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  .line2 {
+    position: absolute;
+    bottom: 0;
+  }
   .blocktop {
+    position: relative;
+    max-width: 1340px;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -54,6 +60,9 @@
     background: linear-gradient(156deg, #eee4d0 6.62%, #f3f7fc 95.78%);
     padding-top: 30px;
     height: auto;
+    .line2 {
+      display: none;
+    }
     .blocktop {
       flex-direction: column;
       height: auto;
