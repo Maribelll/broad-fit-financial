@@ -6,6 +6,7 @@
     position: absolute;
     left: 0;
     bottom: 0;
+    margin-right: 15px;
   }
   .line2 {
     position: absolute;
@@ -87,5 +88,10 @@
     position: absolute;
     bottom: 0;
     right: 0;
+  }
+}
+@media (max-width: 1250px) {
+  .line1 {
+    display: none;
   }
 }
