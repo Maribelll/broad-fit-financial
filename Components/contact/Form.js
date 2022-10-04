@@ -35,24 +35,22 @@ export function Form() {
         </div>
 
         <form onSubmit={handleSubmit} className={styles.form}>
-          <label for="name">Name</label>
+          <label htmlFor="name">Name</label>
           <input id="name" type="text" name="name" />
           <ValidationError prefix="Name" field="name" errors={state.errors} />
-          <label for="email">Email</label>
+          <label htmlFor="email">Email</label>
           <input id="email" type="email" name="email" />
           <ValidationError prefix="Email" field="email" errors={state.errors} />
-          <label for="phone">Phone</label>
+          <label htmlFor="phone">Phone</label>
 
           <input id="phone" type="number" name="phone" />
           <ValidationError prefix="Phone" field="phone" errors={state.errors} />
-          <label for="Message">Message</label>
+          <label htmlFor="Message">Message</label>
           <textarea id="message" name="message" type="text" rows="4" />
-          <ValidationError
-            prefix="Message"
-            field="message"
-            errors={state.errors}
-          />
+
+          <ValidationError prefix="Message" field="" errors={state.errors} />
           <ValidationError className={styles.error} errors={state.errors} />
+
           <div className={styles.but}>
             <button
               style={{ width: "134px" }}
