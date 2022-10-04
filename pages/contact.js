@@ -6,6 +6,7 @@ import { Blocktopcontact } from "../Components/contact/Blocktop";
 import { Menu } from "../Components/Menu";
 import { Ask } from "../Components/contact/Ask";
 import { Form } from "../Components/contact/Form";
+import { Footer } from "../Components/Footer";
 
 export default function Contact() {
   return (
@@ -23,6 +24,7 @@ export default function Contact() {
         <Form />
         <Ask />
       </main>
+      <Footer />
     </Layout>
   );
 }
