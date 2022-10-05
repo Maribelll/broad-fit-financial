@@ -10,24 +10,22 @@ export function Twocolumns() {
             <div className={styles.card}>
               <h5>Flexible Financing</h5>
               <p>
-                A variety of financing structures are available such as monthly,
-                quarterly, or annual payments or deferment, interest only, and
-                step-up options.
+                Flexible structures from annual payments to interest only to
+                step up options.
               </p>
             </div>
             <div className={styles.card}>
               <h5>Truly Personalized Service</h5>
               <p>
                 Your dedicated team members are always available to answer
-                questions and support you.
+                questions and help your business thrive.
               </p>
             </div>
             <div className={styles.card}>
-              <h5>Utilize Financing</h5>
+              <h5>Capitalize on Opportunities</h5>
               <p>
-                Conserve your working capital and take advantage of the tax
-                benefits available on leased equipment while keeping your cash
-                available for other needs.
+                Conserve working capital and maximize cash flow with lower
+                payments and overhead obligations.
               </p>
             </div>
           </div>
@@ -51,9 +49,8 @@ export function Twocolumns() {
             <div className={styles.card}>
               <h5>Trusted Partner</h5>
               <p>
-                As your financing partners, we take great pride in our level of
-                support, knowledge, &amp; ability to secure the best structure
-                and program for our customers.
+                As your financing partners, we will guide you every step of the
+                way.
               </p>
             </div>
           </div>

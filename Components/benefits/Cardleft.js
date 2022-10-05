@@ -14,11 +14,11 @@ export function Cardleft() {
           <Image src={img} width={590} height={400} alt="" />
         </div>
         <div className={styles.card_text}>
-          <h3>We work with you to determine the best financing structure</h3>
+          <h3>We approach every project with honesty and transparency</h3>
           <p>
-            We offer flexible structures based on the needs of your specific
-            project with no hidden payments or questionable fees. Our work
-            ensures the success of your project from start to finish.
+            When you work with us, you’re more than a file number. Your assigned
+            team will be there for you, working in your best interest, and guide
+            you through the entire financing process.
           </p>
         </div>
       </div>
