@@ -15,7 +15,7 @@ export function Menu() {
         </div>
         <div>
           <Link href={"/sectors"}>
-            <a>Sectors</a>
+            <a>Industries</a>
           </Link>
 
           <Link href={"/benefits"}>

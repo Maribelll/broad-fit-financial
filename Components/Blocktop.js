@@ -12,7 +12,7 @@ export function Blocktop() {
           <h2>Markets we serve</h2>
           <p>
             We offer financing to a broad range of companies looking to create,
-            upgrade or expand their fitness environments.
+            upgrade or expand their health and wellness environments.
           </p>
         </div>
         <div className={styles.blocktop_img}>

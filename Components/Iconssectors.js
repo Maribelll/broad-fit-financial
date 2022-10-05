@@ -19,9 +19,8 @@ export function Iconssectors() {
             <Image alt="" src={icon1} />
             <p className={styles.p19}>Flexible Payment Structures</p>
             <p>
-              Flexible structures from annual payments to interest only to step
-              up options. We’ll work together to determine which option is the
-              best fit for your business.
+              We’ll work together to determine which option is the best fit for
+              your business.
             </p>
           </div>
           <div className={styles.icons_card}>
@@ -37,8 +36,9 @@ export function Iconssectors() {
             <Image alt="" src={icon3} />
             <p className={styles.p19}>Fast, Streamlined Process</p>
             <p>
-              No matter the industry, financing amount or equipment type, our
-              process to secure financing is fast and clear.
+              Regardless of your market segment, finance amount, or equipment
+              type, our process is secure the funds you need is fast and
+              seamless.
             </p>
           </div>
         </div>

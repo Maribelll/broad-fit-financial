@@ -14,9 +14,9 @@ export function Cardright() {
         <div className={styles.card_text}>
           <h3>We approach every project with honesty and transparency</h3>
           <p>
-            When you work with us, you’re more than a file number. Your assigned
-            team will be there for you, working in your best interest, and guide
-            you through the entire financing process.
+            When you work with us, we become partners in the project and your
+            success is our success. Our team will be there for you, working in
+            your best interest, and guiding you through the process.
           </p>
         </div>
         <div className={styles.card_photo}>

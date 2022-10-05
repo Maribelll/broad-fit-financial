@@ -20,7 +20,7 @@ export function Section() {
         <div className={styles.section}>
           <div data-aos="fade-up" className={styles.section_card}>
             <Image src={img1} alt="" />
-            <h4>Fitness and Mindful Movement Facilities</h4>
+            <h4>Fitness Centers</h4>
             <p>
               Helping companies in the fitness market acquire the equipment they
               need to start, expand and grow their operations.

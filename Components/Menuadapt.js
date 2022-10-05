@@ -13,6 +13,7 @@ export function Menuadapt() {
             <Image src={logo} alt="logo" width={186} height={47} />
           </Link>
         </div>
+
         <input className={style.menuBtn} type="checkbox" id={style.menuBtn} />
         <label className={style.menuIcon} forhtml={style.menuBtn}>
           <span className={style.navicon}></span>
@@ -28,6 +29,7 @@ export function Menuadapt() {
           <label className={style.menuIcon} forhtml={style.menuBtn}>
             <span className={style.navicon}></span>
           </label>
+
           <li>
             <Link href={"/"}>
               <a>Home</a>
@@ -36,13 +38,18 @@ export function Menuadapt() {
 
           <li>
             <Link href={"/sectors"}>
-              <a>Markets</a>
+              <a>Industries</a>
             </Link>
           </li>
 
           <li>
             <Link href={"/benefits"}>
               <a>Benefits</a>
+            </Link>
+          </li>
+          <li>
+            <Link href={"/process"}>
+              <a>Process</a>
             </Link>
           </li>
           <li>

@@ -38,6 +38,7 @@
     top: 23px;
     width: 30px;
     height: 21px;
+
     &:checked {
       ~ {
         .menu_ul {
@@ -47,6 +48,7 @@
           width: 66%;
           transition: 0.5s;
           position: fixed;
+          overflow: hidden;
 
           li {
             padding-bottom: 46px;
@@ -88,7 +90,7 @@
   right: 0;
   user-select: none;
   .navicon {
-    background: #222722;
+    background: rgba(54, 61, 76, 1);
     display: block;
     height: 2px;
     margin: 3px 0;
@@ -96,7 +98,7 @@
     transition: 0.3s ease-out;
     width: 27px;
     &:before {
-      background: #222722;
+      background: rgba(54, 61, 76, 1);
       content: "";
       display: block;
       height: 100%;
@@ -106,7 +108,7 @@
       top: 5px;
     }
     &:after {
-      background: #222722;
+      background: rgba(54, 61, 76, 1);
       content: "";
       display: block;
       height: 100%;
@@ -117,6 +119,7 @@
     }
   }
 }
+
 @media (min-width: 970px) {
   .navbar {
     display: none;
