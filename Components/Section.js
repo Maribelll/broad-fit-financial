@@ -28,23 +28,24 @@ export function Section() {
           </div>
           <div data-aos="fade-up" className={styles.section_card}>
             <Image src={img2} alt="" />
-            <h4>Fitness and Mindful Movement Facilities</h4>
+            <h4>Restorative Health</h4>
             <p>
-              Helping companies in the fitness market acquire the equipment they
-              need to start, expand and grow their operations.
+              Supporting physical therapy businesses, spas and pain management
+              clinics acquire the equipment needed to help their clients
+              recover.
             </p>
           </div>
           <div data-aos="fade-up" className={styles.section_card}>
             <Image src={img3} alt="" />
-            <h4>Fitness and Mindful Movement Facilities</h4>
+            <h4>YMCAs, JCCs & Non-Profits</h4>
             <p>
-              Helping companies in the fitness market acquire the equipment they
-              need to start, expand and grow their operations.
+              Non-profits play a sig­nif­i­cant role in their communities, and
+              we are happy to provide them with appealing financing options.
             </p>
           </div>
           <div data-aos="fade-up" className={styles.section_card}>
             <Image src={img4} alt="" />
-            <h4>Fitness and Mindful Movement Facilities</h4>
+            <h4>Commercial Office Buildings</h4>
             <p>
               Helping companies in the fitness market acquire the equipment they
               need to start, expand and grow their operations.
@@ -52,59 +53,54 @@ export function Section() {
           </div>
           <div data-aos="fade-up" className={styles.section_card}>
             <Image src={img5} alt="" />
-            <h4>Fitness and Mindful Movement Facilities</h4>
+            <h4>Corporate Wellness</h4>
             <p>
-              Helping companies in the fitness market acquire the equipment they
-              need to start, expand and grow their operations.
+              Helping corporate workplaces promote health and wellness with the
+              necessary equipment for their corporate fitness environments.
             </p>
           </div>
           <div data-aos="fade-up" className={styles.section_card}>
             <Image src={img6} alt="" />
-            <h4>Fitness and Mindful Movement Facilities</h4>
+            <h4>Homeowners’ Associations</h4>
             <p>
-              Helping companies in the fitness market acquire the equipment they
-              need to start, expand and grow their operations.
+              We finance equipment for HOAs/Condos and Co-ops with attractive
+              financing structures that meet their needs.
             </p>
           </div>
           <div data-aos="fade-up" className={styles.section_card}>
             <Image src={img7} alt="" />
-            <h4>Fitness and Mindful Movement Facilities</h4>
+            <h4>Schools & Universities</h4>
             <p>
-              Helping companies in the fitness market acquire the equipment they
-              need to start, expand and grow their operations.
+              Whether refreshing existing equipment or outfitting a new
+              facility, financing can provide schools the ability to acquire new
+              assets when needed.
             </p>
           </div>
           <div data-aos="fade-up" className={styles.section_card}>
             <Image src={img8} alt="" />
-            <h4>Fitness and Mindful Movement Facilities</h4>
+            <h4>Nutrition and Healthy Eating</h4>
             <p>
-              Helping companies in the fitness market acquire the equipment they
-              need to start, expand and grow their operations.
+              We work with stores and restaurants that offer nutrition and
+              healthy food options as part of their overall wellness offering.
             </p>
           </div>
           <div data-aos="fade-up" className={styles.section_card}>
             <Image src={img9} alt="" />
-            <h4>Fitness and Mindful Movement Facilities</h4>
-            <p>
-              Helping companies in the fitness market acquire the equipment they
-              need to start, expand and grow their operations.
-            </p>
+            <h4>Active Aging</h4>
+            <p>Providing financing solutions for Active Aging Communities.</p>
           </div>
           <div data-aos="fade-up" className={styles.section_card}>
             <Image src={img10} alt="" />
-            <h4>Fitness and Mindful Movement Facilities</h4>
+            <h4>Health Care Facilities</h4>
             <p>
-              Helping companies in the fitness market acquire the equipment they
-              need to start, expand and grow their operations.
+              Helping hospitals, clinics, dentists, physical therapists, private
+              practices and other healthcare professionals acquire equipment.
             </p>
           </div>
           <div data-aos="fade-up" className={styles.section_card}>
             <Image src={img11} alt="" />
-            <h4>Fitness and Mindful Movement Facilities</h4>
-            <p>
-              Helping companies in the fitness market acquire the equipment they
-              need to start, expand and grow their operations.
-            </p>
+            <h4>Municipalities</h4>
+            <p>Specialized financing for government entities.</p>
           </div>
         </div>
       </div>

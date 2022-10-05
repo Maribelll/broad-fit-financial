@@ -8,10 +8,10 @@ export function Cardright() {
   return (
     <div data-aos="fade-up" className={styles.cardright}>
       <div className={styles.card_text}>
-        <h3>Personal team dedicated to your growth and success</h3>
+        <h3>Transparent process to secure the best financing</h3>
         <p>
-          Each customer and financing request is handled by a dedicated team
-          invested in your success.
+          From selecting a vendor to securing equipment financing, our process
+          is fast and easy.
         </p>
         <Link href={"/"}>
           <a className="main_link">Learn more</a>
