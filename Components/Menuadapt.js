@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import Logo from "../public/Logo.svg";
+import logo from "../public/logo.svg";
 import style from "../styles/menuadapt.module.scss";
 import logoadapt from "../public/logo_adapt.png";
 
@@ -10,7 +10,7 @@ export function Menuadapt() {
       <nav className={style.navbar}>
         <div className={style.logo_up}>
           <Link href={"/"}>
-            <Image src={Logo} alt="logo" width={186} height={47} />
+            <Image src={logo} alt="logo" width={186} height={47} />
           </Link>
         </div>
         <input className={style.menuBtn} type="checkbox" id={style.menuBtn} />

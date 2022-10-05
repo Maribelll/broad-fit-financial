@@ -30,7 +30,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Menu />
-      <main className={styles.main}>
+      <main>
         <section className={styles.mainscreen}>
           <div className={styles.main}>
             <div className={styles.main_text}>

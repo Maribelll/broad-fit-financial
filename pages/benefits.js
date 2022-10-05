@@ -1,5 +1,5 @@
 import Head from "next/head";
-
+import styles from "../styles/Home.module.scss";
 import Layout from "../Components/Layout";
 import { Menu } from "../Components/Menu";
 import { Footer } from "../Components/Footer";
@@ -20,7 +20,7 @@ export default function Benefits() {
         ></meta>
       </Head>
       <Menu />
-      <main>
+      <main className={styles.main}>
         <Blocktop />
         <Cardleft />
         <Cardright />

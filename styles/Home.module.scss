@@ -108,6 +108,13 @@ $white: rgba(255, 255, 255, 1);
       .main_text {
         padding: 0 20px 40px;
         .main_text_all {
+          .header1 {
+            font-size: 38px !important;
+            font-weight: 400;
+            line-height: 46px;
+            letter-spacing: 0em;
+            text-align: left;
+          }
           p {
             padding-bottom: 0;
           }
@@ -140,5 +147,13 @@ $white: rgba(255, 255, 255, 1);
         width: 241px;
       }
     }
+  }
+}
+@media (max-width: 970px) {
+  .main {
+    padding-top: 100px;
+  }
+  .header1 {
+    padding-top: 40px;
   }
 }

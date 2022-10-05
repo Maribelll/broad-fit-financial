@@ -7,6 +7,7 @@ import { Blocktopabout } from "../Components/about/Blocktop";
 import { Team } from "../Components/about/Team";
 import { Reviews } from "../Components/about/Reviews";
 import { Clients } from "../Components/about/Clients";
+import styles from "../styles/Home.module.scss";
 
 export default function About() {
   return (
@@ -19,7 +20,8 @@ export default function About() {
         ></meta>
       </Head>
       <Menu />
-      <main>
+
+      <main className={styles.main}>
         <Blocktopabout />
         <Team />
         <Reviews />
