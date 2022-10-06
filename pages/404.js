@@ -1,16 +1,22 @@
-import Link from "next/link";
-import Layout from "../Components/Layout";
 import styles from "../styles/error.module.scss";
-import { useCallback, useEffect, useState } from 'react'
+import { Action } from "../Components/Action";
+import { Footer } from "../Components/Footer";
+import { Menu } from "../Components/Menu";
 
 export default function NotFoundPage() {
   return (
-    <Layout title="Page Not Found">
-      <div className={styles.error}>
-        <h1>404</h1>
-        <h4>Sorry, there is nothing here</h4>
-        <Link href="/">Go back home</Link>
+    <>
+      <Menu />
+      <div className={styles.container_blocktop}>
+        <div className={styles.blocktop}>
+          <div className={styles.blocktop_text}>
+            <p className={styles.gold}>404</p>
+            <h1 id="h2">Oops, there’s nothing here.</h1>
+          </div>
+        </div>
       </div>
-    </Layout>
+      <Action />
+      <Footer />
+    </>
   );
 }

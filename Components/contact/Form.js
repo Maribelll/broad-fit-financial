@@ -12,7 +12,6 @@ export function Form() {
           <h2>Thank you!</h2>
           <p
             style={{
-              color: "white",
               textAlign: "center",
               fontSize: "16px",
             }}
