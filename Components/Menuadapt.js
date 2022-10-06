@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import logo from "../public/logo.svg";
 import style from "../styles/menuadapt.module.scss";
-import logoadapt from "../public/logo_adapt.png";
+import logoadapt from "../public/logo_ul.svg";
 
 export function Menuadapt() {
   return (
