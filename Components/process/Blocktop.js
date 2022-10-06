@@ -10,7 +10,7 @@ export function Blocktop() {
       <div className={styles.blocktop}>
         <div id={styles.blocktop_text} className={styles.blocktop_text}>
           <p className={styles.gold}>PROCESS&mdash;</p>
-          <h2 id={styles.h2id}>Simple process from A to Z</h2>
+          <h1 id="h2">Simple process from A to Z</h1>
           <p>
             We want to make it as simple as possible to get your equipment
             financed quickly and painlessly.

@@ -22,10 +22,8 @@ export function Stage() {
             </h4>
           </div>
           <div className={styles.stage_text}>
-            <p>
-              Submit a quick credit application with all the required
-              information.
-            </p>
+            <p>Complete a short Credit Application.</p>
+            <p>The request for Credit is reviewed and decisioned.</p>
           </div>
         </div>
         <div className={styles.stage_right}>
@@ -49,6 +47,10 @@ export function Stage() {
             <h4>Documentation</h4>
           </div>
           <div className={styles.stage_text}>
+            <p>
+              Upon approval, documents will be prepared and sent to you via
+              DocuSign.
+            </p>
             <p>
               Submit a quick credit application with all the required
               information.

@@ -20,7 +20,7 @@ export function Cardright() {
           </p>
         </div>
         <div className={styles.card_photo}>
-          <Image src={img} width={590} height={400} alt="" />
+          <Image src={img} width={590} height={400} alt="Physical therapy" />
         </div>
       </div>
     </div>

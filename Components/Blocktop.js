@@ -9,7 +9,7 @@ export function Blocktop() {
       <div className={styles.blocktop}>
         <div className={styles.blocktop_text}>
           <p className={styles.gold}>SECTORS&mdash;</p>
-          <h2>Markets we serve</h2>
+          <h1 id="h2">Markets we serve</h1>
           <p>
             We offer financing to a broad range of companies looking to create,
             upgrade or expand their health and wellness environments.

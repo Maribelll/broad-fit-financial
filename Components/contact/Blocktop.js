@@ -7,7 +7,7 @@ export function Blocktopcontact() {
       <div className={styles.blocktop}>
         <div className={styles.blocktop_text}>
           <p className={styles.gold}>CONTACT&mdash;</p>
-          <h2>We’re here to help.</h2>
+          <h1 id="h2">We’re here to help.</h1>
         </div>
         <div className={styles.blocktop_text2}></div>
         <Action />

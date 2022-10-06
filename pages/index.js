@@ -53,7 +53,12 @@ export default function Home() {
               </div>
             </div>
             <div className={styles.main_photo}>
-              <Image src={banner} alt="banner" width={668} height={561} />
+              <Image
+                src={banner}
+                alt="Fitness equipment in a room"
+                width={668}
+                height={630}
+              />
             </div>
           </div>
         </section>

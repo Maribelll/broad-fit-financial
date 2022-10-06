@@ -11,7 +11,12 @@ export function Cardleft() {
     >
       <div className={styles.cardleft}>
         <div className={styles.card_photo}>
-          <Image src={img} width={590} height={400} alt="" />
+          <Image
+            src={img}
+            width={590}
+            height={400}
+            alt="Stacked fitness equipment"
+          />
         </div>
         <div className={styles.card_text}>
           <h3>We approach every project with honesty and transparency</h3>

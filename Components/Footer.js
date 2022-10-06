@@ -1,8 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
-import lines from "../public/footer.png";
+import lines from "../public/footer.svg";
 import lines2 from "../public/footer2.png";
 import logo from "../public/logo_footer.svg";
+import lin from "../public/in.svg";
 import styles from "../styles/footer.module.scss";
 
 export function Footer() {
@@ -22,29 +23,50 @@ export function Footer() {
             <div className={styles.col2}>
               {" "}
               <ul>
-                <li>Overview</li>
-                <li>Markets</li>
-                <li>Benefits</li>
+                <li>
+                  <Link href={"/"}>
+                    <a>Home</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href={"/sectors"}>
+                    <a>Markets</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href={"/benefits"}>
+                    <a>Benefits</a>
+                  </Link>
+                </li>
               </ul>
             </div>
             <div className={styles.col3}>
               {" "}
               <ul>
                 <li>
-                  <Link href={"/"}>
+                  <Link href={"/process"}>
                     <a>Process</a>
                   </Link>
                 </li>
                 <li>
-                  <a>About</a>
+                  <Link href={"/about"}>
+                    <a>About</a>
+                  </Link>
                 </li>
+
                 <li>
-                  <a>Contact</a>
+                  <Link href={"/contact"}>
+                    <a>Contact</a>
+                  </Link>
                 </li>
               </ul>
             </div>
           </div>
-          <span className={styles.in}>in</span>
+          <a href={"/"} target="_blanc">
+            <span className={styles.in}>
+              <Image src={lin} alt="linkidin" />
+            </span>
+          </a>
         </div>
         <div className={styles.empty}></div>
       </div>
@@ -57,7 +79,7 @@ export function Footer() {
       <hr />
       <div className={styles.rights}>
         <div className={styles.rights_all}>
-          ALL RIGHTS RESERVED &copy; 2022 BROAD FIT FINANCIAL
+          &copy; 2022 BROAD FIT FINANCIAL / ALL RIGHTS RESERVED
         </div>
         <div className={styles.rights_all2}>
           &copy; BROAD FIT FINANCIL / ALL RIGHTS RESERVED

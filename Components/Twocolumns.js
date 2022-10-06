@@ -40,13 +40,6 @@ export function Twocolumns() {
               </p>
             </div>
             <div className={styles.card}>
-              <h5>Tax Advantages</h5>
-              <p>
-                Benefit from tax advantages with True Tax Lease or through
-                Section 179 benefit.
-              </p>
-            </div>
-            <div className={styles.card}>
               <h5>Trusted Partner</h5>
               <p>
                 As your financing partners, we will guide you every step of the
