@@ -28,7 +28,11 @@ export function Section() {
               need to start, expand and grow their operations.
             </p>
           </div>
-          <div data-aos="fade-up" className={styles.section_card}>
+          <div
+            data-aos="fade-up"
+            data-aos-delay="100"
+            className={styles.section_card}
+          >
             <Image src={img12} alt="" />
             <h4>Professional Sports</h4>
             <p>
@@ -36,7 +40,11 @@ export function Section() {
               fields, basketball courts, locker rooms and more.
             </p>
           </div>
-          <div data-aos="fade-up" className={styles.section_card}>
+          <div
+            data-aos="fade-up"
+            data-aos-delay="200"
+            className={styles.section_card}
+          >
             <Image src={img8} alt="" />
             <h4>Nutrition and Healthy Eating</h4>
             <p>
@@ -52,7 +60,11 @@ export function Section() {
               financing structures that meet their needs.
             </p>
           </div>
-          <div data-aos="fade-up" className={styles.section_card}>
+          <div
+            data-aos="fade-up"
+            data-aos-delay="100"
+            className={styles.section_card}
+          >
             <Image src={img2} alt="" />
             <h4>Restorative Health</h4>
             <p>
@@ -61,7 +73,11 @@ export function Section() {
               recover.
             </p>
           </div>
-          <div data-aos="fade-up" className={styles.section_card}>
+          <div
+            data-aos="fade-up"
+            data-aos-delay="200"
+            className={styles.section_card}
+          >
             <Image src={img4} alt="" />
             <h4>Commercial Office Buildings</h4>
             <p>
@@ -75,7 +91,11 @@ export function Section() {
             <h4>Active Aging</h4>
             <p>Providing financing solutions for Active Aging Communities.</p>
           </div>
-          <div data-aos="fade-up" className={styles.section_card}>
+          <div
+            data-aos="fade-up"
+            data-aos-delay="100"
+            className={styles.section_card}
+          >
             <Image src={img3} alt="" />
             <h4>YMCAs, JCCs &amp; Non-Profits</h4>
             <p>
@@ -83,7 +103,11 @@ export function Section() {
               we are happy to provide them with appealing financing options.
             </p>
           </div>
-          <div data-aos="fade-up" className={styles.section_card}>
+          <div
+            data-aos="fade-up"
+            data-aos-delay="200"
+            className={styles.section_card}
+          >
             <Image src={img10} alt="" />
             <h4>Health Care Facilities</h4>
             <p>
@@ -100,12 +124,20 @@ export function Section() {
               assets when needed.
             </p>
           </div>
-          <div data-aos="fade-up" className={styles.section_card}>
+          <div
+            data-aos="fade-up"
+            data-aos-delay="100"
+            className={styles.section_card}
+          >
             <Image src={img11} alt="" />
             <h4>Municipalities</h4>
             <p>Specialized financing for government entities.</p>
           </div>
-          <div data-aos="fade-up" className={styles.section_card}>
+          <div
+            data-aos="fade-up"
+            data-aos-delay="200"
+            className={styles.section_card}
+          >
             <Image src={img13} alt="" />
             <h4>Country Clubs, Golf Clubs &amp; Tennis Clubs</h4>
             <p>
