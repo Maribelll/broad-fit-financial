@@ -34,7 +34,7 @@ export function Menuadapt() {
             </li>
 
             <li>
-              <Link href={"/sectors"}>
+              <Link href={"/industries"}>
                 <a>Industries</a>
               </Link>
             </li>

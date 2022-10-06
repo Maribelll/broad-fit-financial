@@ -29,7 +29,7 @@ export function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link href={"/sectors"}>
+                  <Link href={"/industries"}>
                     <a>Markets</a>
                   </Link>
                 </li>
