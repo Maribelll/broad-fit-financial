@@ -8,7 +8,7 @@ export function Blocktop() {
     <div className={styles.container_blocktop}>
       <div className={styles.blocktop}>
         <div className={styles.blocktop_text}>
-          <p className={styles.gold}>SECTORS&mdash;</p>
+          <p className={styles.gold}>MARKETS&mdash;</p>
           <h1 id="h2">Markets we serve</h1>
           <p>
             We offer financing to a broad range of companies looking to create,

@@ -20,48 +20,48 @@ export function Menuadapt() {
         </label>
 
         <ul className={style.menu_ul}>
-          <div className={style.logo_up_adapt}>
-            <Link href={"/"}>
-              <Image src={logoadapt} alt="logo" width={186} height={47} />
-            </Link>
+          <div className={style.ul_text}>
+            <div className={style.logo_up_adapt}>
+              <Link href={"/"}>
+                <Image src={logoadapt} alt="logo" width={186} height={47} />
+              </Link>
+            </div>
+
+            <li>
+              <Link href={"/"}>
+                <a>Home</a>
+              </Link>
+            </li>
+
+            <li>
+              <Link href={"/sectors"}>
+                <a>Industries</a>
+              </Link>
+            </li>
+
+            <li>
+              <Link href={"/benefits"}>
+                <a>Benefits</a>
+              </Link>
+            </li>
+            <li>
+              <Link href={"/process"}>
+                <a>Process</a>
+              </Link>
+            </li>
+            <li>
+              <Link href={"/about"}>
+                <a>About</a>
+              </Link>
+            </li>
+            <li>
+              <Link href={"/contact"}>
+                <a>Contact</a>
+              </Link>
+            </li>
           </div>
-          <input className={style.menuBtn} type="checkbox" id={style.menuBtn} />
-          <label className={style.menuIcon} forhtml={style.menuBtn}>
-            <span className={style.navicon}></span>
-          </label>
 
-          <li>
-            <Link href={"/"}>
-              <a>Home</a>
-            </Link>
-          </li>
-
-          <li>
-            <Link href={"/sectors"}>
-              <a>Industries</a>
-            </Link>
-          </li>
-
-          <li>
-            <Link href={"/benefits"}>
-              <a>Benefits</a>
-            </Link>
-          </li>
-          <li>
-            <Link href={"/process"}>
-              <a>Process</a>
-            </Link>
-          </li>
-          <li>
-            <Link href={"/about"}>
-              <a>About</a>
-            </Link>
-          </li>
-          <li>
-            <Link href={"/contact"}>
-              <a>Contact</a>
-            </Link>
-          </li>
+          <div className={style.filter}></div>
         </ul>
       </nav>
     </>

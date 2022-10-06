@@ -1,6 +1,8 @@
 .menu_ul {
+  display: flex;
+  flex-direction: row;
   position: absolute;
-  left: -240px;
+  left: -225px;
   list-style: none;
   overflow: auto;
   height: 100%;
@@ -11,11 +13,18 @@
   line-height: 30px;
   letter-spacing: 0em;
 
-  background: rgba(24, 28, 63, 1);
   z-index: 200;
+  .ul_text {
+    background: rgba(24, 28, 63, 1);
+    width: 60%;
+  }
   .logo_up_adapt {
     padding-top: 12px;
     padding-bottom: 82px;
+  }
+  .filter {
+    background: rgba(54, 61, 76, 0.6);
+    width: 27%;
   }
 }
 .navbar {
@@ -42,19 +51,19 @@
     &:checked {
       ~ {
         .menu_ul {
-          padding-left: 16px;
           top: -20px;
-          left: 0px;
-          width: 66%;
+          left: -40px;
+          width: 130%;
           transition: 0.5s;
           position: fixed;
           overflow: hidden;
-
-          li {
-            padding-bottom: 46px;
+          .ul_text {
+            padding-left: 16px;
+            li {
+              padding-bottom: 46px;
+            }
           }
         }
-
         .menuIcon {
           .navicon {
             background: transparent;
