@@ -21,7 +21,7 @@ export function Section() {
       <div className={styles.container_section}>
         <div className={styles.section}>
           <div data-aos="fade-up" className={styles.section_card}>
-            <Image src={img1} alt="" />
+            <Image src={img1} alt="Fitness Centers" />
             <h4>Fitness Centers</h4>
             <p>
               Helping companies in the fitness market acquire the equipment they
@@ -33,7 +33,7 @@ export function Section() {
             data-aos-delay="100"
             className={styles.section_card}
           >
-            <Image src={img12} alt="" />
+            <Image src={img12} alt="Professional Sports" />
             <h4>Professional Sports</h4>
             <p>
               Supporting professional sport teams with financing for sports
@@ -45,7 +45,7 @@ export function Section() {
             data-aos-delay="200"
             className={styles.section_card}
           >
-            <Image src={img8} alt="" />
+            <Image src={img8} alt="Nutrition and Healthy Eating" />
             <h4>Nutrition and Healthy Eating</h4>
             <p>
               We work with stores and restaurants that offer nutrition and
@@ -53,7 +53,7 @@ export function Section() {
             </p>
           </div>
           <div data-aos="fade-up" className={styles.section_card}>
-            <Image src={img6} alt="" />
+            <Image src={img6} alt="Homeowners’ Associations" />
             <h4>Homeowners’ Associations</h4>
             <p>
               We finance equipment for HOAs/Condos and Co-ops with attractive
@@ -65,7 +65,7 @@ export function Section() {
             data-aos-delay="100"
             className={styles.section_card}
           >
-            <Image src={img2} alt="" />
+            <Image src={img2} alt="Restorative Health" />
             <h4>Restorative Health</h4>
             <p>
               Supporting physical therapy businesses, spas and pain management
@@ -78,7 +78,7 @@ export function Section() {
             data-aos-delay="200"
             className={styles.section_card}
           >
-            <Image src={img4} alt="" />
+            <Image src={img4} alt="Commercial Office Buildings" />
             <h4>Commercial Office Buildings</h4>
             <p>
               We finance a wide array of collateral including fitness,
@@ -87,7 +87,7 @@ export function Section() {
             </p>
           </div>
           <div data-aos="fade-up" className={styles.section_card}>
-            <Image src={img9} alt="" />
+            <Image src={img9} alt="Active Aging" />
             <h4>Active Aging</h4>
             <p>Providing financing solutions for Active Aging Communities.</p>
           </div>
@@ -96,7 +96,7 @@ export function Section() {
             data-aos-delay="100"
             className={styles.section_card}
           >
-            <Image src={img3} alt="" />
+            <Image src={img3} alt="YMCAs, JCCs and Non-Profits" />
             <h4>YMCAs, JCCs &amp; Non-Profits</h4>
             <p>
               Non-profits play a sig­nif­i­cant role in their communities, and
@@ -108,7 +108,7 @@ export function Section() {
             data-aos-delay="200"
             className={styles.section_card}
           >
-            <Image src={img10} alt="" />
+            <Image src={img10} alt="Health Care Facilities" />
             <h4>Health Care Facilities</h4>
             <p>
               Helping hospitals, clinics, dentists, physical therapists, private
@@ -116,7 +116,7 @@ export function Section() {
             </p>
           </div>
           <div data-aos="fade-up" className={styles.section_card}>
-            <Image src={img7} alt="" />
+            <Image src={img7} alt="Schools and Universities" />
             <h4>Schools &amp; Universities</h4>
             <p>
               Whether refreshing existing equipment or outfitting a new
@@ -129,7 +129,7 @@ export function Section() {
             data-aos-delay="100"
             className={styles.section_card}
           >
-            <Image src={img11} alt="" />
+            <Image src={img11} alt="Municipalities" />
             <h4>Municipalities</h4>
             <p>Specialized financing for government entities.</p>
           </div>
@@ -138,7 +138,10 @@ export function Section() {
             data-aos-delay="200"
             className={styles.section_card}
           >
-            <Image src={img13} alt="" />
+            <Image
+              src={img13}
+              alt="Country Clubs, Golf Clubs and Tennis Clubs"
+            />
             <h4>Country Clubs, Golf Clubs &amp; Tennis Clubs</h4>
             <p>
               Helping equip sports clubs facilities with locker rooms, score
@@ -147,7 +150,7 @@ export function Section() {
             </p>
           </div>
           <div data-aos="fade-up" className={styles.section_card}>
-            <Image src={img5} alt="" />
+            <Image src={img5} alt="Corporate Wellness" />
             <h4>Corporate Wellness</h4>
             <p>
               Helping corporate workplaces promote health and wellness with the

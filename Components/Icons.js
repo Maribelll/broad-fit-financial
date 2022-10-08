@@ -18,7 +18,7 @@ export function Icons() {
           <div className={styles.icons_card}>
             <Image alt="" src={icon1} />
             <p className={styles.p19}>Equipment Financing</p>
-            <p>
+            <p style={{ lineHeight: "24px" }}>
               Get the equipment you need with the financing that’s right for
               you.
             </p>
@@ -26,7 +26,7 @@ export function Icons() {
           <div className={styles.icons_card}>
             <Image alt="" src={icon2} />
             <p className={styles.p19}>Flexible Structures</p>
-            <p>
+            <p style={{ lineHeight: "24px" }}>
               We’ll work with you to determine which payment structure suits
               your business.
             </p>
@@ -34,7 +34,7 @@ export function Icons() {
           <div className={styles.icons_card}>
             <Image alt="" src={icon3} />
             <p className={styles.p19}>Simple Process</p>
-            <p>
+            <p style={{ lineHeight: "24px" }}>
               Fast and easy process with most applications approved within 48
               hours.
             </p>

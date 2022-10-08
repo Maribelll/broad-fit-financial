@@ -8,11 +8,16 @@ export function Cardleft() {
   return (
     <div data-aos="fade-up" className={styles.cardleft}>
       <div className={styles.card_photo}>
-        <Image src={img} width={590} height={400} alt="" />
+        <Image
+          src={img}
+          width={590}
+          height={400}
+          alt="Financing team discussing a topic."
+        />
       </div>
-      <div className={styles.card_text}>
+      <div style={{ maxWidth: "405px" }} className={styles.card_text}>
         <h3>Personal team dedicated to your growth and success</h3>
-        <p>
+        <p style={{ maxWidth: "390px" }}>
           Each customer and financing request is handled by a dedicated team
           invested in your success.
         </p>

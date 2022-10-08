@@ -19,26 +19,25 @@ export function Iconssectors() {
             <Image alt="" src={icon1} />
             <p className={styles.p19}>Flexible Payment Structures</p>
             <p>
-              Flexible structures from annual payments to interest only to step
-              up options. We’ll work together to determine which option is the
-              best fit for your business.
+              We’ll work together to determine which option is the best fit for
+              your business.
             </p>
           </div>
           <div className={styles.icons_card}>
             <Image alt="" src={icon2} />
-            <p className={styles.p19}>Businesses of Any Size</p>
+            <p className={styles.p19}>Your Partner in Funding</p>
             <p>
-              We work with anyone who provides a fitness offering, whether
-              that’s a single-store small business or a publicly traded
-              corporation.
+              We advocate on your behalf for the best terms available for your
+              specific needs.
             </p>
           </div>{" "}
           <div className={styles.icons_card}>
             <Image alt="" src={icon3} />
             <p className={styles.p19}>Fast, Streamlined Process</p>
             <p>
-              No matter the industry, financing amount or equipment type, our
-              process to secure financing is fast and clear.
+              Regardless of your market segment, finance amount, or equipment
+              type, our process is secure the funds you need is fast and
+              seamless.
             </p>
           </div>
         </div>
