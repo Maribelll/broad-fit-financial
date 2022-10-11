@@ -14,7 +14,9 @@ export default function Privacy() {
           content="width=device-width, initial-scale=1.0"
         ></meta>
       </Head>
-      <Menu />
+      <div className={styles.privacy_menu}>
+        <Menu />
+      </div>
       <main className={styles.main}>
         <div className={styles.container}>
           <p>

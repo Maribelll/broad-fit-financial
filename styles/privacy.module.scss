@@ -1,7 +1,21 @@
-.main {
-  margin: 50px 16px;
-  .container {
-    margin: 0 auto;
-    max-width: 1334px;
+body {
+  .main {
+    margin: 50px 16px;
+    .container {
+      margin: 0 auto;
+      max-width: 1334px;
+    }
+  }
+}
+@media (max-width: 970px) {
+  body {
+    .privacy_menu {
+      margin-top: -50px;
+    }
+    .main {
+      .container {
+        padding-top: 80px;
+      }
+    }
   }
 }
