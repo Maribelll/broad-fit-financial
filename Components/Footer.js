@@ -17,7 +17,7 @@ export function Footer() {
               <ul>
                 <li>Broad Fit Financial</li>
                 <li>(222)222-2222</li>
-                <li>info@broadfitfinancial.com</li>
+                <li>stephanie@broadfitfinancial</li>
               </ul>
             </div>
             <div className={styles.col2}>
