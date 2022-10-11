@@ -8,8 +8,14 @@ import { Team } from "../Components/about/Team";
 import { Reviews } from "../Components/about/Reviews";
 import { Clients } from "../Components/about/Clients";
 import styles from "../styles/Home.module.scss";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect } from "react";
 
 export default function About() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <Layout title="About" keywords="" description="">
       <Head>

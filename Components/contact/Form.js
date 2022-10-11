@@ -24,7 +24,11 @@ export function Form() {
   }
   return (
     <section>
-      <div className={styles.container_form}>
+      <div
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        className={styles.container_form}
+      >
         <div className={styles.form_header}>
           <h2>Get in touch</h2>
           <p>

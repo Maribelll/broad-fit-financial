@@ -3,7 +3,11 @@ import styles from "../../styles/ask.module.scss";
 export function Ask() {
   return (
     <section>
-      <div className={styles.container_twocolumns}>
+      <div
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        className={styles.container_twocolumns}
+      >
         <h2>Frequently Asked Questions</h2>
         <div className={styles.twocolumns}>
           <div className={styles.col1}>

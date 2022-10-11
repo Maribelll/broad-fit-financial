@@ -4,7 +4,11 @@ import styles from "../../styles/team.module.scss";
 
 export function Team() {
   return (
-    <div className={styles.container_team}>
+    <div
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      className={styles.container_team}
+    >
       <h3>Meet the Team</h3>
       <div className={styles.team}>
         <div className={styles.card_photo}>

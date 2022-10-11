@@ -4,7 +4,12 @@ import styles from "../../styles/team.module.scss";
 
 export function Clients() {
   return (
-    <div id={styles.clients} className={styles.container_team}>
+    <div
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      id={styles.clients}
+      className={styles.container_team}
+    >
       <h3>Our Clients</h3>
       <div className={styles.team}>
         <div className={styles.card_photo}>

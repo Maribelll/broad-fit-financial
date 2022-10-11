@@ -14,22 +14,38 @@ export function Stage() {
     <div className={styles.container_stage}>
       <div className={styles.stage}>
         <div className={styles.stage_left}>
-          <div className={styles.stage_card}>
+          <div
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            className={styles.stage_card}
+          >
             <Image src={img1} alt="" />
             <h4>
               Submit
               <br /> Application
             </h4>
           </div>
-          <div className={styles.stage_text}>
+          <div
+            className={styles.stage_text}
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
             <p>Complete a short Credit Application.</p>
           </div>
         </div>
         <div className={styles.stage_right}>
-          <div className={styles.stage_text}>
+          <div
+            className={styles.stage_text}
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
             <p>The request for Credit is reviewed and decisioned.</p>
           </div>
-          <div className={styles.stage_card}>
+          <div
+            className={styles.stage_card}
+            data-aos="fade-down"
+            data-aos-duration="1000"
+          >
             <Image src={img2} alt="" />
             <h4>
               Credit <br />
@@ -38,11 +54,21 @@ export function Stage() {
           </div>
         </div>
         <div className={styles.stage_left}>
-          <div className={styles.stage_card}>
+          <div
+            className={styles.stage_card}
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          >
             <Image src={img3} alt="" />
             <h4>Documentation</h4>
           </div>
-          <div className={styles.stage_text}>
+          <div
+            className={styles.stage_text}
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          >
             <p>
               Upon Approval, documents will be prepared and sent to you via
               DocuSign.
@@ -50,14 +76,24 @@ export function Stage() {
           </div>
         </div>
         <div className={styles.stage_right}>
-          <div className={styles.stage_text}>
+          <div
+            className={styles.stage_text}
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          >
             <p>
               After Documents are executed, Purchase Orders will be released to
               the vendor(s) as well as any applicable vendor deposits required
               for order placement.
             </p>
           </div>
-          <div className={styles.stage_card}>
+          <div
+            className={styles.stage_card}
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          >
             <Image src={img4} alt="" />
             <h4>
               Order <br /> Equipment
@@ -65,14 +101,24 @@ export function Stage() {
           </div>
         </div>
         <div className={styles.stage_left}>
-          <div className={styles.stage_card}>
+          <div
+            className={styles.stage_card}
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          >
             <Image src={img5} alt="" />
             <h4>
               Delivery &amp; <br />
               Acceptance
             </h4>
           </div>
-          <div className={styles.stage_text}>
+          <div
+            className={styles.stage_text}
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          >
             <p>
               Upon our receipt of vendor invoice(s), we will contact you for
               verification of delivery and acceptance. Once confirmed, the
@@ -81,14 +127,24 @@ export function Stage() {
           </div>
         </div>
         <div className={styles.stage_right}>
-          <div className={styles.stage_text}>
+          <div
+            className={styles.stage_text}
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          >
             <p>
               Once your equipment has delivered, your acceptance via DocuSign
               will be required, funds will be released to pay for the delivered
               equipment, and your schedule of payments will begin.
             </p>
           </div>
-          <div className={styles.stage_card}>
+          <div
+            className={styles.stage_card}
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          >
             <Image src={img6} alt="" />
             <h4>
               Enjoy your new <br />
