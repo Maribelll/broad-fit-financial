@@ -85,9 +85,23 @@ export function Footer() {
           &copy; BROAD FIT FINANCIL / ALL RIGHTS RESERVED
         </div>
         <div className={styles.privacy}>
-          <div>COOKIE POLICY</div>
-          <div className={styles.terms}>PRIVACY POLICY</div>
-          <div className={styles.terms}>TERMS &amp; CONDITIONS</div>
+          <div>
+            {" "}
+            <Link href={"/policy/cookie_policy"}>
+              <a>COOKIE POLICY</a>
+            </Link>
+          </div>
+          <div className={styles.terms}>
+            {" "}
+            <Link href={"/policy/privacy_policy"}>
+              <a>PRIVACY POLICY</a>
+            </Link>
+          </div>
+          <div className={styles.terms}>
+            <Link href={"/policy/terms_&_conditions"}>
+              <a>TERMS &amp; CONDITIONS</a>
+            </Link>
+          </div>
         </div>
       </div>
     </div>
