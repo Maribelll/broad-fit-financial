@@ -23,15 +23,11 @@ export function Stage() {
           </div>
           <div className={styles.stage_text}>
             <p>Complete a short Credit Application.</p>
-            <p>The request for Credit is reviewed and decisioned.</p>
           </div>
         </div>
         <div className={styles.stage_right}>
           <div className={styles.stage_text}>
-            <p>
-              Submit a quick credit application with all the required
-              information.
-            </p>
+            <p>The request for Credit is reviewed and decisioned.</p>
           </div>
           <div className={styles.stage_card}>
             <Image src={img2} alt="" />
@@ -48,20 +44,17 @@ export function Stage() {
           </div>
           <div className={styles.stage_text}>
             <p>
-              Upon approval, documents will be prepared and sent to you via
+              Upon Approval, documents will be prepared and sent to you via
               DocuSign.
-            </p>
-            <p>
-              Submit a quick credit application with all the required
-              information.
             </p>
           </div>
         </div>
         <div className={styles.stage_right}>
           <div className={styles.stage_text}>
             <p>
-              Submit a quick credit application with all the required
-              information.
+              After Documents are executed, Purchase Orders will be released to
+              the vendor(s) as well as any applicable vendor deposits required
+              for order placement.
             </p>
           </div>
           <div className={styles.stage_card}>
@@ -81,16 +74,18 @@ export function Stage() {
           </div>
           <div className={styles.stage_text}>
             <p>
-              Submit a quick credit application with all the required
-              information.
+              Upon our receipt of vendor invoice(s), we will contact you for
+              verification of delivery and acceptance. Once confirmed, the
+              vendor(s) will be paid and your lease will begin.
             </p>
           </div>
         </div>
         <div className={styles.stage_right}>
           <div className={styles.stage_text}>
             <p>
-              Submit a quick credit application with all the required
-              information.
+              Once your equipment has delivered, your acceptance via DocuSign
+              will be required, funds will be released to pay for the delivered
+              equipment, and your schedule of payments will begin.
             </p>
           </div>
           <div className={styles.stage_card}>

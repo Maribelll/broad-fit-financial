@@ -4,28 +4,36 @@ export function Twocolumns() {
   return (
     <section>
       <div className={styles.container_twocolumns}>
-        <h2>Equipment financing made easy</h2>
-        <div className={styles.twocolumns}>
+        <h2 data-aos="fade-up" data-aos-duration="1000">
+          Equipment financing made easy
+        </h2>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          className={styles.twocolumns}
+        >
           <div className={styles.col1}>
             <div className={styles.card}>
               <h5>Flexible Financing</h5>
               <p>
-                Flexible structures from annual payments to interest only to
-                step up options.
+                A variety of financing structures are available such as monthly,
+                quarterly, or annual payments or deferment, interest only, and
+                step-up options.
               </p>
             </div>
             <div className={styles.card}>
               <h5>Truly Personalized Service</h5>
               <p>
                 Your dedicated team members are always available to answer
-                questions and help your business thrive.
+                questions and support you.
               </p>
             </div>
             <div className={styles.card}>
-              <h5>Capitalize on Opportunities</h5>
+              <h5>Utilize Financing</h5>
               <p>
-                Conserve working capital and maximize cash flow with lower
-                payments and overhead obligations.
+                Conserve your working capital and take advantage of the tax
+                benefits available on leased equipment while keeping your cash
+                available for other needs.
               </p>
             </div>
           </div>

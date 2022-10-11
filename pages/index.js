@@ -64,7 +64,11 @@ export default function Home() {
         </section>
         <Icons />
         <section>
-          <div data-aos="fade-up" className={styles.industry}>
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            className={styles.industry}
+          >
             <div className={styles.industry_all}>
               <div className={styles.industry_text}>
                 <h2 style={{ textAlign: "left" }}>

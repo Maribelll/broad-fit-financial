@@ -6,7 +6,11 @@ import styles from "../styles/card.module.scss";
 
 export function Cardright() {
   return (
-    <div data-aos="fade-up" className={styles.cardright}>
+    <div
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      className={styles.cardright}
+    >
       <div style={{ maxWidth: "405px" }} className={styles.card_text}>
         <h3>Transparent process to secure the best financing</h3>
         <p style={{ maxWidth: "390px" }}>

@@ -11,6 +11,7 @@ export function Icons() {
       <div
         // data-aos-duration="200"
         data-aos="fade-up"
+        data-aos-duration="1000"
         className={styles.icons}
       >
         <h2>Your partner in funding</h2>

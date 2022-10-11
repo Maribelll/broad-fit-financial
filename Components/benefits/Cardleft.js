@@ -9,7 +9,11 @@ export function Cardleft() {
       style={{ marginRight: "16px", marginLeft: "16px" }}
       className={styles.helping}
     >
-      <div className={styles.cardleft}>
+      <div
+        className={styles.cardleft}
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
         <div className={styles.card_photo}>
           <Image
             src={img}

@@ -6,7 +6,11 @@ import styles from "../styles/card.module.scss";
 
 export function Cardleft() {
   return (
-    <div data-aos="fade-up" className={styles.cardleft}>
+    <div
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      className={styles.cardleft}
+    >
       <div className={styles.card_photo}>
         <Image
           src={img}

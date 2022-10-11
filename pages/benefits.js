@@ -8,8 +8,13 @@ import { Action } from "../Components/Action";
 import { Cardleft } from "../Components/benefits/Cardleft";
 import { Cardright } from "../Components/benefits/Carfright";
 import { Twocolumns } from "../Components/Twocolumns";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect } from "react";
 export default function Benefits() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <Layout title="Benefits" keywords="" description="">
       <Head>

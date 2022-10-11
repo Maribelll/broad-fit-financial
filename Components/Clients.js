@@ -6,6 +6,7 @@ export function Clients() {
   return (
     <div
       data-aos="fade-up"
+      data-aos-duration="1000"
       id={styles.clients}
       className={styles.container_team}
     >
