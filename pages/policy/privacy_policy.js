@@ -19,6 +19,7 @@ export default function Privacy() {
       </div>
       <main className={styles.main}>
         <div className={styles.container}>
+          <h2>Privacy Policy</h2>
           <p>
             Thank you for your interest in this Privacy Policy! Data protection
             is of a particularly high priority for the management of Broad Fit
