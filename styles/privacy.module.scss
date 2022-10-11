@@ -9,11 +9,21 @@ body {
         letter-spacing: 0em;
         text-align: left;
         margin-bottom: 27px;
+        color: rgba(54, 61, 76, 1);
       }
       margin: 0 auto;
       max-width: 800px;
       ul {
         list-style: disc;
+      }
+      p,
+      ul {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #1e1e1e;
       }
     }
   }
