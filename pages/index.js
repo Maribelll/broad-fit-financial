@@ -25,8 +25,8 @@ export default function Home() {
   return (
     <Layout
       title="Broad Fit Financial - Health &amp; Wellness Equipment Financing"
-      keywords="land for sale in sedalia, house for rent north port, rent rv denver"
-      description="equipment financing, health equipment financing, fitness equipment financing, wellness equipment financing, small business equipment financing"
+      keywords="equipment financing, health equipment financing, fitness equipment financing, wellness equipment financing, small business equipment financing"
+      description="Broad Fit Financial provides equipment financing for businesses of any size looking to acquire new equipment."
     >
       <Head />
 

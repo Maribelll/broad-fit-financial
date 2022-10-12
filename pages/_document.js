@@ -4,13 +4,20 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+          <link rel="icon" href="/favicon.ico" />
           <link rel="stylesheet" href="https://use.typekit.net/kuq4bzj.css" />
 
           <meta property="og:type" content="website" />
-          <meta property="og:site_name" content="Fit Boadr Financial" />
-          <meta property="og:title" content="" />
-          <meta property="og:description" content="" />
-          <meta property="og:url" content="https://artellecreative.com" />
+          <meta property="og:site_name" content="Broad Fit Financial" />
+          <meta
+            property="og:title"
+            content="Broad Fit Financial - Health &amp; Wellness Equipment Financing"
+          />
+          <meta
+            property="og:description"
+            content="Broad Fit Financial provides equipment financing for businesses of any size looking to acquire new equipment."
+          />
+          <meta property="og:url" content="https://broadfitfinancial.com" />
           <meta property="og:locale" content="en_EN" />
           {/* <meta
             property="og:image"
