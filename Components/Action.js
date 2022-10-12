@@ -8,11 +8,15 @@ export function Action() {
       <div className={styles.action_all}>
         <div className={styles.action_card1}>
           <h3>Looking for assistance?</h3>
-          <button className="dark_blue">Contact Us</button>
+          <Link href={"/contact"}>
+            <button className="dark_blue">Contact Us</button>
+          </Link>
         </div>
         <div className={styles.action_card2}>
           <h3>Ready to apply?</h3>
-          <button className="dark_blue">Apply Now</button>
+          <Link href={"/"}>
+            <button className="dark_blue">Apply Now</button>
+          </Link>
         </div>
       </div>
     </div>

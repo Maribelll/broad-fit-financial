@@ -17,7 +17,7 @@ export function Cardright() {
           From selecting a vendor to securing equipment financing, our process
           is fast and easy.
         </p>
-        <Link href={"/"}>
+        <Link href={"/process"}>
           <a className="main_link">Learn more</a>
         </Link>
       </div>

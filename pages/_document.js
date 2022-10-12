@@ -21,10 +21,10 @@ export default class MyDocument extends Document {
           <meta property="og:locale" content="en_EN" />
           {/* <meta
             property="og:image"
-            content="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1660722611/art_lqiyda.jpg"
+            content=""
           /> */}
-          {/* <meta property="og:image:width" content="300" />
-          <meta property="og:image:height" content="200" /> */}
+          {/* <meta property="og:image:width" content="1200" />
+          <meta property="og:image:height" content="637" /> */}
         </Head>
         <body>
           <Main />

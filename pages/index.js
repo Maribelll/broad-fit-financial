@@ -44,9 +44,11 @@ export default function Home() {
                   businesses of any size looking to acquire new equipment.
                 </p>
                 <div className={styles.main_text_buttons}>
-                  <button className="dark_blue">Get in touch</button>
+                  <Link href={"/contact"}>
+                    <button className="dark_blue">Get in touch</button>
+                  </Link>
                   <div className={styles.link}>
-                    <Link href={"/"}>
+                    <Link href={"/benefits"}>
                       <a className="main_link">Learn More</a>
                     </Link>
                   </div>
@@ -79,7 +81,9 @@ export default function Home() {
                   Our services are tailored to the specific needs of companies
                   in the health, wellness, therapy, and fitness sectors.
                 </p>
-                <button className="dark_blue">See all sectors</button>
+                <Link href={"/benefits"}>
+                  <button className="dark_blue">See all sectors</button>
+                </Link>
               </div>
               <div className={styles.circle}>
                 <Image src={circle} width={349} height={349} alt="" />
