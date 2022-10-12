@@ -13,12 +13,21 @@ $white: rgba(255, 255, 255, 1);
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    padding-left: 67px;
+    .main_photo {
+      margin-bottom: -5px;
+    }
     .main_text {
       background-color: $blue_light;
-      padding: 80px 121px 0 67px;
+      align-self: center;
+
       .main_text_all {
         max-width: 480px;
+        p {
+          max-width: 480px;
+        }
+
         .main_text_buttons {
           display: flex;
           align-items: center;
@@ -30,9 +39,9 @@ $white: rgba(255, 255, 255, 1);
           font-size: 51px !important;
           line-height: 107.44%;
           margin-bottom: 25px;
+          margin-top: 0;
         }
         p {
-          max-width: 440px;
           padding-bottom: 38px;
           font-size: 18px;
           font-weight: 400;
@@ -79,16 +88,13 @@ $white: rgba(255, 255, 255, 1);
 @media (max-width: 1300px) {
   .mainscreen {
     .main {
-      // flex-direction: column;
+      padding-left: 0;
 
       .main_text {
-        padding: 0 20px 40px;
+        padding-left: 20px;
+        padding-right: 20px;
         .main_text_all {
-          max-width: 480px;
           .main_text_buttons {
-            // display: flex;
-            // flex-direction: column;
-            // align-items: flex-start;
             .link {
               margin-left: 0;
               margin-top: 20px;
@@ -108,7 +114,6 @@ $white: rgba(255, 255, 255, 1);
   .mainscreen {
     .main {
       .main_text {
-        padding: 0 20px 40px;
         .main_text_all {
           .header1 {
             font-size: 38px !important;
@@ -151,11 +156,51 @@ $white: rgba(255, 255, 255, 1);
     }
   }
 }
+@media (max-width: 1160px) {
+  .mainscreen {
+    .main {
+      // flex-direction: column;
+
+      .main_text {
+      }
+    }
+  }
+}
 @media (max-width: 970px) {
   .main {
     padding-top: 68px;
+    .main_text {
+      padding-bottom: 40px;
+      .header1 {
+        padding-top: 40px;
+      }
+    }
   }
-  .header1 {
-    padding-top: 40px;
+}
+@media (max-width: 750px) {
+  .mainscreen {
+    .main {
+      flex-direction: column;
+
+      .main_text {
+        padding: 0 20px 40px;
+        .main_text_all {
+          max-width: 480px;
+          .main_text_buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            .link {
+              margin-left: 0;
+              margin-top: 20px;
+              margin-left: 20px;
+            }
+          }
+        }
+      }
+      .main_photo {
+        align-self: center;
+      }
+    }
   }
 }
