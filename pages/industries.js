@@ -17,14 +17,12 @@ export default function Sectors() {
     AOS.init();
   }, []);
   return (
-    <Layout title="Sectors" keywords="" description="">
-      <Head>
-        <meta charSet="UTF-8"></meta>
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1.0"
-        ></meta>
-      </Head>
+    <Layout
+      title="Industries Served - Broad Fit Financial"
+      keywords="equipment financing, health equipment financing, fitness equipment financing, wellness equipment financing, small business equipment financing"
+      description="Partnering with companies in the health, wellness, therapy, and fitness sectors."
+    >
+      <Head />
       <Menu />
       <main className={styles.main}>
         <Blocktop />

@@ -19,7 +19,11 @@ export default function Process() {
     AOS.init();
   }, []);
   return (
-    <Layout title="Process" keywords="" description="">
+    <Layout
+      title="Process - Broad Fit Financial"
+      keywords="equipment financing, health equipment financing, fitness equipment financing, wellness equipment financing, small business equipment financing"
+      description="Get your equipment financed quickly and painlessly."
+    >
       <Head>
         <meta charSet="UTF-8"></meta>
         <meta

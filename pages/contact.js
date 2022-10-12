@@ -16,7 +16,11 @@ export default function Contact() {
     AOS.init();
   }, []);
   return (
-    <Layout title="Contact" keywords="" description="">
+    <Layout
+      title="Contact - Broad Fit Financial"
+      keywords="equipment financing, health equipment financing, fitness equipment financing, wellness equipment financing, small business equipment financing"
+      description="We're here to help. Contact us for more information."
+    >
       <Head>
         <meta charSet="UTF-8"></meta>
         <meta

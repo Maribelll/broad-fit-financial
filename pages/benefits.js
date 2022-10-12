@@ -16,14 +16,12 @@ export default function Benefits() {
     AOS.init();
   }, []);
   return (
-    <Layout title="Benefits" keywords="" description="">
-      <Head>
-        <meta charSet="UTF-8"></meta>
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1.0"
-        ></meta>
-      </Head>
+    <Layout
+      title="Benefits - Broad Fit Financial"
+      keywords="equipment financing, health equipment financing, fitness equipment financing, wellness equipment financing, small business equipment financing"
+      description="Through our team of experts, you'll get the equipment financing you need with a financing structure that's right for you."
+    >
+      <Head />
       <Menu />
       <main className={styles.main}>
         <Blocktop />

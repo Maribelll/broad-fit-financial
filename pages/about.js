@@ -17,7 +17,11 @@ export default function About() {
     AOS.init();
   }, []);
   return (
-    <Layout title="About" keywords="" description="">
+    <Layout
+      title="About - Broad Fit Financial"
+      keywords="equipment financing, health equipment financing, fitness equipment financing, wellness equipment financing, small business equipment financing"
+      description="Your success and growth is our top priority."
+    >
       <Head>
         <meta charSet="UTF-8"></meta>
         <meta
