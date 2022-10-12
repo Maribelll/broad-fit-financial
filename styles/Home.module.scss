@@ -156,16 +156,7 @@ $white: rgba(255, 255, 255, 1);
     }
   }
 }
-@media (max-width: 1160px) {
-  .mainscreen {
-    .main {
-      // flex-direction: column;
 
-      .main_text {
-      }
-    }
-  }
-}
 @media (max-width: 970px) {
   .main {
     padding-top: 68px;

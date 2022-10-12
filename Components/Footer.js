@@ -16,8 +16,13 @@ export function Footer() {
             <div className={styles.col1}>
               <ul>
                 <li>Broad Fit Financial</li>
-                <li>(222)222-2222</li>
-                <li>stephanie@broadfitfinancial</li>
+                <li>(561) 901-5261 (cell)</li>
+                <li>(561) 450-8454 (office)</li>
+                <li>
+                  <a href="stephanie@broadfitfinancial.com">
+                    stephanie@broadfitfinancial.com
+                  </a>
+                </li>
               </ul>
             </div>
             <div className={styles.col2}>
@@ -30,7 +35,7 @@ export function Footer() {
                 </li>
                 <li>
                   <Link href={"/industries"}>
-                    <a>Markets</a>
+                    <a>Industries</a>
                   </Link>
                 </li>
                 <li>

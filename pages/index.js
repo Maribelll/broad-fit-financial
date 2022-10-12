@@ -81,7 +81,7 @@ export default function Home() {
                   Our services are tailored to the specific needs of companies
                   in the health, wellness, therapy, and fitness sectors.
                 </p>
-                <Link href={"/benefits"}>
+                <Link href={"/industries"}>
                   <button className="dark_blue">See all sectors</button>
                 </Link>
               </div>
