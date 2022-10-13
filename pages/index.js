@@ -82,7 +82,7 @@ export default function Home() {
                   in the health, wellness, therapy, and fitness sectors.
                 </p>
                 <Link href={"/industries"}>
-                  <button className="dark_blue">See all sectors</button>
+                  <button className="dark_blue">See all industries</button>
                 </Link>
               </div>
               <div className={styles.circle}>
