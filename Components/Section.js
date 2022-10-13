@@ -12,6 +12,7 @@ import img10 from "../public/sectors/10-health.jpg";
 import img11 from "../public/sectors/11-municipalities.jpg";
 import img12 from "../public/sectors/12-health.jpg";
 import img13 from "../public/sectors/13-municipalities.jpg";
+import img14 from "../public/sectors/14-hospitality.jpg";
 
 import styles from "../styles/section.module.scss";
 
@@ -155,6 +156,18 @@ export function Section() {
             <p>
               Helping corporate workplaces promote health and wellness with the
               necessary equipment for their corporate fitness environments.
+            </p>
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-delay="100"
+            className={styles.section_card}
+          >
+            <Image src={img14} alt="Corporate Wellness" />
+            <h4>Hospitality</h4>
+            <p>
+              We work with hotels, resorts, and other hospitality-based
+              businesses to outfit their facilities.
             </p>
           </div>
         </div>

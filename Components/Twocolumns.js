@@ -42,16 +42,17 @@ export function Twocolumns() {
             <div className={styles.card}>
               <h5>Solutions for Any Size Business</h5>
               <p>
-                We work with businesses of any size, whether it’s a small
-                business just starting out or a large corporation looking to
-                finance a project.
+                We work with all types of businesses from large Corporations
+                with no personal guarantors to franchisees with individual
+                owners. Structuring is specific to each transaction.
               </p>
             </div>
             <div className={styles.card}>
               <h5>Trusted Partner</h5>
               <p>
-                As your financing partners, we will guide you every step of the
-                way.
+                We take great pride in our level of support, knowledge, &amp;
+                ability to secure the best structure and program for our
+                customers. 
               </p>
             </div>
           </div>

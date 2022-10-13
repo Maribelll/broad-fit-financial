@@ -18,9 +18,9 @@ export function Cardright() {
         <div className={styles.card_text}>
           <h3>We work with you to determine the best financing structure</h3>
           <p>
-            When you work with us, we become partners in the project and your
-            success is our success. Our team will be there for you, working in
-            your best interest, and guiding you through the process.
+            We offer flexible structures based on the needs of your specific
+            project with no hidden payments or questionable fees. Our work
+            ensures the success of your project from start to finish.
           </p>
         </div>
         <div className={styles.card_photo}>

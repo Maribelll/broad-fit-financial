@@ -1,6 +1,10 @@
 .container_stage {
   padding: 65px 16px;
-  .stage {
+  .stage2 {
+    display: none;
+  }
+  .stage,
+  .stage2 {
     max-width: 842px;
     margin: 0 auto;
 
@@ -49,6 +53,10 @@
   .container_stage {
     padding: 23px 16px;
     .stage {
+      display: none;
+    }
+    .stage2 {
+      display: block;
       .stage_left {
         flex-direction: column;
         margin-bottom: 0;
