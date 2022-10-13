@@ -19,7 +19,10 @@ export default class MyDocument extends Document {
           />
           <meta property="og:url" content="https://broadfitfinancial.com" />
           <meta property="og:locale" content="en_EN" />
-          <meta property="og:image" content="/public/og_image.jpg" />
+          <meta
+            property="og:image"
+            content="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1665654292/Board-fit-financial/og_image_rufxbu.jpg"
+          />
           <meta property="og:image:width" content="1200" />
           <meta property="og:image:height" content="637" />
         </Head>
