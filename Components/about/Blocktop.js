@@ -13,7 +13,7 @@ export function Blocktopabout() {
       <div className={styles.blocktop}>
         <div className={styles.blocktop_text}>
           <p className={styles.gold}>ABOUT BROAD FIT FINANCIAL&mdash;</p>
-          <h1 id="h2">Your success and growth is our top priority.</h1>
+          <h1>Your success and growth is our top priority.</h1>
         </div>
         <div className={styles.blocktop_text2}>
           <p>

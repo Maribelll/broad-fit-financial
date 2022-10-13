@@ -30,7 +30,7 @@ export function Form() {
         className={styles.container_form}
       >
         <div className={styles.form_header}>
-          <h2>Get in touch</h2>
+          <h2 id="form">Get in touch</h2>
           <p>
             We’re here to provide you with more information and answer any
             questions you may have.

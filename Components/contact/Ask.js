@@ -14,47 +14,52 @@ export function Ask() {
             <div className={styles.card}>
               <h5>Sample Questions?</h5>
               <p>
-                Flexible structures from annual payments to interest only to
-                step up options.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit, sed do eiusmod.
               </p>
             </div>
             <div className={styles.card}>
-              <h5>Truly Personalised Service</h5>
+              <h5>Sample Question?</h5>
               <p>
-                Your dedicated team members are always available to answer
-                questions and help your business thrive.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit, sed do eiusmod.
               </p>
             </div>
             <div className={styles.card}>
-              <h5>Capitalize on Opportunities</h5>
+              <h5>Sample Question?</h5>
               <p>
-                Conserve working capital and maximize cash flow with lower
-                payments and overhead obligations.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit, sed do eiusmod.
               </p>
             </div>
           </div>
           <div className={styles.col2}>
             {" "}
             <div className={styles.card}>
-              <h5>Solutions for Any Size Businesses</h5>
+              <h5>Sample Question?</h5>
               <p>
-                We work with businesses of any size, whether it’s a small
-                business just starting out or a large corporation looking to
-                finance a project.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit, sed do eiusmod.
               </p>
             </div>
             <div className={styles.card}>
-              <h5>Tax Advantages</h5>
+              <h5>Sample Question?</h5>
               <p>
-                Benefit from tax advantages with True Tax Lease or through
-                Section 179 benefit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit, sed do eiusmod.
               </p>
             </div>
             <div className={styles.card}>
-              <h5>Trusted Partner</h5>
+              <h5>Sample Question?</h5>
               <p>
-                As your financing partners, we will guide you every step of the
-                way.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit, sed do eiusmod.
               </p>
             </div>
           </div>

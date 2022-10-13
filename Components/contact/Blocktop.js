@@ -1,5 +1,5 @@
 import styles from "../../styles/blocktopcontact.module.scss";
-import { Action } from "../Action";
+import { Action } from "../contact/Action";
 
 export function Blocktopcontact() {
   return (
