@@ -19,6 +19,7 @@ export function Action() {
           </Link>
         </div>
       </div>
+      <div id="form" className={styles.empty}></div>
     </div>
   );
 }
