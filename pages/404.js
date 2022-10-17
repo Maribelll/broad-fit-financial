@@ -1,5 +1,5 @@
 import styles from "../styles/error.module.scss";
-import { Action } from "../Components/Action";
+
 import { Footer } from "../Components/Footer";
 import { Menu } from "../Components/Menu";
 
@@ -15,7 +15,7 @@ export default function NotFoundPage() {
           </div>
         </div>
       </div>
-      <Action />
+
       <Footer />
     </>
   );

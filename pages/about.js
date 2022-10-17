@@ -2,7 +2,6 @@ import Head from "next/head";
 import Layout from "../Components/Layout";
 import { Menu } from "../Components/Menu";
 import { Footer } from "../Components/Footer";
-import { Action } from "../Components/Action";
 import { Blocktopabout } from "../Components/about/Blocktop";
 import { Team } from "../Components/about/Team";
 import { Reviews } from "../Components/about/Reviews";
@@ -36,7 +35,6 @@ export default function About() {
         <Team />
         <Reviews />
         <Clients />
-        <Action />
       </main>
       <Footer />
     </Layout>

@@ -141,7 +141,7 @@ export function Section() {
               src={img13}
               alt="Country Clubs, Golf Clubs and Tennis Clubs"
             />
-            <h4>Tennis Clubs Tennis, &amp; Swim Clubs</h4>
+            <h4>Country Clubs, Golf, Tennis, &amp; Swim Clubs</h4>
             <p>
               Helping equip sports clubs facilities with locker rooms, score
               boards, lighting, bleachers, sports fields, basketball courts and

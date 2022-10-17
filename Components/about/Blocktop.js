@@ -17,16 +17,17 @@ export function Blocktopabout() {
         </div>
         <div className={styles.blocktop_text2}>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
-            ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. <br />
+            With over 25 years in the fitness industry, from direct sales to
+            equipment financing, we have a clear understanding of how to best
+            support our customers, vendors, manufacturers, and lenders. <br />
             <br />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. <br />
+            Knowing what is required by all parties allows us to appropriately
+            accommodate the needs of all involved in each transaction, every
+            time. <br />
             <br />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Providing creative structuring, alternative solutions, and
+            developing financing options to best work with each individual
+            scenario is where we excel.
           </p>
         </div>
       </div>

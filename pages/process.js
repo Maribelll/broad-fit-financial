@@ -4,7 +4,7 @@ import Layout from "../Components/Layout";
 import { Menu } from "../Components/Menu";
 import { Footer } from "../Components/Footer";
 import { Blocktop } from "../Components/process/Blocktop";
-import { Action } from "../Components/Action";
+
 import { Stage } from "../Components/process/Stage";
 import { Payment } from "../Components/process/Payment";
 
@@ -36,8 +36,6 @@ export default function Process() {
         <Blocktop />
         <Stage />
         <Payment />
-
-        <Action />
       </main>
       <Footer />
     </Layout>

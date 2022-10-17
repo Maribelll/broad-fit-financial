@@ -4,7 +4,6 @@ import Layout from "../Components/Layout";
 import { Menu } from "../Components/Menu";
 import { Footer } from "../Components/Footer";
 import { Blocktop } from "../Components/benefits/Blocktop";
-import { Action } from "../Components/Action";
 import { Cardleft } from "../Components/benefits/Cardleft";
 import { Cardright } from "../Components/benefits/Carfright";
 import { Twocolumns } from "../Components/Twocolumns";
@@ -28,7 +27,6 @@ export default function Benefits() {
         <Cardleft />
         <Cardright />
         <Twocolumns />
-        <Action />
       </main>
       <Footer />
     </Layout>
