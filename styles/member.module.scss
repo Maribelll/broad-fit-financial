@@ -1,0 +1,58 @@
+.container_team {
+  margin: 50px 16px 71px 16px;
+
+  h3 {
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 23px;
+    margin-bottom: 73px;
+  }
+  .team {
+    display: flex;
+    flex-direction: row;
+
+    max-width: 995px;
+    justify-content: center;
+    margin: 0 auto;
+    .col1,
+    .col2 {
+      display: flex;
+      flex-direction: row;
+      width: 50%;
+      justify-content: space-between;
+      margin-left: 50px;
+    }
+  }
+}
+
+#clients {
+  margin-bottom: 100px;
+}
+@media (max-width: 1060px) {
+  .container_team {
+    h3 {
+      margin-top: 43px;
+      margin-bottom: 44px;
+    }
+    .team {
+      align-items: center;
+      flex-direction: column;
+      .col1,
+      .col2 {
+        margin-left: 0;
+        width: 100%;
+        justify-content: space-evenly;
+        .img {
+          margin: 10px 20px;
+        }
+      }
+    }
+  }
+  #clients {
+    margin-bottom: 24px;
+    margin-top: 24px;
+  }
+}

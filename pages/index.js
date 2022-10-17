@@ -14,9 +14,9 @@ import circle2 from "../public/sectors-illustration2.svg";
 import { Icons } from "../Components/Icons";
 import { Cardleft } from "../Components/Cardleft";
 import { Cardright } from "../Components/Cardright";
-import { Action } from "../Components/Action";
+
 import { Footer } from "../Components/Footer";
-import { Clients } from "../Components/Clients";
+import { Members } from "../Components/Members";
 
 export default function Home() {
   useEffect(() => {
@@ -104,10 +104,9 @@ export default function Home() {
             </h2>
             <Cardleft />
             <Cardright />
-            <Clients />
-            <Action />
           </div>
         </section>
+        <Members />
       </main>
       <Footer />
     </Layout>
