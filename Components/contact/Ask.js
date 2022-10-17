@@ -22,7 +22,7 @@ export function Ask() {
             <div className={styles.card}>
               <h5>What are the terms?</h5>
               <p>
-                Most common terms are 36, 48, or 60 months.  Shortly and longer
+                Most common terms are 36, 48, or 60 months.  Shorter and longer
                 terms are available based on loan size and collateral.  Annual,
                 quarterly, monthly, etc. terms are available as well.
               </p>
@@ -86,7 +86,7 @@ export function Ask() {
               </p>
             </div>
             <div className={styles.card}>
-              <h5>When do payment start?</h5>
+              <h5>When do payments start?</h5>
               <p>
                 The loan and payments commence once the equipment has been
                 delivered.
