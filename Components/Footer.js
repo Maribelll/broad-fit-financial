@@ -19,8 +19,8 @@ export function Footer() {
                 <li>(561) 901-5261 (cell)</li>
                 <li>(561) 450-8454 (office)</li>
                 <li>
-                  <a href="stephanie@broadfitfinancial.com">
-                    stephanie@broadfitfinancial.com
+                  <a href="mailto:Stephanie@BroadFit.com">
+                    Stephanie@BroadFit.com
                   </a>
                 </li>
               </ul>
@@ -34,8 +34,8 @@ export function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link href={"/industries"}>
-                    <a>Industries</a>
+                  <Link href={"/markets"}>
+                    <a>Markets</a>
                   </Link>
                 </li>
                 <li>

@@ -37,11 +37,12 @@ export default function Home() {
             <div className={styles.main_text}>
               <div className={styles.main_text_all}>
                 <h1 className={styles.header1}>
-                  Financing solutions for health &amp; wellness environments
+                  Financing solutions for health &amp; wellness spaces
                 </h1>
                 <p>
-                  Broad Fit Financial provides equipment financing for
-                  businesses of any size looking to acquire new equipment.
+                  Broad Fit Financial provides financing options for companies
+                  interested in acquiring equipment for new or existing
+                  locations.
                 </p>
                 <div className={styles.main_text_buttons}>
                   <Link href={"/contact"}>
@@ -82,7 +83,7 @@ export default function Home() {
                   in the health, wellness, therapy, and fitness sectors.
                 </p>
                 <Link href={"/industries"}>
-                  <button className="dark_blue">See all industries</button>
+                  <button className="dark_blue">See all markets</button>
                 </Link>
               </div>
               <div className={styles.circle}>
@@ -98,7 +99,8 @@ export default function Home() {
         <section data-aos="fade-up" style={{ margin: "0 16px" }}>
           <div className={style.helping}>
             <h2>
-              Helping you navigate equipment financing from start to finish
+              Helping you navigate the equipment financing process from start to
+              finish
             </h2>
             <Cardleft />
             <Cardright />

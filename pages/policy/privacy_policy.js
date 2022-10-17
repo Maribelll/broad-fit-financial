@@ -52,9 +52,18 @@ export default function Privacy() {
           </p>
           <p>The controller within the meaning of the FPPA and the GDPR is:</p>
           <p>Broad Fit Financial</p>
-          <p>7472 Pochard Ct, Lake Worth, Florida, 33463</p>
-          <p>E-Mail: stephanie@broadfitfinancial.com&nbsp;</p>
-          <p>Web: www.broadfitfinancial.com&nbsp;</p>
+          <p>6586 Hypoluxo Rd, Suite 251, Lake Worth, FL 33467</p>
+          <p>
+            <a href="mailto:Stephanie@BroadFit.com">
+              Stephanie@BroadFit.com&nbsp;
+            </a>
+          </p>
+          <p>
+            Web:{" "}
+            <a href="https://www.broadfitfinancial.com">
+              www.broadfitfinancial.com&nbsp;
+            </a>
+          </p>
           <p>
             <strong>Collection of general data and information</strong>
           </p>

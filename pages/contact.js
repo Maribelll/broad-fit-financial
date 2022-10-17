@@ -29,12 +29,7 @@ export default function Contact() {
         ></meta>
       </Head>
       <Menu />
-      <main
-        style={{
-          behavior: "smooth",
-        }}
-        className={styles.main}
-      >
+      <main className={styles.main}>
         <Blocktopcontact />
         <Form />
         <Ask />

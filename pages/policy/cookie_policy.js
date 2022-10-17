@@ -218,13 +218,11 @@ export default function Cookie() {
             us using the following contact details:
           </p>
           <p>Broad Fit Financial</p>
-          <p>7472 Pochard Ct,</p>
-          <p>Lake Worth, Florida, 33463 USA</p>
+          {/* <p>7472 Pochard Ct,</p> */}
+          <p>6586 Hypoluxo Rd, Suite 251, Lake Worth, FL 33467</p>
           <p>
             E-Mail:{" "}
-            <a href="mailto:stephanie@broadfitfinancial.com">
-              stephanie@broadfitfinancial.com
-            </a>
+            <a href="mailto:Stephanie@BroadFit.com">Stephanie@BroadFit.com</a>
             &nbsp;
           </p>
           <p>
