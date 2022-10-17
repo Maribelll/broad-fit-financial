@@ -4,12 +4,12 @@ import { Menu } from "../Components/Menu";
 import { Footer } from "../Components/Footer";
 import { Blocktopabout } from "../Components/about/Blocktop";
 import { Team } from "../Components/about/Team";
-import { Reviews } from "../Components/about/Reviews";
-import { Clients } from "../Components/about/Clients";
+import Image from "next/image";
 import styles from "../styles/Home.module.scss";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect } from "react";
+import img from "../public/team/ymca.png";
 
 export default function About() {
   useEffect(() => {
@@ -33,8 +33,10 @@ export default function About() {
       <main className={styles.main}>
         <Blocktopabout />
         <Team />
-        <Reviews />
-        <Clients />
+
+        <div className={styles.partnered}>
+          <Image width={390} height={100} src={img} alt="ymca"></Image>
+        </div>
       </main>
       <Footer />
     </Layout>

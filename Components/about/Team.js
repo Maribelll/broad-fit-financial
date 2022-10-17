@@ -18,7 +18,7 @@ export function Team() {
           <p>Stephanie Taylor</p>
 
           <br />
-          <span>President</span>
+          <span>PRESIDENT</span>
         </div>
         <div className={styles.card_photo}>
           <Image src={img2} width={229} height={293} alt="" />
