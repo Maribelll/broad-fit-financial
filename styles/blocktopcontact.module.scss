@@ -1,19 +1,23 @@
 .container_blocktop {
   position: relative;
-  background: linear-gradient(70deg, #eee4d0 6.62%, #f3f7fc 95.78%);
+  background: rgba(54, 61, 76, 1);
+
   width: 100%;
   .blocktop {
-    height: 515px;
+    height: 317px;
     margin: 0 auto -5px;
     max-width: 1200px;
-
+    #blocktop_text {
+      max-width: 560px;
+    }
     .blocktop_text {
-      max-width: 455px;
+      max-width: 490px;
       padding: 56px 16px 0 16px;
 
-      h2 {
+      h1 {
         text-align: left;
         margin: 18px 0 27px;
+        font-size: 51px;
       }
 
       .gold {
@@ -30,6 +34,7 @@
         line-height: 24px;
         letter-spacing: 0em;
         text-align: left;
+        color: white;
       }
     }
   }
@@ -44,11 +49,9 @@
 }
 @media (max-width: 1100px) {
   .container_blocktop {
-    background: linear-gradient(180deg, #eee4d0 6.62%, #f3f7fc 95.78%);
     .blocktop {
-      height: auto;
-      padding-bottom: 27px;
-      h1#h2 {
+      height: 359px;
+      #h2 {
         font-size: 32px;
         font-weight: 400;
         line-height: 38px;
@@ -74,6 +77,7 @@
     }
   }
 }
+
 @media (max-width: 780px) {
   .container_blocktop {
     .blocktop {
