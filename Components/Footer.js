@@ -67,7 +67,10 @@ export function Footer() {
               </ul>
             </div>
           </div>
-          <a href={"/"} target="_blanc">
+          <a
+            href={"https://www.linkedin.com/in/stephanie-taylor-3902455/"}
+            target="_blanc"
+          >
             <span className={styles.in}>
               <Image src={lin} alt="linkidin" />
             </span>
