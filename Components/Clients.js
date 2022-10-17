@@ -14,30 +14,42 @@ export function Clients() {
         >
           <div className={styles.card}>
             <p>
-              I’ve had the pleasure of working with Stephanie Taylor for 15
-              years. During this time, she has assisted my clients with creative
-              solutions to help them achieve their goal of opening their dream
-              business or refreshing current spaces.  She is trustworthy and a
-              hard worker, always willing to go the extra mile for the perfect
-              lending solution.  The thanks I receive from customers after
-              referring them to Stephanie is all the proof I need that she is
-              always the right partner for me.
+              &#8220;I’ve had the pleasure of working with Stephanie Taylor for
+              15 years. During this time, she has assisted my clients with
+              creative solutions to help them achieve their goal of opening
+              their dream business or refreshing current spaces.  She is
+              trustworthy and a hard worker, always willing to go the extra mile
+              for the perfect lending solution.  The thanks I receive from
+              customers after referring them to Stephanie is all the proof I
+              need that she is always the right partner for me.&#8221;
             </p>
             <span>Dan Kilby</span>
             <p className={styles.label}>Gym Source Commercial Sales</p>
           </div>
           <div className={styles.card}>
             <p>
-              I&lsquo;ve worked with Stephanie for 20+ years in a variety of
-              roles.  She has always provided both myself, my customers, and my
-              team members with a high level of support and service.  Her
+              &#8220;I&lsquo;ve worked with Stephanie for 20+ years in a variety
+              of roles.  She has always provided both myself, my customers, and
+              my team members with a high level of support and service.  Her
               knowledge and communication always created a more trusting and
               open experience for my team and customers.  Grateful to have her
-              as a financing resource for my customers. 
+              as a financing resource for my customers.&#8221;
             </p>
             <span>Rod Karstetter</span>
             <p className={styles.label}>
               Strategic Account Manager, Peloton Interactive
+            </p>
+          </div>
+          <div className={styles.card}>
+            <p>
+              &#8220;I’ve been working with Stephanie for 20+ years. She’s
+              always been a top level professional focused on delivering our
+              clients great value with exceptional service.&#8221;
+            </p>
+            <span>John Marcotte</span>
+            <p className={styles.label}>
+              Owner / VP of Sales &amp; Marketing <br />
+              Advantage Sport &amp; Fitness
             </p>
           </div>
         </div>
