@@ -14,7 +14,7 @@ export function Icons() {
         data-aos-duration="1000"
         className={styles.icons}
       >
-        <h2>Your partner in funding</h2>
+        <h2>Your partner in financing</h2>
         <div className={styles.icons_all}>
           <div className={styles.icons_card}>
             <Image alt="" src={icon1} />

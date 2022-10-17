@@ -13,7 +13,8 @@ import img11 from "../public/sectors/11-municipalities.jpg";
 import img12 from "../public/sectors/12-health.jpg";
 import img13 from "../public/sectors/13-municipalities.jpg";
 import img14 from "../public/sectors/14-hospitality.jpg";
-
+import img15 from "../public/sectors/15-recovery.jpg";
+import img16 from "../public/sectors/16-franchises.jpg";
 import styles from "../styles/section.module.scss";
 
 export function Section() {
@@ -46,12 +47,9 @@ export function Section() {
             data-aos-delay="200"
             className={styles.section_card}
           >
-            <Image src={img8} alt="Nutrition and Healthy Eating" />
-            <h4>Nutrition and Healthy Eating</h4>
-            <p>
-              We work with stores and restaurants that offer nutrition and
-              healthy food options as part of their overall wellness offering.
-            </p>
+            <Image src={img8} alt="Performance Training" />
+            <h4>Performance Training</h4>
+            <p>We finance equipment for performance training facilities.</p>
           </div>
           <div data-aos="fade-up" className={styles.section_card}>
             <Image src={img6} alt="Homeowners’ Associations" />
@@ -98,7 +96,7 @@ export function Section() {
             className={styles.section_card}
           >
             <Image src={img3} alt="YMCAs, JCCs and Non-Profits" />
-            <h4>YMCAs, JCCs &amp; Non-Profits</h4>
+            <h4>YMCAs, JCC, KROC Centers, &amp; Other Non-Profits</h4>
             <p>
               Non-profits play a sig­nif­i­cant role in their communities, and
               we are happy to provide them with appealing financing options.
@@ -143,7 +141,7 @@ export function Section() {
               src={img13}
               alt="Country Clubs, Golf Clubs and Tennis Clubs"
             />
-            <h4>Country Clubs, Golf Clubs &amp; Tennis Clubs</h4>
+            <h4>Tennis Clubs Tennis, &amp; Swim Clubs</h4>
             <p>
               Helping equip sports clubs facilities with locker rooms, score
               boards, lighting, bleachers, sports fields, basketball courts and
@@ -163,11 +161,31 @@ export function Section() {
             data-aos-delay="100"
             className={styles.section_card}
           >
-            <Image src={img14} alt="Corporate Wellness" />
+            <Image src={img14} alt="Hospitality" />
             <h4>Hospitality</h4>
             <p>
               We work with hotels, resorts, and other hospitality-based
               businesses to outfit their facilities.
+            </p>
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-delay="200"
+            className={styles.section_card}
+          >
+            <Image src={img15} alt="Recovery" />
+            <h4>Recovery</h4>
+            <p>
+              Offering equipment financing solutions for businesses providing
+              recovery and rehabilitation services.
+            </p>
+          </div>
+          <div data-aos="fade-up" className={styles.section_card}>
+            <Image src={img16} alt="Franchises" />
+            <h4>Franchises</h4>
+            <p>
+              Equipment financing for franchises in the health and wellness
+              markets.
             </p>
           </div>
         </div>

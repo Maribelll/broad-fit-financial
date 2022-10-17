@@ -20,12 +20,12 @@ export function Iconssectors() {
             <p className={styles.p19}>Flexible Payment Structures</p>
             <p>
               We’ll work together to determine which option is the best fit for
-              your business.
+              your business and goals.
             </p>
           </div>
           <div className={styles.icons_card}>
             <Image alt="" src={icon2} />
-            <p className={styles.p19}>Your Partner in Funding</p>
+            <p className={styles.p19}>Your Partner in Financing</p>
             <p>
               We advocate on your behalf for the best terms available for your
               specific needs.
@@ -36,7 +36,7 @@ export function Iconssectors() {
             <p className={styles.p19}>Fast, Streamlined Process</p>
             <p>
               Regardless of your market segment, finance amount, or equipment
-              type, our process is secure the funds you need is fast and
+              type, our process to secure the funds you need is fast and
               seamless.
             </p>
           </div>
