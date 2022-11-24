@@ -7,11 +7,16 @@ export function Payment() {
         <div className={styles.payment_title}>
           <h3>Flexible payment structures designed for your business.</h3>
           <p>
-            Our team of experienced financial professionals stays on top of each
-            client &rsquo;s request and ensures success from start to finish.
+            Our team of finance specialists are actively involved in the support
+            and success of every client’s goals from start to finish. We offer a
+            variety of terms and structures including 100% financing, no down
+            payment, and no security deposit required. We offer capital leases,
+            operating leases, equipment finance agreements, and master leases.
+            We will work together to determine which option is the best fit for
+            your business &amp; goals.
           </p>
         </div>
-        <div className={styles.payment_details}>
+        {/* <div className={styles.payment_details}>
           <div className={styles.col1}>
             <div className={styles.elem}>
               <h5>Terms</h5>
@@ -25,8 +30,8 @@ export function Payment() {
                 (EFA).
               </p>
             </div>
-          </div>
-          <div className={styles.col2}>
+          </div> */}
+        {/* <div className={styles.col2}>
             <div className={styles.elem}>
               <h5>Structure</h5>
               <p>100% financing, 1st payment due at signing.</p>
@@ -35,8 +40,7 @@ export function Payment() {
               <h5>Payments</h5>
               <p>Average benchmark of $2000 per every $100,000..</p>
             </div>
-          </div>
-        </div>
+          </div> */}
       </div>
     </div>
   );

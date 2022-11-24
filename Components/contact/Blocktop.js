@@ -14,7 +14,7 @@ export function Blocktopcontact() {
           </h1>
           <p>
             To get in touch, call us at (561) 450-8454, send an email to
-            Stephanie@BroadFit.com, or fill out the form below.
+            info@broadfit.com, or fill out the form below.
           </p>
         </div>
         <div className={styles.blocktop_img}>

@@ -102,7 +102,7 @@ export function Section() {
               we are happy to provide them with appealing financing options.
             </p>
           </div>
-          <div
+          {/* <div
             data-aos="fade-up"
             data-aos-delay="200"
             className={styles.section_card}
@@ -113,7 +113,7 @@ export function Section() {
               Helping hospitals, clinics, dentists, physical therapists, private
               practices and other healthcare professionals acquire equipment.
             </p>
-          </div>
+          </div> */}
           <div data-aos="fade-up" className={styles.section_card}>
             <Image src={img7} alt="Schools and Universities" />
             <h4>Schools &amp; Universities</h4>

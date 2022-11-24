@@ -20,13 +20,13 @@ export function Team() {
           <br />
           <span>PRESIDENT</span>
         </div>
-        <div className={styles.card_photo}>
+        {/* <div className={styles.card_photo}>
           <Image src={img2} width={229} height={293} alt="" />
           <p>Angie Glockner</p>
 
           <br />
           <span>NATIONAL ACCOUNT EXECUTIVE</span>
-        </div>
+        </div> */}
       </div>
     </div>
   );

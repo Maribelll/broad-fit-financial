@@ -3,7 +3,7 @@ import styles from "../../styles/ask.module.scss";
 export function Ask() {
   return (
     <section>
-      <div
+      {/* <div
         data-aos="fade-up"
         data-aos-duration="1000"
         className={styles.container_twocolumns}
@@ -103,7 +103,7 @@ export function Ask() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

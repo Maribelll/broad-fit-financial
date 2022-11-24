@@ -83,7 +83,7 @@ export default function Home() {
                   Our services are tailored to the specific needs of companies
                   in the health, wellness, therapy, and fitness sectors.
                 </p>
-                <Link href={"/industries"}>
+                <Link href={"/markets"}>
                   <button className="dark_blue">See all markets</button>
                 </Link>
               </div>
@@ -107,8 +107,8 @@ export default function Home() {
             <Cardright />
           </div>
         </section>
-        <Clients />
-        <Members />
+        {/* <Clients /> */}
+        {/* <Members /> */}
       </main>
       <Footer />
     </Layout>
