@@ -9,7 +9,6 @@
     justify-content: center;
     padding: 0 75px 0 67px;
     border-radius: 10px;
-    margin-bottom: 80px;
 
     .payment_title {
       max-width: 470px;
@@ -52,10 +51,7 @@
 @media (max-width: 1200px) {
   .container_payment {
     .payment {
-      background: linear-gradient(180deg, #f3f7fc 0%, #efe5d1 100%);
-      flex-direction: column;
-      height: auto;
-      padding: 40px 0;
+      padding: 40px 16px;
 
       .payment_details {
         margin-left: 55px;
@@ -68,12 +64,6 @@
         }
         .col1 {
           margin-bottom: -20px;
-        }
-      }
-      .payment_title {
-        max-width: 295px;
-        p {
-          max-width: 250px;
         }
       }
     }

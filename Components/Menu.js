@@ -14,23 +14,25 @@ export function Menu() {
           </Link>
         </div>
         <div>
+          <Link href={"/why_broad_fit"}>
+            <a>Why Broad Fit</a>
+          </Link>
           <Link href={"/markets"}>
             <a>Markets</a>
           </Link>
 
-          <Link href={"/benefits"}>
-            <a>Benefits</a>
+          <Link href={"/partners_&_memberships"}>
+            <a>Partners &amp; Memberships</a>
           </Link>
 
-          <Link href={"/process"}>
-            <a>Process</a>
-          </Link>
-        </div>
-        <div>
           <Link href={"/about"}>
             <a>About</a>
           </Link>
-
+          <Link href={"/faq"}>
+            <a>FAQ</a>
+          </Link>
+        </div>
+        <div>
           <Link href={"/contact"}>
             <a style={{ paddingRight: "0" }}>
               <button className="dark_blue">Contact</button>

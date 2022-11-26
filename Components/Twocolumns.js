@@ -14,14 +14,6 @@ export function Twocolumns() {
         >
           <div className={styles.col1}>
             <div className={styles.card}>
-              <h5>Flexible Financing</h5>
-              <p>
-                A variety of financing structures are available such as monthly,
-                quarterly, or annual payments or deferment, interest only, and
-                step-up options.
-              </p>
-            </div>
-            <div className={styles.card}>
               <h5>Truly Personalized Service</h5>
               <p>
                 Your dedicated team members are always available to answer

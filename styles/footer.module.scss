@@ -90,7 +90,7 @@
       }
       .footer_text {
         padding: 56px 16px 0 16px;
-        height: 550px;
+        height: 600px;
         .in {
           display: none;
         }
@@ -109,7 +109,7 @@
       }
     }
     .footer_img {
-      top: 263px;
+      top: 315px;
     }
     .rights {
       flex-direction: column;
@@ -132,6 +132,20 @@
   }
 }
 @media (max-width: 780px) {
+  .container_footer {
+    .footer_img {
+      display: none;
+    }
+    .footer_img2 {
+      position: absolute;
+      display: block;
+      width: 261px;
+      right: 0;
+      bottom: 133px;
+    }
+  }
+}
+@media (max-width: 420px) {
   .container_footer {
     .footer_img {
       display: none;

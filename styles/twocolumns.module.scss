@@ -7,7 +7,6 @@
     margin-bottom: 76px;
   }
   .twocolumns {
-    max-width: 715px;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -16,10 +15,9 @@
     gap: 90px;
     .col1,
     .col2 {
-      max-width: 315px;
       .card {
-        max-width: 300px;
-        height: 150px;
+        max-width: 350px;
+
         h5 {
           color: #363d4c;
           margin-bottom: 0;
@@ -29,7 +27,7 @@
           letter-spacing: 0em;
           text-align: left;
           &::before {
-            content: "+";
+            content: "•";
             margin-right: 15px;
             margin-left: -25px;
             color: rgba(173, 128, 36, 1);

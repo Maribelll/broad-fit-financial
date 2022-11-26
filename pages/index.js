@@ -9,8 +9,8 @@ import React, { useEffect } from "react";
 import Image from "next/image";
 import { Menu } from "../Components/Menu";
 import banner from "../public/hero.jpg";
-import circle from "../public/sectors-illustration.svg";
-import circle2 from "../public/sectors-illustration2.svg";
+import circle from "../public/sectors-illustration..svg";
+import circle2 from "../public/sectors-illustration..svg";
 import { Icons } from "../Components/Icons";
 import { Cardleft } from "../Components/Cardleft";
 import { Cardright } from "../Components/Cardright";
@@ -77,11 +77,11 @@ export default function Home() {
             <div className={styles.industry_all}>
               <div className={styles.industry_text}>
                 <h2 style={{ textAlign: "left" }}>
-                  Strong industry knowledge and laser-focused expertise
+                  Strong industry knowledge and focused expertise
                 </h2>
                 <p>
-                  Our services are tailored to the specific needs of companies
-                  in the health, wellness, therapy, and fitness sectors.
+                  Our services are tailored to the specific needs of customers
+                  in the health, wellness and fitness sectors.
                 </p>
                 <Link href={"/markets"}>
                   <button className="dark_blue">See all markets</button>
@@ -97,7 +97,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section data-aos="fade-up" style={{ margin: "0 16px" }}>
+        <section data-aos="fade-up" style={{ margin: "0 16px 50px" }}>
           <div className={style.helping}>
             <h2>
               Helping you navigate the equipment financing process from start to

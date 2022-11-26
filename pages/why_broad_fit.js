@@ -7,6 +7,7 @@ import { Blocktop } from "../Components/benefits/Blocktop";
 import { Cardleft } from "../Components/benefits/Cardleft";
 import { Cardright } from "../Components/benefits/Carfright";
 import { Twocolumns } from "../Components/Twocolumns";
+import { Payment } from "../Components/process/Payment";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect } from "react";
@@ -16,7 +17,7 @@ export default function Benefits() {
   }, []);
   return (
     <Layout
-      title="Benefits - Broad Fit Financial"
+      title="Why Broad Fit - Broad Fit Financial"
       keywords="equipment financing, health equipment financing, fitness equipment financing, wellness equipment financing, small business equipment financing"
       description="Through our team of experts, you'll get the equipment financing you need with a financing structure that's right for you."
     >
@@ -27,6 +28,7 @@ export default function Benefits() {
         <Cardleft />
         <Cardright />
         <Twocolumns />
+        <Payment />
       </main>
       <Footer />
     </Layout>

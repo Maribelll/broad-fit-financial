@@ -1,25 +1,27 @@
 import Head from "next/head";
-import Image from "next/image";
 import styles from "../styles/Home.module.scss";
 import Layout from "../Components/Layout";
-import { Blocktopcontact } from "../Components/contact/Blocktop";
 import { Menu } from "../Components/Menu";
-
-import { Form } from "../Components/contact/Form";
 import { Footer } from "../Components/Footer";
+import { Blocktop } from "../Components/process/Blocktop";
+
+import { Stage } from "../Components/process/Stage";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect } from "react";
 
-export default function Contact() {
+// import Menu from "../Components/Menu";
+
+export default function Process() {
   useEffect(() => {
     AOS.init();
   }, []);
   return (
     <Layout
-      title="Contact - Broad Fit Financial"
+      title="Process - Broad Fit Financial"
       keywords="equipment financing, health equipment financing, fitness equipment financing, wellness equipment financing, small business equipment financing"
-      description="We're here to help. Contact us for more information."
+      description="Get your equipment financed quickly and painlessly."
     >
       <Head>
         <meta charSet="UTF-8"></meta>
@@ -29,10 +31,7 @@ export default function Contact() {
         ></meta>
       </Head>
       <Menu />
-      <main className={styles.main}>
-        <Blocktopcontact />
-        <Form />
-      </main>
+
       <Footer />
     </Layout>
   );

@@ -19,7 +19,7 @@ export function Footer() {
               <ul>
                 <li>Broad Fit Financial</li>
                 <li>6585 Hypoluxo Road, Suite 251, Lake Worth, FL 33467</li>
-                <li>(561) 450-8454 (office)</li>
+                <li>(561) 450-8454</li>
                 <li>
                   <a href="mailto:info@broadfit.com">info@broadfit.com</a>
                 </li>
@@ -34,13 +34,18 @@ export function Footer() {
                   </Link>
                 </li>
                 <li>
+                  <Link href={"/why_broad_fit"}>
+                    <a>Why Broad Fit</a>
+                  </Link>
+                </li>
+                <li>
                   <Link href={"/markets"}>
                     <a>Markets</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href={"/benefits"}>
-                    <a>Benefits</a>
+                  <Link href={"/partners_&_memberships"}>
+                    <a>Partners &amp; Memberships</a>
                   </Link>
                 </li>
               </ul>
@@ -49,13 +54,13 @@ export function Footer() {
               {" "}
               <ul>
                 <li>
-                  <Link href={"/process"}>
-                    <a>Process</a>
+                  <Link href={"/about"}>
+                    <a>About</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href={"/about"}>
-                    <a>About</a>
+                  <Link href={"/faq"}>
+                    <a>FAQ</a>
                   </Link>
                 </li>
 
