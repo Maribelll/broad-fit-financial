@@ -9,7 +9,6 @@ import styles from "../styles/Home.module.scss";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect } from "react";
-import img from "../public/team/ymca.png";
 
 export default function About() {
   useEffect(() => {
@@ -34,9 +33,9 @@ export default function About() {
         <Blocktopabout />
         <Team />
 
-        <div className={styles.partnered}>
+        {/* <div className={styles.partnered}>
           <Image width={390} height={100} src={img} alt="ymca"></Image>
-        </div>
+        </div> */}
       </main>
       <Footer />
     </Layout>

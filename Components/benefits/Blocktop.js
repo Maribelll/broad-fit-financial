@@ -8,7 +8,7 @@ export function Blocktop() {
     <div className={styles.container_blocktop}>
       <div className={styles.blocktop}>
         <div className={styles.blocktop_text}>
-          <p className={styles.gold}>Why Broad Fit</p>
+          <p className={styles.gold}>WHY BROAD FIT</p>
           <h1 id="h2">Why partner with us?</h1>
           <p>
             Through our team of experts, you&apos;ll get the equipment financing

@@ -1,7 +1,7 @@
 import Image from "next/image";
-import img from "../../public/Rect.png";
-import img1 from "../../public/team/Image1.jpg";
-import img2 from "../../public/team/2.jpg";
+
+import img1 from "../../public/about/StephanieTaylor.jpg";
+
 import styles from "../../styles/team.module.scss";
 
 export function Team() {
@@ -20,13 +20,6 @@ export function Team() {
           <br />
           <span>PRESIDENT</span>
         </div>
-        {/* <div className={styles.card_photo}>
-          <Image src={img2} width={229} height={293} alt="" />
-          <p>Angie Glockner</p>
-
-          <br />
-          <span>NATIONAL ACCOUNT EXECUTIVE</span>
-        </div> */}
       </div>
     </div>
   );
