@@ -1,26 +1,20 @@
 import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.scss";
+import styles from "../styles/faq.module.scss";
 import Layout from "../Components/Layout";
-import { Blocktopcontact } from "../Components/contact/Blocktop";
 import { Menu } from "../Components/Menu";
-import { Ask } from "../Components/contact/Ask";
+import { Ask } from "../Components/Ask";
 
 import { Footer } from "../Components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect } from "react";
 
-export default function Contact() {
+export default function Faq() {
   useEffect(() => {
     AOS.init();
   }, []);
   return (
-    <Layout
-      title="Contact - Broad Fit Financial"
-      keywords="equipment financing, health equipment financing, fitness equipment financing, wellness equipment financing, small business equipment financing"
-      description="We're here to help. Contact us for more information."
-    >
+    <Layout title="" keywords="" description="">
       <Head>
         <meta charSet="UTF-8"></meta>
         <meta
@@ -30,8 +24,9 @@ export default function Contact() {
       </Head>
       <Menu />
       <main className={styles.main}>
-        <Blocktopcontact />
-
+        <div className={styles.blocktopfaq}>
+          <h2>Frequently Asked Questions</h2>
+        </div>
         <Ask />
       </main>
       <Footer />

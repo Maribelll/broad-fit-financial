@@ -1,4 +1,4 @@
-import styles from "../../styles/ask.module.scss";
+import styles from "../styles/ask.module.scss";
 
 export function Ask() {
   return (
@@ -8,7 +8,6 @@ export function Ask() {
         data-aos-duration="1000"
         className={styles.container_twocolumns}
       >
-        <h2>Frequently Asked Questions</h2>
         <div className={styles.twocolumns}>
           <div className={styles.col1}>
             <div className={styles.card}>
@@ -82,7 +81,7 @@ export function Ask() {
               <p>
                 Yes, there will be a small documentation fee based on loan size
                 and the number of schedules drawn.  Documentation fees range
-                from $300-600.
+                from $300 - $600.
               </p>
             </div>
             <div className={styles.card}>
