@@ -1,32 +1,25 @@
 .container_team {
-  margin: 50px 16px 71px 16px;
-
-  h3 {
-    font-size: 38px;
-    font-weight: 400;
-    line-height: 46px;
-    letter-spacing: 0em;
-    text-align: center;
-    margin-top: 23px;
-    margin-bottom: 73px;
-  }
-  .team {
+  background: linear-gradient(263.7deg, #eee4d0 6.62%, #f3f7fc 95.78%);
+  margin: 0 auto;
+  .team_all {
     display: flex;
     flex-direction: row;
-    max-width: 995px;
     justify-content: center;
-    margin: 0 auto;
-    gap: 88px;
-    .card_photo {
-      text-align: center;
+    padding: 90px 0 98px 0;
+    gap: 90px;
+    align-items: center;
+    .president {
+      align-self: center;
+      h3 {
+        display: none;
+      }
       p {
         font-size: 21px;
         font-weight: 400;
         line-height: 25px;
         letter-spacing: 0em;
-        padding: 24px 0 14px;
+        padding: 24px 0 0;
         margin: 0;
-        margin-bottom: -20px;
       }
       span {
         font-size: 12px;
@@ -36,32 +29,58 @@
         text-align: center;
         color: #363d4c;
       }
+      .img {
+        margin-top: 22px;
+      }
     }
-  }
-}
-#clients {
-  margin-bottom: 100px;
-}
-@media (max-width: 800px) {
-  .container_team {
-    h3 {
-      margin-top: 43px;
-      margin-bottom: 44px;
-    }
-    .team {
-      flex-direction: column;
-      align-items: center;
-      gap: 0;
-      .card_photo {
+    .description {
+      padding: 0 16px;
+      max-width: 519px;
+      h4 {
+        text-align: left !important;
+        font-weight: 400;
+        line-height: 38px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-top: 23px;
         margin-bottom: 43px;
-        p {
-          padding-top: 19px;
-        }
+      }
+      p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
       }
     }
   }
-  #clients {
-    margin-bottom: 24px;
-    margin-top: 24px;
+
+  .team {
+    .card_photo {
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 970px) {
+  .container_team {
+    background: linear-gradient(181deg, #eee4d0 6.62%, #f3f7fc 95.78%);
+    .team_all {
+      flex-direction: column;
+      padding: 44px 0;
+      gap: 25px;
+      .president {
+        h3 {
+          display: block;
+          text-align: center;
+          max-width: 245px;
+        }
+      }
+      .description {
+        h3 {
+          display: none;
+        }
+      }
+    }
   }
 }
