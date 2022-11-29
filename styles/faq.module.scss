@@ -2,5 +2,17 @@
   .blocktopfaq {
     background-color: #f3f7fc;
     padding: 56px 0;
+    h2 {
+      margin-top: 20px;
+    }
+  }
+}
+@media (max-width: 970px) {
+  .main {
+    .blocktopfaq {
+      h2 {
+        margin-top: 90px;
+      }
+    }
   }
 }
