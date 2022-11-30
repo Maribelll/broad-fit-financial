@@ -39,6 +39,11 @@ import img36 from "../public/partners/partners/partner-36.jpg";
 import img37 from "../public/partners/partners/partner-37.jpg";
 import img38 from "../public/partners/partners/partner-38.jpg";
 import img39 from "../public/partners/partners/partner-39.jpg";
+import img40 from "../public/partners/partners/partner-40.jpg";
+import img41 from "../public/partners/partners/partner-41.jpg";
+import img42 from "../public/partners/partners/partner-42.jpg";
+import img43 from "../public/partners/partners/partner-43.jpg";
+import img44 from "../public/partners/partners/partner-44.jpg";
 
 import styles from "../styles/partners.module.scss";
 
@@ -489,6 +494,62 @@ export function Allpartners() {
               className={styles.img}
               src={img39}
               width={170}
+              height={82}
+              alt=""
+            />
+          </a>
+        </div>
+
+        <div id={styles.img_margin} className={styles.img}>
+          <a href={"https://myefitness.com/"} target="_blanc">
+            <Image
+              className={styles.img}
+              src={img40}
+              width={156}
+              height={82}
+              alt=""
+            />
+          </a>
+        </div>
+        <div id={styles.img_margin} className={styles.img}>
+          <a href={"https://www.nustep.com/"} target="_blanc">
+            <Image
+              className={styles.img}
+              src={img41}
+              width={168}
+              height={82}
+              alt=""
+            />
+          </a>
+        </div>
+        <div id={styles.img_margin} className={styles.img}>
+          <a href={"https://www.panattasport.com/"} target="_blanc">
+            <Image
+              className={styles.img}
+              src={img42}
+              width={202}
+              height={82}
+              alt=""
+            />
+          </a>
+        </div>
+        <div id={styles.img_margin} className={styles.img}>
+          <a href={"https://www.onepeloton.com/"} target="_blanc">
+            <Image
+              className={styles.img}
+              src={img43}
+              width={187}
+              height={82}
+              alt=""
+            />
+          </a>
+        </div>
+        <div id={styles.img_margin} className={styles.img}>
+          <a href={"https://www.performbetter.com/"} target="_blanc">
+            <Image
+              className={styles.img}
+              src={img44}
+              width={180}
               height={82}
               alt=""
             />
