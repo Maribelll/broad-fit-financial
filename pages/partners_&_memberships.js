@@ -1,28 +1,20 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.scss";
 import Layout from "../Components/Layout";
 import { Menu } from "../Components/Menu";
 import { Footer } from "../Components/Footer";
-import { Blocktop } from "../Components/process/Blocktop";
-
-import { Stage } from "../Components/process/Stage";
-
+import styles from "../styles/banner.module.scss";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect } from "react";
 
 // import Menu from "../Components/Menu";
 
-export default function Process() {
+export default function Partners() {
   useEffect(() => {
     AOS.init();
   }, []);
   return (
-    <Layout
-      title="Process - Broad Fit Financial"
-      keywords="equipment financing, health equipment financing, fitness equipment financing, wellness equipment financing, small business equipment financing"
-      description="Get your equipment financed quickly and painlessly."
-    >
+    <Layout title="" keywords="" description="">
       <Head>
         <meta charSet="UTF-8"></meta>
         <meta
@@ -31,7 +23,11 @@ export default function Process() {
         ></meta>
       </Head>
       <Menu />
-
+      <main className={styles.main}>
+        <div className={styles.blocktopfaq}>
+          <h2>Proudly partnered with the following and more</h2>
+        </div>
+      </main>
       <Footer />
     </Layout>
   );
