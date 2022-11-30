@@ -26,15 +26,19 @@ import img24 from "../public/partners/partners/partner-24.jpg";
 import img25 from "../public/partners/partners/partner-25.jpg";
 import img26 from "../public/partners/partners/partner-26.jpg";
 import img27 from "../public/partners/partners/partner-27.jpg";
+import img271 from "../public/partners/partners/partner-27-1.jpg";
 import img28 from "../public/partners/partners/partner-28.jpg";
 import img29 from "../public/partners/partners/partner-29.jpg";
 import img30 from "../public/partners/partners/partner-30.jpg";
 import img31 from "../public/partners/partners/partner-31.jpg";
 import img32 from "../public/partners/partners/partner-32.jpg";
-// import img7 from "../public/partners/partners/partner-7.jpg";
-// import img7 from "../public/partners/partners/partner-7.jpg";
-// import img7 from "../public/partners/partners/partner-7.jpg";
-// import img7 from "../public/partners/partners/partner-7.jpg";
+import img33 from "../public/partners/partners/partner-33.jpg";
+import img34 from "../public/partners/partners/partner-34.jpg";
+import img35 from "../public/partners/partners/partner-35.jpg";
+import img36 from "../public/partners/partners/partner-36.jpg";
+import img37 from "../public/partners/partners/partner-37.jpg";
+import img38 from "../public/partners/partners/partner-38.jpg";
+import img39 from "../public/partners/partners/partner-39.jpg";
 
 import styles from "../styles/partners.module.scss";
 
@@ -347,6 +351,17 @@ export function Allpartners() {
           </a>
         </div>
         <div id={styles.img_margin} className={styles.img}>
+          <a href={"https://www.gantner.com/industry/fitness/"} target="_blanc">
+            <Image
+              className={styles.img}
+              src={img271}
+              width={270}
+              height={82}
+              alt=""
+            />
+          </a>
+        </div>
+        <div id={styles.img_margin} className={styles.img}>
           <a href={"https://gymsource.com/"} target="_blanc">
             <Image
               className={styles.img}
@@ -357,7 +372,6 @@ export function Allpartners() {
             />
           </a>
         </div>
-
         <div id={styles.img_margin} className={styles.img}>
           <a href={"https://hoistfitness.com/"} target="_blanc">
             <Image
@@ -374,7 +388,7 @@ export function Allpartners() {
             <Image
               className={styles.img}
               src={img30}
-              width={218}
+              width={323}
               height={82}
               alt=""
             />
@@ -385,7 +399,7 @@ export function Allpartners() {
             <Image
               className={styles.img}
               src={img31}
-              width={323}
+              width={185}
               height={82}
               alt=""
             />
@@ -396,7 +410,85 @@ export function Allpartners() {
             <Image
               className={styles.img}
               src={img32}
-              width={185}
+              width={172}
+              height={82}
+              alt=""
+            />
+          </a>
+        </div>
+        <div id={styles.img_margin} className={styles.img}>
+          <a href={"https://www.johnsonfitness.com/"} target="_blanc">
+            <Image
+              className={styles.img}
+              src={img33}
+              width={250}
+              height={82}
+              alt=""
+            />
+          </a>
+        </div>
+        <div id={styles.img_margin} className={styles.img}>
+          <a href={"https://www.keiser.com/"} target="_blanc">
+            <Image
+              className={styles.img}
+              src={img34}
+              width={211}
+              height={82}
+              alt=""
+            />
+          </a>
+        </div>
+        <div id={styles.img_margin} className={styles.img}>
+          <a href={"https://www.lifefitness.com/"} target="_blanc">
+            <Image
+              className={styles.img}
+              src={img35}
+              width={291}
+              height={82}
+              alt=""
+            />
+          </a>
+        </div>
+
+        <div id={styles.img_margin} className={styles.img}>
+          <a href={"http://www.marathonfitness.com/"} target="_blanc">
+            <Image
+              className={styles.img}
+              src={img36}
+              width={278.65}
+              height={82}
+              alt=""
+            />
+          </a>
+        </div>
+        <div id={styles.img_margin} className={styles.img}>
+          <a href={"https://matrixfitness.com/"} target="_blanc">
+            <Image
+              className={styles.img}
+              src={img37}
+              width={196}
+              height={82}
+              alt=""
+            />
+          </a>
+        </div>
+        <div id={styles.img_margin} className={styles.img}>
+          <a href={"https://momentumfitnesssolutions.com/"} target="_blanc">
+            <Image
+              className={styles.img}
+              src={img38}
+              width={320}
+              height={82}
+              alt=""
+            />
+          </a>
+        </div>
+        <div id={styles.img_margin} className={styles.img}>
+          <a href={"https://myzone.org/"} target="_blanc">
+            <Image
+              className={styles.img}
+              src={img39}
+              width={170}
               height={82}
               alt=""
             />
