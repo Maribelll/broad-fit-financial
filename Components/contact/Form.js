@@ -3,7 +3,7 @@ import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
 
 export function Form() {
-  const [state, handleSubmit] = useForm("qqqqqqqq");
+  const [state, handleSubmit] = useForm("myForm");
 
   if (state.succeeded) {
     return (
