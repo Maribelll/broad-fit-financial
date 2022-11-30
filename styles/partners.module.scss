@@ -20,7 +20,11 @@
     flex-wrap: wrap;
     justify-content: space-between;
     .img {
-      margin: 30px 30px;
+      margin: 30px 26px;
+    }
+    #img_margin {
+      margin-right: 0;
+      margin-left: 0;
     }
   }
 }
