@@ -45,6 +45,32 @@ import img42 from "../public/partners/partners/partner-42.jpg";
 import img43 from "../public/partners/partners/partner-43.jpg";
 import img44 from "../public/partners/partners/partner-44.jpg";
 
+import img45 from "../public/partners/partners/partner-45.jpg";
+import img46 from "../public/partners/partners/partner-46.jpg";
+import img47 from "../public/partners/partners/partner-47.jpg";
+import img48 from "../public/partners/partners/partner-48.jpg";
+import img49 from "../public/partners/partners/partner-49.jpg";
+import img50 from "../public/partners/partners/partner-50.jpg";
+import img51 from "../public/partners/partners/partner-51.jpg";
+import img52 from "../public/partners/partners/partner-52.jpg";
+import img53 from "../public/partners/partners/partner-53.jpg";
+import img54 from "../public/partners/partners/partner-54.jpg";
+import img55 from "../public/partners/partners/partner-55.jpg";
+import img56 from "../public/partners/partners/partner-56.jpg";
+import img57 from "../public/partners/partners/partner-57.jpg";
+import img58 from "../public/partners/partners/partner-58.jpg";
+import img59 from "../public/partners/partners/partner-59.jpg";
+import img60 from "../public/partners/partners/partner-60.jpg";
+import img61 from "../public/partners/partners/partner-61.jpg";
+import img62 from "../public/partners/partners/partner-62.jpg";
+import img63 from "../public/partners/partners/partner-63.jpg";
+import img64 from "../public/partners/partners/partner-64.jpg";
+import img65 from "../public/partners/partners/partner-65.jpg";
+import img66 from "../public/partners/partners/partner-66.jpg";
+// import img67 from "../public/partners/partners/";
+// import img68 from "../public/partners/partners/partner-68.jpg";
+// import img69 from "../public/partners/partners/partner-69.jpg";
+
 import styles from "../styles/partners.module.scss";
 
 export function Allpartners() {
@@ -550,6 +576,253 @@ export function Allpartners() {
               className={styles.img}
               src={img44}
               width={180}
+              height={82}
+              alt=""
+            />
+          </a>
+        </div>
+
+        <div className={styles.img}>
+          <a href={"https://plae.co/"} target="_blanc">
+            <Image
+              className={styles.img}
+              src={img45}
+              width={186}
+              height={82}
+              alt=""
+            />
+          </a>
+        </div>
+        <div id={styles.img_margin} className={styles.img}>
+          <a href={"https://www.powerplate.com/"} target="_blanc">
+            <Image
+              className={styles.img}
+              src={img46}
+              width={211.83}
+              height={82}
+              alt=""
+            />
+          </a>
+        </div>
+        <div id={styles.img_margin} className={styles.img}>
+          <a href={"http://www.powersystems.com/"} target="_blanc">
+            <Image
+              className={styles.img}
+              src={img47}
+              width={220}
+              height={82}
+              alt=""
+            />
+          </a>
+        </div>
+        <div id={styles.img_margin} className={styles.img}>
+          <a href={"https://www.precor.com"} target="_blanc">
+            <Image
+              className={styles.img}
+              src={img48}
+              width={270}
+              height={82}
+              alt=""
+            />
+          </a>
+        </div>
+
+        <div id={styles.img_margin} className={styles.img}>
+          <a href={"https://premierfitnesssource.com/"} target="_blanc">
+            <Image
+              className={styles.img}
+              src={img49}
+              width={230}
+              height={82}
+              alt=""
+            />
+          </a>
+        </div>
+        <div id={styles.img_margin} className={styles.img}>
+          <a href={"https://www.roguefitness.com/"} target="_blanc">
+            <Image
+              className={styles.img}
+              src={img50}
+              width={137.38}
+              height={82}
+              alt=""
+            />
+          </a>
+        </div>
+        <div id={styles.img_margin} className={styles.img}>
+          <a href={"https://www.spiritfitness.com/"} target="_blanc">
+            <Image
+              className={styles.img}
+              src={img51}
+              width={157}
+              height={82}
+              alt=""
+            />
+          </a>
+        </div>
+        <div id={styles.img_margin} className={styles.img}>
+          <a href={"https://www.gosportsart.com/"} target="_blanc">
+            <Image
+              className={styles.img}
+              src={img52}
+              width={222}
+              height={82}
+              alt=""
+            />
+          </a>
+        </div>
+        <div id={styles.img_margin} className={styles.img}>
+          <a href={"https://stagescycling.com/"} target="_blanc">
+            <Image
+              className={styles.img}
+              src={img53}
+              width={263}
+              height={82}
+              alt=""
+            />
+          </a>
+        </div>
+
+        <div id={styles.img_margin} className={styles.img}>
+          <a href={"https://www.technogym.com/"} target="_blanc">
+            <Image
+              className={styles.img}
+              src={img54}
+              width={242}
+              height={82}
+              alt=""
+            />
+          </a>
+        </div>
+        <div id={styles.img_margin} className={styles.img}>
+          <a href={"https://www.torquefitness.com/"} target="_blanc">
+            <Image
+              className={styles.img}
+              src={img55}
+              width={233}
+              height={82}
+              alt=""
+            />
+          </a>
+        </div>
+        <div id={styles.img_margin} className={styles.img}>
+          <a href={"https://www.totalfitnessequipment.com/"} target="_blanc">
+            <Image
+              className={styles.img}
+              src={img56}
+              width={318}
+              height={82}
+              alt=""
+            />
+          </a>
+        </div>
+        <div id={styles.img_margin} className={styles.img}>
+          <a href={"https://www.totalgym.com/"} target="_blanc">
+            <Image
+              className={styles.img}
+              src={img57}
+              width={230}
+              height={82}
+              alt=""
+            />
+          </a>
+        </div>
+
+        <div id={styles.img_margin} className={styles.img}>
+          <a href={"https://www.troyfitness.com/"} target="_blanc">
+            <Image
+              className={styles.img}
+              src={img58}
+              width={189}
+              height={82}
+              alt=""
+            />
+          </a>
+        </div>
+        <div className={styles.img}>
+          <a href={"https://truefitness.com/"} target="_blanc">
+            <Image
+              className={styles.img}
+              src={img59}
+              width={184}
+              height={82}
+              alt=""
+            />
+          </a>
+        </div>
+        <div id={styles.img_margin} className={styles.img}>
+          <a href={"https://www.trxtraining.com/"} target="_blanc">
+            <Image
+              className={styles.img}
+              src={img60}
+              width={176}
+              height={82}
+              alt=""
+            />
+          </a>
+        </div>
+        <div className={styles.img}>
+          <a href={"https://www.umaxstrength.com/"} target="_blanc">
+            <Image
+              className={styles.img}
+              src={img61}
+              width={180}
+              height={82}
+              alt=""
+            />
+          </a>
+        </div>
+        <div className={styles.img}>
+          <a href={"https://versaclimber.com/"} target="_blanc">
+            <Image
+              className={styles.img}
+              src={img62}
+              width={178}
+              height={82}
+              alt=""
+            />
+          </a>
+        </div>
+
+        <div className={styles.img}>
+          <a href={"https://www.waterrower.com/"} target="_blanc">
+            <Image
+              className={styles.img}
+              src={img63}
+              width={123}
+              height={82}
+              alt=""
+            />
+          </a>
+        </div>
+        <div className={styles.img}>
+          <a href={"https://www.woodway.com/"} target="_blanc">
+            <Image
+              className={styles.img}
+              src={img64}
+              width={120}
+              height={82}
+              alt=""
+            />
+          </a>
+        </div>
+        <div className={styles.img}>
+          <a href={"https://ybellfitness.com/"} target="_blanc">
+            <Image
+              className={styles.img}
+              src={img65}
+              width={124}
+              height={82}
+              alt=""
+            />
+          </a>
+        </div>
+        <div className={styles.img}>
+          <a href={"https://www.younix.world/"} target="_blanc">
+            <Image
+              className={styles.img}
+              src={img66}
+              width={270}
               height={82}
               alt=""
             />
