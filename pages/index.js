@@ -16,8 +16,6 @@ import { Cardleft } from "../Components/Cardleft";
 import { Cardright } from "../Components/Cardright";
 
 import { Footer } from "../Components/Footer";
-import { Members } from "../Components/Members";
-import { Clients } from "../Components/Clients";
 
 export default function Home() {
   useEffect(() => {

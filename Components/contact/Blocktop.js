@@ -8,7 +8,7 @@ export function Blocktopcontact() {
     <div className={styles.container_blocktop}>
       <div className={styles.blocktop}>
         <div className={styles.blocktop_text}>
-          <p className={styles.gold}>CONTACT&mdash;</p>
+          <p className={styles.gold}>CONTACT</p>
           <h1 style={{ color: "white" }} id="h2">
             We’re here to help.
           </h1>

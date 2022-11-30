@@ -1,0 +1,26 @@
+.container_partners {
+  margin: 60px auto;
+  max-width: 1120px;
+
+  .part1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 50px;
+    margin-bottom: 60px;
+    .img {
+      margin: 0 31px;
+    }
+  }
+  .part2 {
+    padding: 0 16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 1060px) {
+}
