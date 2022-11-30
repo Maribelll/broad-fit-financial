@@ -27,10 +27,10 @@ import img25 from "../public/partners/partners/partner-25.jpg";
 import img26 from "../public/partners/partners/partner-26.jpg";
 import img27 from "../public/partners/partners/partner-27.jpg";
 import img28 from "../public/partners/partners/partner-28.jpg";
-// import img7 from "../public/partners/partners/partner-7.jpg";
-// import img7 from "../public/partners/partners/partner-7.jpg";
-// import img7 from "../public/partners/partners/partner-7.jpg";
-// import img7 from "../public/partners/partners/partner-7.jpg";
+import img29 from "../public/partners/partners/partner-29.jpg";
+import img30 from "../public/partners/partners/partner-30.jpg";
+import img31 from "../public/partners/partners/partner-31.jpg";
+import img32 from "../public/partners/partners/partner-32.jpg";
 // import img7 from "../public/partners/partners/partner-7.jpg";
 // import img7 from "../public/partners/partners/partner-7.jpg";
 // import img7 from "../public/partners/partners/partner-7.jpg";
@@ -347,11 +347,56 @@ export function Allpartners() {
           </a>
         </div>
         <div id={styles.img_margin} className={styles.img}>
-          <a href={"https://www.gantner.com/industry/fitness/"} target="_blanc">
+          <a href={"https://gymsource.com/"} target="_blanc">
             <Image
               className={styles.img}
               src={img28}
               width={270}
+              height={82}
+              alt=""
+            />
+          </a>
+        </div>
+
+        <div id={styles.img_margin} className={styles.img}>
+          <a href={"https://hoistfitness.com/"} target="_blanc">
+            <Image
+              className={styles.img}
+              src={img29}
+              width={178}
+              height={82}
+              alt=""
+            />
+          </a>
+        </div>
+        <div id={styles.img_margin} className={styles.img}>
+          <a href={"https://www.hydromassage.com/"} target="_blanc">
+            <Image
+              className={styles.img}
+              src={img30}
+              width={218}
+              height={82}
+              alt=""
+            />
+          </a>
+        </div>
+        <div id={styles.img_margin} className={styles.img}>
+          <a href={"https://www.inbody.com/"} target="_blanc">
+            <Image
+              className={styles.img}
+              src={img31}
+              width={323}
+              height={82}
+              alt=""
+            />
+          </a>
+        </div>
+        <div id={styles.img_margin} className={styles.img}>
+          <a href={"https://irongrip.com/"} target="_blanc">
+            <Image
+              className={styles.img}
+              src={img32}
+              width={185}
               height={82}
               alt=""
             />
