@@ -838,7 +838,9 @@ export function Allpartners() {
         </div>
       </div>
       <div className={style.blocktopfaq}>
-        <h2>Member of the following organizations</h2>
+        <h2 style={{ marginTop: "0px" }}>
+          Member of the following organizations
+        </h2>
       </div>
       <div className={styles.container_partners}>
         <div className={styles.part3}>
