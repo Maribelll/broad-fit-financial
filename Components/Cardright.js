@@ -12,13 +12,13 @@ export function Cardright() {
       className={styles.cardright}
     >
       <div style={{ maxWidth: "405px" }} className={styles.card_text}>
-        <h3>Transparent process to secure the best financing</h3>
+        <h3>Health &amp; wellness finance experts that know your industry</h3>
         <p style={{ maxWidth: "390px" }}>
-          From selecting a vendor to securing equipment financing, our process
-          is fast and easy.
+          We have a long history working with an expansive network of suppliers
+          and partners throughout the health, wellness, and fitness spaces
         </p>
-        <Link href={"/process"}>
-          <a className="main_link">Learn more</a>
+        <Link href={"/why_broad_fit"}>
+          <a className="main_link">See our network</a>
         </Link>
       </div>
       <div className={styles.card_photo}>

@@ -48,7 +48,7 @@ export default function Home() {
                     <button className="dark_blue">Get in touch</button>
                   </Link>
                   <div className={styles.link}>
-                    <Link href={"/benefits"}>
+                    <Link href={"/why_broad_fit"}>
                       <a className="main_link">Learn More</a>
                     </Link>
                   </div>
@@ -98,8 +98,8 @@ export default function Home() {
         <section data-aos="fade-up" style={{ margin: "0 16px 50px" }}>
           <div className={style.helping}>
             <h2>
-              Helping you navigate the equipment financing process from start to
-              finish
+              Helping customers navigate the equipment finance process from
+              start to finish
             </h2>
             <Cardleft />
             <Cardright />

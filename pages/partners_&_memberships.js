@@ -12,7 +12,11 @@ import { Allpartners } from "../Components/Partners";
 
 export default function Partners() {
   return (
-    <Layout title="" keywords="" description="">
+    <Layout
+      title="Partners &amp; Memberships - Broad Fit Financial"
+      keywords="equipment financing, health equipment financing, fitness equipment financing, wellness equipment financing, small business equipment financing"
+      description="Our partners &amp; memberships in the health, wellness, and fitness spaces."
+    >
       <Head>
         <meta charSet="UTF-8"></meta>
         <meta

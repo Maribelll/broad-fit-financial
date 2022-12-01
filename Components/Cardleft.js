@@ -25,7 +25,7 @@ export function Cardleft() {
           Each customer and financing request is handled by a dedicated team
           invested in your success.
         </p>
-        <Link href={"/benefits"}>
+        <Link href={"/why_broad_fit"}>
           <a className="main_link">See all benefits</a>
         </Link>
       </div>

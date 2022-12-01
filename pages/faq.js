@@ -14,7 +14,11 @@ export default function Faq() {
     AOS.init();
   }, []);
   return (
-    <Layout title="" keywords="" description="">
+    <Layout
+      title="Frequently Asked Questions - Broad Fit Financial"
+      keywords="equipment financing, health equipment financing, fitness equipment financing, wellness equipment financing, small business equipment financing"
+      description="Answers to commonly asked equipment financing questions."
+    >
       <Head>
         <meta charSet="UTF-8"></meta>
         <meta

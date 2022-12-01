@@ -22,7 +22,9 @@ export function Team() {
           <span>PRESIDENT</span>
           <br />
           <div className={styles.img}>
-            <Link href={"/"}>
+            <Link
+              href={"https://www.linkedin.com/in/stephanie-taylor-3902455/"}
+            >
               <Image src={ln} alt="" />
             </Link>
           </div>
