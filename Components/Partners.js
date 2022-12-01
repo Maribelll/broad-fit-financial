@@ -399,18 +399,18 @@ export function Allpartners() {
               />
             </a>
           </div>
-          <div id={styles.img_margin} className={styles.img}>
+          <div className={styles.img}>
             <a href={"https://gymsource.com/"} target="_blanc">
               <Image
                 className={styles.img}
                 src={img28}
-                width={270}
+                width={178}
                 height={82}
                 alt=""
               />
             </a>
           </div>
-          <div id={styles.img_margin} className={styles.img}>
+          <div className={styles.img}>
             <a href={"https://hoistfitness.com/"} target="_blanc">
               <Image
                 className={styles.img}
@@ -421,7 +421,7 @@ export function Allpartners() {
               />
             </a>
           </div>
-          <div id={styles.img_margin} className={styles.img}>
+          <div className={styles.img}>
             <a href={"https://www.hydromassage.com/"} target="_blanc">
               <Image
                 className={styles.img}
@@ -432,7 +432,7 @@ export function Allpartners() {
               />
             </a>
           </div>
-          <div id={styles.img_margin} className={styles.img}>
+          <div className={styles.img}>
             <a href={"https://www.inbody.com/"} target="_blanc">
               <Image
                 className={styles.img}
@@ -891,7 +891,7 @@ export function Allpartners() {
             </a>
           </div>
           <div className={styles.img}>
-            <a href={""} target="_blanc">
+            <a href={"https://www.equipmentfa.com/"} target="_blanc">
               <Image
                 className={styles.img}
                 src={img71}

@@ -8,7 +8,6 @@ import img6 from "../public/sectors/6-commercial.jpg";
 import img7 from "../public/sectors/9-active.jpg";
 import img8 from "../public/sectors/8-ymcas.jpg";
 import img9 from "../public/sectors/9-franchises.jpg";
-import img10 from "../public/sectors/9-active.jpg";
 import img11 from "../public/sectors/10-schools.jpg";
 import img12 from "../public/sectors/11-municipalities.jpg";
 import img13 from "../public/sectors/12-countryclubs.jpg";
@@ -112,7 +111,7 @@ export function Section() {
 
           <div data-aos="fade-up" className={styles.section_card}>
             <Image src={img11} alt="Еducation" />
-            <h4>Еducation</h4>
+            <h4>Education</h4>
             <p>
               Partnering with schools and universities to provide financing for
               all facility needs.

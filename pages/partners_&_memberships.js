@@ -27,7 +27,7 @@ export default function Partners() {
       <Menu />
       <main className={styles.main}>
         <div className={styles.blocktopfaq}>
-          <h2>Proudly partnered with the following and more</h2>
+          <h2>Industry Suppliers and Partners</h2>
         </div>
         <Allpartners />
       </main>

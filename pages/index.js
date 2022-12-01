@@ -105,8 +105,6 @@ export default function Home() {
             <Cardright />
           </div>
         </section>
-        {/* <Clients /> */}
-        {/* <Members /> */}
       </main>
       <Footer />
     </Layout>

@@ -15,7 +15,7 @@ export function Cardright() {
         <h3>Health &amp; wellness finance experts that know your industry</h3>
         <p style={{ maxWidth: "390px" }}>
           We have a long history working with an expansive network of suppliers
-          and partners throughout the health, wellness, and fitness spaces
+          and partners throughout the health, wellness, and fitness spaces.
         </p>
         <Link href={"/why_broad_fit"}>
           <a className="main_link">See our network</a>

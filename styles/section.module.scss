@@ -1,6 +1,7 @@
 .container_section {
   margin: 0 16px;
   .section {
+    font-family: "basic-sans";
     display: flex;
     margin: 52px auto;
     max-width: 1200px;
@@ -13,6 +14,7 @@
 
       h4 {
         font-size: 32px;
+        font-family: "basic-sans";
         font-weight: 400;
         line-height: 38px;
         letter-spacing: 0em;
