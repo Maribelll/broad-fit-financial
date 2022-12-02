@@ -53,6 +53,7 @@ export function Form() {
             id="phone"
             type="text"
             name="phone"
+            pattern="2-[0-9]{3}-[0-9]{3}"
           />
           <ValidationError prefix="Phone" field="phone" errors={state.errors} />
           <label htmlFor="Message">Message</label>

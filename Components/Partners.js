@@ -92,7 +92,7 @@ export function Allpartners() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Image src={img1} width={99} height={82} alt="" />
+              <Image src={img1} width={99} height={82} alt="YMCA" />
             </a>
           </div>
           <div className={styles.img}>
@@ -106,7 +106,7 @@ export function Allpartners() {
                 src={img2}
                 height={82}
                 width={108}
-                alt=""
+                alt="JCC"
               />
             </a>
           </div>
@@ -121,7 +121,7 @@ export function Allpartners() {
                 src={img3}
                 height={82}
                 width={377}
-                alt=""
+                alt="KROC Centers"
               />
             </a>
           </div>
@@ -139,7 +139,7 @@ export function Allpartners() {
                 src={img4}
                 height={82}
                 width={216}
-                alt=""
+                alt="Advantage Sport &amp; Fitness "
               />
             </a>
           </div>
@@ -154,7 +154,7 @@ export function Allpartners() {
                 src={img5}
                 height={82}
                 width={190}
-                alt=""
+                alt="Aktiv"
               />
             </a>
           </div>
@@ -169,7 +169,7 @@ export function Allpartners() {
                 src={img6}
                 height={82}
                 width={82}
-                alt=""
+                alt="American Barbell"
               />
             </a>
           </div>
@@ -184,7 +184,7 @@ export function Allpartners() {
                 src={img7}
                 height={82}
                 width={222}
-                alt=""
+                alt="Arsenal Strength"
               />
             </a>
           </div>
@@ -200,7 +200,7 @@ export function Allpartners() {
                 src={img8}
                 width={191}
                 height={82}
-                alt=""
+                alt="Assault Fitness"
               />
             </a>
           </div>
@@ -215,7 +215,7 @@ export function Allpartners() {
                 src={img9}
                 width={191}
                 height={82}
-                alt=""
+                alt="Grid"
               />
             </a>
           </div>
@@ -230,7 +230,7 @@ export function Allpartners() {
                 src={img10}
                 width={191}
                 height={82}
-                alt=""
+                alt="Commercial Fitness Solutions"
               />
             </a>
           </div>
@@ -245,7 +245,7 @@ export function Allpartners() {
                 src={img11}
                 width={191}
                 height={82}
-                alt=""
+                alt="Concept 2"
               />
             </a>
           </div>
@@ -261,7 +261,7 @@ export function Allpartners() {
                 src={img12}
                 width={150}
                 height={82}
-                alt=""
+                alt="CORE Health &amp; Fitness"
               />
             </a>
           </div>
@@ -276,7 +276,7 @@ export function Allpartners() {
                 src={img13}
                 width={113}
                 height={82}
-                alt=""
+                alt="D2W"
               />
             </a>
           </div>
@@ -291,7 +291,7 @@ export function Allpartners() {
                 src={img14}
                 width={232}
                 height={82}
-                alt=""
+                alt="Dynamic Fitness &amp; Strength"
               />
             </a>
           </div>
@@ -306,7 +306,7 @@ export function Allpartners() {
                 src={img15}
                 width={192}
                 height={82}
-                alt=""
+                alt="Echelon Fit"
               />
             </a>
           </div>
@@ -322,7 +322,7 @@ export function Allpartners() {
                 src={img16}
                 width={160}
                 height={82}
-                alt=""
+                alt="Ecore"
               />
             </a>
           </div>
@@ -337,7 +337,7 @@ export function Allpartners() {
                 src={img17}
                 width={198}
                 height={82}
-                alt=""
+                alt="EGym"
               />
             </a>
           </div>
@@ -352,7 +352,7 @@ export function Allpartners() {
                 src={img18}
                 width={192}
                 height={82}
-                alt=""
+                alt="Eleiko"
               />
             </a>
           </div>
@@ -367,7 +367,7 @@ export function Allpartners() {
                 src={img19}
                 width={320}
                 height={82}
-                alt=""
+                alt="Fit Bench"
               />
             </a>
           </div>
@@ -383,7 +383,7 @@ export function Allpartners() {
                 src={img20}
                 width={83}
                 height={82}
-                alt=""
+                alt="Fit Supply"
               />
             </a>
           </div>
@@ -398,7 +398,7 @@ export function Allpartners() {
                 src={img21}
                 width={155}
                 height={82}
-                alt=""
+                alt="Fitness Expo"
               />
             </a>
           </div>
@@ -413,7 +413,7 @@ export function Allpartners() {
                 src={img22}
                 width={172}
                 height={82}
-                alt=""
+                alt="Fitness on Demand"
               />
             </a>
           </div>
@@ -428,7 +428,7 @@ export function Allpartners() {
                 src={img23}
                 width={121}
                 height={82}
-                alt=""
+                alt="Fitness Services of Florida, Inc"
               />
             </a>
           </div>
@@ -443,7 +443,7 @@ export function Allpartners() {
                 src={img24}
                 width={203}
                 height={82}
-                alt=""
+                alt="FitnessSmith"
               />
             </a>
           </div>
@@ -459,7 +459,7 @@ export function Allpartners() {
                 src={img25}
                 width={249}
                 height={82}
-                alt=""
+                alt="FitRev"
               />
             </a>
           </div>
@@ -474,7 +474,7 @@ export function Allpartners() {
                 src={img26}
                 width={227}
                 height={82}
-                alt=""
+                alt="FitSpace Design"
               />
             </a>
           </div>
@@ -489,7 +489,7 @@ export function Allpartners() {
                 src={img27}
                 width={248}
                 height={82}
-                alt=""
+                alt="FreeMotion"
               />
             </a>
           </div>
@@ -504,7 +504,7 @@ export function Allpartners() {
                 src={img271}
                 width={270}
                 height={82}
-                alt=""
+                alt="Gantner"
               />
             </a>
           </div>
@@ -519,7 +519,7 @@ export function Allpartners() {
                 src={img28}
                 width={178}
                 height={82}
-                alt=""
+                alt="Gym Source"
               />
             </a>
           </div>
@@ -534,7 +534,7 @@ export function Allpartners() {
                 src={img29}
                 width={178}
                 height={82}
-                alt=""
+                alt="Hoist Fitness"
               />
             </a>
           </div>
@@ -549,7 +549,7 @@ export function Allpartners() {
                 src={img30}
                 width={323}
                 height={82}
-                alt=""
+                alt="Hydro Massage"
               />
             </a>
           </div>
@@ -564,7 +564,7 @@ export function Allpartners() {
                 src={img31}
                 width={185}
                 height={82}
-                alt=""
+                alt="InBody"
               />
             </a>
           </div>
@@ -579,7 +579,7 @@ export function Allpartners() {
                 src={img32}
                 width={172}
                 height={82}
-                alt=""
+                alt="Iron Grip"
               />
             </a>
           </div>
@@ -594,7 +594,7 @@ export function Allpartners() {
                 src={img33}
                 width={250}
                 height={82}
-                alt=""
+                alt="Johnson Fitness &amp; Wellness"
               />
             </a>
           </div>
@@ -609,7 +609,7 @@ export function Allpartners() {
                 src={img34}
                 width={211}
                 height={82}
-                alt=""
+                alt="Keiser"
               />
             </a>
           </div>
@@ -624,7 +624,7 @@ export function Allpartners() {
                 src={img35}
                 width={291}
                 height={82}
-                alt=""
+                alt="Life Fitness"
               />
             </a>
           </div>
@@ -640,7 +640,7 @@ export function Allpartners() {
                 src={img36}
                 width={278.65}
                 height={82}
-                alt=""
+                alt="Marathon Fitness"
               />
             </a>
           </div>
@@ -655,7 +655,7 @@ export function Allpartners() {
                 src={img37}
                 width={196}
                 height={82}
-                alt=""
+                alt="Matrix"
               />
             </a>
           </div>
@@ -670,7 +670,7 @@ export function Allpartners() {
                 src={img38}
                 width={320}
                 height={82}
-                alt=""
+                alt="Momentum Fitness Solutions"
               />
             </a>
           </div>
@@ -685,7 +685,7 @@ export function Allpartners() {
                 src={img39}
                 width={170}
                 height={82}
-                alt=""
+                alt="My Zone"
               />
             </a>
           </div>
@@ -701,7 +701,7 @@ export function Allpartners() {
                 src={img40}
                 width={156}
                 height={82}
-                alt=""
+                alt="MYE Fitness"
               />
             </a>
           </div>
@@ -716,7 +716,7 @@ export function Allpartners() {
                 src={img41}
                 width={168}
                 height={82}
-                alt=""
+                alt="Nu Step"
               />
             </a>
           </div>
@@ -731,7 +731,7 @@ export function Allpartners() {
                 src={img42}
                 width={202}
                 height={82}
-                alt=""
+                alt="Panatta Sport"
               />
             </a>
           </div>
@@ -746,7 +746,7 @@ export function Allpartners() {
                 src={img43}
                 width={187}
                 height={82}
-                alt=""
+                alt="Peloton"
               />
             </a>
           </div>
@@ -761,7 +761,7 @@ export function Allpartners() {
                 src={img44}
                 width={180}
                 height={82}
-                alt=""
+                alt="Perform Better!"
               />
             </a>
           </div>
@@ -777,7 +777,7 @@ export function Allpartners() {
                 src={img45}
                 width={186}
                 height={82}
-                alt=""
+                alt="PLAE"
               />
             </a>
           </div>
@@ -792,7 +792,7 @@ export function Allpartners() {
                 src={img46}
                 width={211.83}
                 height={82}
-                alt=""
+                alt="Power Plate"
               />
             </a>
           </div>
@@ -807,7 +807,7 @@ export function Allpartners() {
                 src={img47}
                 width={220}
                 height={82}
-                alt=""
+                alt="Power Systems"
               />
             </a>
           </div>
@@ -822,7 +822,7 @@ export function Allpartners() {
                 src={img48}
                 width={270}
                 height={82}
-                alt=""
+                alt="Precor"
               />
             </a>
           </div>
@@ -838,7 +838,7 @@ export function Allpartners() {
                 src={img49}
                 width={230}
                 height={82}
-                alt=""
+                alt="Premier Fitness Source"
               />
             </a>
           </div>
@@ -853,7 +853,7 @@ export function Allpartners() {
                 src={img50}
                 width={137.38}
                 height={82}
-                alt=""
+                alt="Rogue"
               />
             </a>
           </div>
@@ -868,7 +868,7 @@ export function Allpartners() {
                 src={img51}
                 width={157}
                 height={82}
-                alt=""
+                alt="Spirit Fitness"
               />
             </a>
           </div>
@@ -883,7 +883,7 @@ export function Allpartners() {
                 src={img52}
                 width={222}
                 height={82}
-                alt=""
+                alt="Sports Art"
               />
             </a>
           </div>
@@ -898,7 +898,7 @@ export function Allpartners() {
                 src={img53}
                 width={263}
                 height={82}
-                alt=""
+                alt="Stages"
               />
             </a>
           </div>
@@ -914,7 +914,7 @@ export function Allpartners() {
                 src={img54}
                 width={242}
                 height={82}
-                alt=""
+                alt="Techno Gym"
               />
             </a>
           </div>
@@ -929,7 +929,7 @@ export function Allpartners() {
                 src={img55}
                 width={233}
                 height={82}
-                alt=""
+                alt="Torque"
               />
             </a>
           </div>
@@ -944,7 +944,7 @@ export function Allpartners() {
                 src={img56}
                 width={318}
                 height={82}
-                alt=""
+                alt="Total Fitness Equipment"
               />
             </a>
           </div>
@@ -959,7 +959,7 @@ export function Allpartners() {
                 src={img57}
                 width={230}
                 height={82}
-                alt=""
+                alt="Total Gym"
               />
             </a>
           </div>
@@ -975,7 +975,7 @@ export function Allpartners() {
                 src={img58}
                 width={189}
                 height={82}
-                alt=""
+                alt="Troy Fitness"
               />
             </a>
           </div>
@@ -990,7 +990,7 @@ export function Allpartners() {
                 src={img59}
                 width={184}
                 height={82}
-                alt=""
+                alt="True Fitness"
               />
             </a>
           </div>
@@ -1005,7 +1005,7 @@ export function Allpartners() {
                 src={img60}
                 width={176}
                 height={82}
-                alt=""
+                alt="TRX Training"
               />
             </a>
           </div>
@@ -1020,7 +1020,7 @@ export function Allpartners() {
                 src={img61}
                 width={180}
                 height={82}
-                alt=""
+                alt="UMax"
               />
             </a>
           </div>
@@ -1035,7 +1035,7 @@ export function Allpartners() {
                 src={img62}
                 width={178}
                 height={82}
-                alt=""
+                alt="Versa Climber"
               />
             </a>
           </div>
@@ -1051,7 +1051,7 @@ export function Allpartners() {
                 src={img63}
                 width={123}
                 height={82}
-                alt=""
+                alt="Water Rower"
               />
             </a>
           </div>
@@ -1066,7 +1066,7 @@ export function Allpartners() {
                 src={img64}
                 width={120}
                 height={82}
-                alt=""
+                alt="Woodway"
               />
             </a>
           </div>
@@ -1081,7 +1081,7 @@ export function Allpartners() {
                 src={img65}
                 width={124}
                 height={82}
-                alt=""
+                alt="YBell Fitness"
               />
             </a>
           </div>
@@ -1096,7 +1096,7 @@ export function Allpartners() {
                 src={img66}
                 width={270}
                 height={82}
-                alt=""
+                alt="Younix"
               />
             </a>
           </div>
@@ -1120,7 +1120,7 @@ export function Allpartners() {
                 src={img67}
                 width={184}
                 height={82}
-                alt=""
+                alt="IHRSA"
               />
             </a>
           </div>
@@ -1135,7 +1135,7 @@ export function Allpartners() {
                 src={img68}
                 width={116}
                 height={82}
-                alt=""
+                alt="AACFB"
               />
             </a>
           </div>
@@ -1152,7 +1152,7 @@ export function Allpartners() {
                 src={img69}
                 width={184}
                 height={82}
-                alt=""
+                alt="ELFA"
               />
             </a>
           </div>
@@ -1167,7 +1167,7 @@ export function Allpartners() {
                 src={img70}
                 width={230}
                 height={82}
-                alt=""
+                alt="NEFA"
               />
             </a>
           </div>
@@ -1182,7 +1182,7 @@ export function Allpartners() {
                 src={img71}
                 width={219}
                 height={82}
-                alt=""
+                alt="Equipment Finance Advisor"
               />
             </a>
           </div>
