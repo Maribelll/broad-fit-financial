@@ -3,7 +3,7 @@ import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
 
 export function Form() {
-  const [state, handleSubmit] = useForm("myForm");
+  const [state, handleSubmit] = useForm("mvoyzkgw");
 
   if (state.succeeded) {
     return (
@@ -46,7 +46,14 @@ export function Form() {
           <ValidationError prefix="Email" field="email" errors={state.errors} />
           <label htmlFor="phone">Phone</label>
 
-          <input id="phone" type="number" name="phone" />
+          <input
+            required
+            minlength="10"
+            maxlength="20"
+            id="phone"
+            type="number"
+            name="phone"
+          />
           <ValidationError prefix="Phone" field="phone" errors={state.errors} />
           <label htmlFor="Message">Message</label>
           <textarea id="message" name="message" type="text" rows="4" />
