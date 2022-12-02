@@ -11,6 +11,9 @@
     margin-bottom: -13px;
     margin: 0 auto;
     max-width: 1200px;
+    #hidden {
+      display: none;
+    }
     .empty {
       width: 600px;
       height: 100px;
@@ -134,15 +137,23 @@
 }
 @media (max-width: 780px) {
   .container_footer {
-    .footer_img {
-      display: none;
-    }
-    .footer_img2 {
-      position: absolute;
-      display: block;
-      width: 261px;
-      right: 0;
-      bottom: 133px;
+    .footer {
+      .footer_img {
+        display: none;
+      }
+      .footer_img2 {
+        position: absolute;
+        display: block;
+        width: 261px;
+        right: 0;
+        bottom: 133px;
+      }
+      #hidden {
+        display: block;
+      }
+      #hidden_desktop {
+        display: none;
+      }
     }
   }
 }

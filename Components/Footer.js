@@ -21,7 +21,10 @@ export function Footer() {
                 <li>6585 Hypoluxo Road, Suite 251</li>
                 <li>Lake Worth, FL 33467</li>
 
-                <li>
+                <li id={styles.hidden_desktop}>
+                  <a>(561) 450-8454</a>
+                </li>
+                <li id={styles.hidden}>
                   <a href="tel:5614508454">(561) 450-8454</a>
                 </li>
                 <li>

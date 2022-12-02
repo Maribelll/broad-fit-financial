@@ -49,11 +49,10 @@ export function Form() {
           <input
             required
             minLength="10"
-            maxLength="20"
+            maxLength="15"
             id="phone"
             type="text"
             name="phone"
-            // pattern="2-[0-9]{3}-[0-9]{3}"
           />
           <ValidationError prefix="Phone" field="phone" errors={state.errors} />
           <label htmlFor="Message">Message</label>
