@@ -51,7 +51,7 @@ export function Form() {
             minLength="10"
             maxLength="20"
             id="phone"
-            type="number"
+            type="text"
             name="phone"
           />
           <ValidationError prefix="Phone" field="phone" errors={state.errors} />
