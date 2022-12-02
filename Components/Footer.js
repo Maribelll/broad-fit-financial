@@ -18,9 +18,12 @@ export function Footer() {
             <div className={styles.col1}>
               <ul>
                 <li>Broad Fit Financial</li>
-                <li>6585 Hypoluxo Road, Suite 251,</li>
+                <li>6585 Hypoluxo Road, Suite 251</li>
                 <li>Lake Worth, FL 33467</li>
-                <li>(561) 450-8454</li>
+
+                <li>
+                  <a href="tel:5614508454">(561) 450-8454</a>
+                </li>
                 <li>
                   <a href="mailto:info@broadfit.com">info@broadfit.com</a>
                 </li>

@@ -87,12 +87,20 @@ export function Allpartners() {
       >
         <div className={styles.part1}>
           <div className={styles.img}>
-            <a href={"https://www.ymcaspbc.org/"} target="_blanc">
+            <a
+              href={"https://www.ymcaspbc.org/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image src={img1} width={99} height={82} alt="" />
             </a>
           </div>
           <div className={styles.img}>
-            <a href={"https://jcca.org/"} target="_blanc">
+            <a
+              href={"https://jcca.org/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img2}
@@ -103,7 +111,11 @@ export function Allpartners() {
             </a>
           </div>
           <div className={styles.img}>
-            <a href={"https://www.kroccenter.org/"} target="_blanc">
+            <a
+              href={"https://www.kroccenter.org/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img3}
@@ -117,7 +129,11 @@ export function Allpartners() {
 
         <div className={styles.part2}>
           <div className={styles.img}>
-            <a href={"https://www.advantagefitness.com/"} target="_blanc">
+            <a
+              href={"https://www.advantagefitness.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img4}
@@ -128,7 +144,11 @@ export function Allpartners() {
             </a>
           </div>
           <div className={styles.img}>
-            <a href={"https://aktivsolutions.com/"} target="_blanc">
+            <a
+              href={"https://aktivsolutions.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img5}
@@ -139,7 +159,11 @@ export function Allpartners() {
             </a>
           </div>
           <div className={styles.img}>
-            <a href={"https://americanbarbell.com/"} target="_blanc">
+            <a
+              href={"https://americanbarbell.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img6}
@@ -150,7 +174,11 @@ export function Allpartners() {
             </a>
           </div>
           <div className={styles.img}>
-            <a href={"https://www.myarsenalstrength.com/"} target="_blanc">
+            <a
+              href={"https://www.myarsenalstrength.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img7}
@@ -162,7 +190,11 @@ export function Allpartners() {
           </div>
 
           <div className={styles.img}>
-            <a href={"https://www.assaultfitness.com/"} target="_blanc">
+            <a
+              href={"https://www.assaultfitness.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img8}
@@ -173,7 +205,11 @@ export function Allpartners() {
             </a>
           </div>
           <div className={styles.img}>
-            <a href={"https://www.builtbygrid.com/"} target="_blanc">
+            <a
+              href={"https://www.builtbygrid.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img9}
@@ -184,7 +220,11 @@ export function Allpartners() {
             </a>
           </div>
           <div className={styles.img}>
-            <a href={"http://www.commercialfitness.com/"} target="_blanc">
+            <a
+              href={"http://www.commercialfitness.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img10}
@@ -195,7 +235,11 @@ export function Allpartners() {
             </a>
           </div>
           <div className={styles.img}>
-            <a href={"https://www.concept2.com/"} target="_blanc">
+            <a
+              href={"https://www.concept2.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img11}
@@ -207,7 +251,11 @@ export function Allpartners() {
           </div>
 
           <div className={styles.img}>
-            <a href={"https://corehandf.com/"} target="_blanc">
+            <a
+              href={"https://corehandf.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img12}
@@ -218,7 +266,11 @@ export function Allpartners() {
             </a>
           </div>
           <div className={styles.img}>
-            <a href={"https://design2wellness.com//"} target="_blanc">
+            <a
+              href={"https://design2wellness.com//"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img13}
@@ -229,7 +281,11 @@ export function Allpartners() {
             </a>
           </div>
           <div className={styles.img}>
-            <a href={"https://www.mydynamicfitness.com/"} target="_blanc">
+            <a
+              href={"https://www.mydynamicfitness.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img14}
@@ -240,7 +296,11 @@ export function Allpartners() {
             </a>
           </div>
           <div className={styles.img}>
-            <a href={"https://echelonfit.com/ "} target="_blanc">
+            <a
+              href={"https://echelonfit.com/ "}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img15}
@@ -252,7 +312,11 @@ export function Allpartners() {
           </div>
 
           <div className={styles.img}>
-            <a href={"https://www.ecoreintl.com/ "} target="_blanc">
+            <a
+              href={"https://www.ecoreintl.com/ "}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img16}
@@ -263,7 +327,11 @@ export function Allpartners() {
             </a>
           </div>
           <div className={styles.img}>
-            <a href={"https://egym.com/us "} target="_blanc">
+            <a
+              href={"https://egym.com/us "}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img17}
@@ -274,7 +342,11 @@ export function Allpartners() {
             </a>
           </div>
           <div className={styles.img}>
-            <a href={"https://www.eleiko.com/ "} target="_blanc">
+            <a
+              href={"https://www.eleiko.com/ "}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img18}
@@ -285,7 +357,11 @@ export function Allpartners() {
             </a>
           </div>
           <div className={styles.img}>
-            <a href={"https://fitbench.com "} target="_blanc">
+            <a
+              href={"https://fitbench.com "}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img19}
@@ -297,7 +373,11 @@ export function Allpartners() {
           </div>
 
           <div className={styles.img}>
-            <a href={"https://fitsupply.com/"} target="_blanc">
+            <a
+              href={"https://fitsupply.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img20}
@@ -308,7 +388,11 @@ export function Allpartners() {
             </a>
           </div>
           <div className={styles.img}>
-            <a href={"https://www.fitnessexpostores.com/"} target="_blanc">
+            <a
+              href={"https://www.fitnessexpostores.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img21}
@@ -319,7 +403,11 @@ export function Allpartners() {
             </a>
           </div>
           <div className={styles.img}>
-            <a href={"https://www.fodvirtual.com/"} target="_blanc">
+            <a
+              href={"https://www.fodvirtual.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img22}
@@ -330,7 +418,11 @@ export function Allpartners() {
             </a>
           </div>
           <div className={styles.img}>
-            <a href={"https://gymrepair.com/"} target="_blanc">
+            <a
+              href={"https://gymrepair.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img23}
@@ -341,7 +433,11 @@ export function Allpartners() {
             </a>
           </div>
           <div className={styles.img}>
-            <a href={"https://fitnessmith.com/"} target="_blanc">
+            <a
+              href={"https://fitnessmith.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img24}
@@ -353,7 +449,11 @@ export function Allpartners() {
           </div>
 
           <div id={styles.img_margin} className={styles.img}>
-            <a href={"https://fitrev.com/"} target="_blanc">
+            <a
+              href={"https://fitrev.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img25}
@@ -364,7 +464,11 @@ export function Allpartners() {
             </a>
           </div>
           <div id={styles.img_margin} className={styles.img}>
-            <a href={"https://www.fitspacedesign.com/"} target="_blanc">
+            <a
+              href={"https://www.fitspacedesign.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img26}
@@ -375,7 +479,11 @@ export function Allpartners() {
             </a>
           </div>
           <div id={styles.img_margin} className={styles.img}>
-            <a href={"https://freemotionfitness.com/"} target="_blanc">
+            <a
+              href={"https://freemotionfitness.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img27}
@@ -388,7 +496,8 @@ export function Allpartners() {
           <div id={styles.img_margin} className={styles.img}>
             <a
               href={"https://www.gantner.com/industry/fitness/"}
-              target="_blanc"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <Image
                 className={styles.img}
@@ -400,7 +509,11 @@ export function Allpartners() {
             </a>
           </div>
           <div className={styles.img}>
-            <a href={"https://gymsource.com/"} target="_blanc">
+            <a
+              href={"https://gymsource.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img28}
@@ -411,7 +524,11 @@ export function Allpartners() {
             </a>
           </div>
           <div className={styles.img}>
-            <a href={"https://hoistfitness.com/"} target="_blanc">
+            <a
+              href={"https://hoistfitness.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img29}
@@ -422,7 +539,11 @@ export function Allpartners() {
             </a>
           </div>
           <div className={styles.img}>
-            <a href={"https://www.hydromassage.com/"} target="_blanc">
+            <a
+              href={"https://www.hydromassage.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img30}
@@ -433,7 +554,11 @@ export function Allpartners() {
             </a>
           </div>
           <div className={styles.img}>
-            <a href={"https://www.inbody.com/"} target="_blanc">
+            <a
+              href={"https://www.inbody.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img31}
@@ -444,7 +569,11 @@ export function Allpartners() {
             </a>
           </div>
           <div id={styles.img_margin} className={styles.img}>
-            <a href={"https://irongrip.com/"} target="_blanc">
+            <a
+              href={"https://irongrip.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img32}
@@ -455,7 +584,11 @@ export function Allpartners() {
             </a>
           </div>
           <div id={styles.img_margin} className={styles.img}>
-            <a href={"https://www.johnsonfitness.com/"} target="_blanc">
+            <a
+              href={"https://www.johnsonfitness.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img33}
@@ -466,7 +599,11 @@ export function Allpartners() {
             </a>
           </div>
           <div id={styles.img_margin} className={styles.img}>
-            <a href={"https://www.keiser.com/"} target="_blanc">
+            <a
+              href={"https://www.keiser.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img34}
@@ -477,7 +614,11 @@ export function Allpartners() {
             </a>
           </div>
           <div id={styles.img_margin} className={styles.img}>
-            <a href={"https://www.lifefitness.com/"} target="_blanc">
+            <a
+              href={"https://www.lifefitness.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img35}
@@ -489,7 +630,11 @@ export function Allpartners() {
           </div>
 
           <div id={styles.img_margin} className={styles.img}>
-            <a href={"http://www.marathonfitness.com/"} target="_blanc">
+            <a
+              href={"http://www.marathonfitness.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img36}
@@ -500,7 +645,11 @@ export function Allpartners() {
             </a>
           </div>
           <div id={styles.img_margin} className={styles.img}>
-            <a href={"https://matrixfitness.com/"} target="_blanc">
+            <a
+              href={"https://matrixfitness.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img37}
@@ -511,7 +660,11 @@ export function Allpartners() {
             </a>
           </div>
           <div id={styles.img_margin} className={styles.img}>
-            <a href={"https://momentumfitnesssolutions.com/"} target="_blanc">
+            <a
+              href={"https://momentumfitnesssolutions.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img38}
@@ -522,7 +675,11 @@ export function Allpartners() {
             </a>
           </div>
           <div id={styles.img_margin} className={styles.img}>
-            <a href={"https://myzone.org/"} target="_blanc">
+            <a
+              href={"https://myzone.org/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img39}
@@ -534,7 +691,11 @@ export function Allpartners() {
           </div>
 
           <div id={styles.img_margin} className={styles.img}>
-            <a href={"https://myefitness.com/"} target="_blanc">
+            <a
+              href={"https://myefitness.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img40}
@@ -545,7 +706,11 @@ export function Allpartners() {
             </a>
           </div>
           <div id={styles.img_margin} className={styles.img}>
-            <a href={"https://www.nustep.com/"} target="_blanc">
+            <a
+              href={"https://www.nustep.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img41}
@@ -556,7 +721,11 @@ export function Allpartners() {
             </a>
           </div>
           <div id={styles.img_margin} className={styles.img}>
-            <a href={"https://www.panattasport.com/"} target="_blanc">
+            <a
+              href={"https://www.panattasport.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img42}
@@ -567,7 +736,11 @@ export function Allpartners() {
             </a>
           </div>
           <div id={styles.img_margin} className={styles.img}>
-            <a href={"https://www.onepeloton.com/"} target="_blanc">
+            <a
+              href={"https://www.onepeloton.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img43}
@@ -578,7 +751,11 @@ export function Allpartners() {
             </a>
           </div>
           <div id={styles.img_margin} className={styles.img}>
-            <a href={"https://www.performbetter.com/"} target="_blanc">
+            <a
+              href={"https://www.performbetter.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img44}
@@ -590,7 +767,11 @@ export function Allpartners() {
           </div>
 
           <div className={styles.img}>
-            <a href={"https://plae.co/"} target="_blanc">
+            <a
+              href={"https://plae.co/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img45}
@@ -601,7 +782,11 @@ export function Allpartners() {
             </a>
           </div>
           <div id={styles.img_margin} className={styles.img}>
-            <a href={"https://www.powerplate.com/"} target="_blanc">
+            <a
+              href={"https://www.powerplate.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img46}
@@ -612,7 +797,11 @@ export function Allpartners() {
             </a>
           </div>
           <div id={styles.img_margin} className={styles.img}>
-            <a href={"http://www.powersystems.com/"} target="_blanc">
+            <a
+              href={"http://www.powersystems.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img47}
@@ -623,7 +812,11 @@ export function Allpartners() {
             </a>
           </div>
           <div id={styles.img_margin} className={styles.img}>
-            <a href={"https://www.precor.com"} target="_blanc">
+            <a
+              href={"https://www.precor.com"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img48}
@@ -635,7 +828,11 @@ export function Allpartners() {
           </div>
 
           <div id={styles.img_margin} className={styles.img}>
-            <a href={"https://premierfitnesssource.com/"} target="_blanc">
+            <a
+              href={"https://premierfitnesssource.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img49}
@@ -646,7 +843,11 @@ export function Allpartners() {
             </a>
           </div>
           <div id={styles.img_margin} className={styles.img}>
-            <a href={"https://www.roguefitness.com/"} target="_blanc">
+            <a
+              href={"https://www.roguefitness.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img50}
@@ -657,7 +858,11 @@ export function Allpartners() {
             </a>
           </div>
           <div id={styles.img_margin} className={styles.img}>
-            <a href={"https://www.spiritfitness.com/"} target="_blanc">
+            <a
+              href={"https://www.spiritfitness.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img51}
@@ -668,7 +873,11 @@ export function Allpartners() {
             </a>
           </div>
           <div id={styles.img_margin} className={styles.img}>
-            <a href={"https://www.gosportsart.com/"} target="_blanc">
+            <a
+              href={"https://www.gosportsart.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img52}
@@ -679,7 +888,11 @@ export function Allpartners() {
             </a>
           </div>
           <div id={styles.img_margin} className={styles.img}>
-            <a href={"https://stagescycling.com/"} target="_blanc">
+            <a
+              href={"https://stagescycling.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img53}
@@ -691,7 +904,11 @@ export function Allpartners() {
           </div>
 
           <div id={styles.img_margin} className={styles.img}>
-            <a href={"https://www.technogym.com/"} target="_blanc">
+            <a
+              href={"https://www.technogym.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img54}
@@ -702,7 +919,11 @@ export function Allpartners() {
             </a>
           </div>
           <div id={styles.img_margin} className={styles.img}>
-            <a href={"https://www.torquefitness.com/"} target="_blanc">
+            <a
+              href={"https://www.torquefitness.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img55}
@@ -713,7 +934,11 @@ export function Allpartners() {
             </a>
           </div>
           <div id={styles.img_margin} className={styles.img}>
-            <a href={"https://www.totalfitnessequipment.com/"} target="_blanc">
+            <a
+              href={"https://www.totalfitnessequipment.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img56}
@@ -724,7 +949,11 @@ export function Allpartners() {
             </a>
           </div>
           <div id={styles.img_margin} className={styles.img}>
-            <a href={"https://www.totalgym.com/"} target="_blanc">
+            <a
+              href={"https://www.totalgym.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img57}
@@ -736,7 +965,11 @@ export function Allpartners() {
           </div>
 
           <div id={styles.img_margin} className={styles.img}>
-            <a href={"https://www.troyfitness.com/"} target="_blanc">
+            <a
+              href={"https://www.troyfitness.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img58}
@@ -747,7 +980,11 @@ export function Allpartners() {
             </a>
           </div>
           <div className={styles.img}>
-            <a href={"https://truefitness.com/"} target="_blanc">
+            <a
+              href={"https://truefitness.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img59}
@@ -758,7 +995,11 @@ export function Allpartners() {
             </a>
           </div>
           <div id={styles.img_margin} className={styles.img}>
-            <a href={"https://www.trxtraining.com/"} target="_blanc">
+            <a
+              href={"https://www.trxtraining.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img60}
@@ -769,7 +1010,11 @@ export function Allpartners() {
             </a>
           </div>
           <div className={styles.img}>
-            <a href={"https://www.umaxstrength.com/"} target="_blanc">
+            <a
+              href={"https://www.umaxstrength.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img61}
@@ -780,7 +1025,11 @@ export function Allpartners() {
             </a>
           </div>
           <div className={styles.img}>
-            <a href={"https://versaclimber.com/"} target="_blanc">
+            <a
+              href={"https://versaclimber.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img62}
@@ -792,7 +1041,11 @@ export function Allpartners() {
           </div>
 
           <div className={styles.img}>
-            <a href={"https://www.waterrower.com/"} target="_blanc">
+            <a
+              href={"https://www.waterrower.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img63}
@@ -803,7 +1056,11 @@ export function Allpartners() {
             </a>
           </div>
           <div className={styles.img}>
-            <a href={"https://www.woodway.com/"} target="_blanc">
+            <a
+              href={"https://www.woodway.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img64}
@@ -814,7 +1071,11 @@ export function Allpartners() {
             </a>
           </div>
           <div className={styles.img}>
-            <a href={"https://ybellfitness.com/"} target="_blanc">
+            <a
+              href={"https://ybellfitness.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img65}
@@ -825,7 +1086,11 @@ export function Allpartners() {
             </a>
           </div>
           <div className={styles.img}>
-            <a href={"https://www.younix.world/"} target="_blanc">
+            <a
+              href={"https://www.younix.world/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img66}
@@ -845,7 +1110,11 @@ export function Allpartners() {
       <div className={styles.container_partners}>
         <div className={styles.part3}>
           <div className={styles.img}>
-            <a href={"https://www.ihrsa.org/"} target="_blanc">
+            <a
+              href={"https://www.ihrsa.org/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img67}
@@ -856,7 +1125,11 @@ export function Allpartners() {
             </a>
           </div>
           <div className={styles.img}>
-            <a href={"https://www.aacfb.org/home"} target="_blanc">
+            <a
+              href={"https://www.aacfb.org/home"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img68}
@@ -869,7 +1142,11 @@ export function Allpartners() {
         </div>
         <div className={styles.part4}>
           <div className={styles.img}>
-            <a href={"https://www.elfaonline.org/"} target="_blanc">
+            <a
+              href={"https://www.elfaonline.org/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img69}
@@ -880,7 +1157,11 @@ export function Allpartners() {
             </a>
           </div>
           <div className={styles.img}>
-            <a href={"https://www.nefassociation.org/"} target="_blanc">
+            <a
+              href={"https://www.nefassociation.org/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img70}
@@ -891,7 +1172,11 @@ export function Allpartners() {
             </a>
           </div>
           <div className={styles.img}>
-            <a href={"https://www.equipmentfa.com/"} target="_blanc">
+            <a
+              href={"https://www.equipmentfa.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 className={styles.img}
                 src={img71}

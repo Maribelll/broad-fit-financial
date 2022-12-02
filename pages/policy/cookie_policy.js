@@ -222,7 +222,7 @@ export default function Cookie() {
           <p>6586 Hypoluxo Rd, Suite 251, Lake Worth, FL 33467</p>
           <p>
             E-Mail:{" "}
-            <a href="mailto:Stephanie@BroadFit.com">Stephanie@BroadFit.com</a>
+            <a href="mailto:webmaster@broadfit.com">webmaster@broadfit.com</a>
             &nbsp;
           </p>
           <p>

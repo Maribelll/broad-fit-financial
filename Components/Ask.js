@@ -1,4 +1,5 @@
 import styles from "../styles/ask.module.scss";
+import Link from "next/link";
 
 export function Ask() {
   return (
@@ -104,6 +105,17 @@ export function Ask() {
               <p>All documents are securely executed via DocuSign.</p>
             </div>
           </div>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            paddingTop: "40px",
+          }}
+        >
+          <Link href={"/contact"}>
+            <button className="dark_blue">Get in touch</button>
+          </Link>
         </div>
       </div>
     </section>

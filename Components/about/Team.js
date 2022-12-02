@@ -22,11 +22,13 @@ export function Team() {
           <span>PRESIDENT</span>
           <br />
           <div className={styles.img}>
-            <Link
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
               href={"https://www.linkedin.com/in/stephanie-taylor-3902455/"}
             >
               <Image src={ln} alt="" />
-            </Link>
+            </a>
           </div>
         </div>
         <div className={styles.description}>
@@ -37,8 +39,8 @@ export function Team() {
             following years, she continued expanding her knowledge within the
             fitness world, working at the Columbia Association in Maryland,
             E-Zone, and ACE. Stephanie then decided to shift her focus, spending
-            the next 12 years on a rewarding and accomplished career in the
-            finance industry.
+            the next 12 years building an accomplished career in the finance
+            industry.
             <br />
             <br /> In 2008, she ultimately found a way to combine her experience
             and interest of both the fitness and finance industry, when she

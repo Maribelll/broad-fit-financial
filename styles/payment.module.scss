@@ -1,13 +1,14 @@
 .container_payment {
   .payment {
     align-items: center;
-    height: 487px;
+
     max-width: 1334px;
     margin: 0 auto;
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    padding: 0 75px 0 67px;
+    padding: 60px 0 60px 0;
     border-radius: 10px;
     text-align: center;
 
@@ -15,6 +16,9 @@
       max-width: 470px;
       h3 {
         text-align: center;
+      }
+      p {
+        padding-bottom: 20px;
       }
     }
     .payment_details {
@@ -55,7 +59,7 @@
 @media (max-width: 1200px) {
   .container_payment {
     .payment {
-      padding: 40px 16px;
+      padding: 50px 16px;
 
       .payment_details {
         margin-left: 55px;

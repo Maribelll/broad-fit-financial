@@ -34,7 +34,7 @@ export function Twocolumns() {
             <div className={styles.card}>
               <h5>Trusted Partner</h5>
               <p>
-                We take great pride in our level of support, knowledge, &amp;
+                We take great pride in our level of support, knowledge, and
                 ability to secure the best structure and program for our
                 customers. 
               </p>
@@ -42,7 +42,7 @@ export function Twocolumns() {
             <div className={styles.card}>
               <h5>Solutions for Any Size Business</h5>
               <p>
-                We work with all types of businesses from large Corporations
+                We work with all types of businesses - from large corporations
                 with no personal guarantors to franchisees with individual
                 owners. Structuring is specific to each transaction.
               </p>

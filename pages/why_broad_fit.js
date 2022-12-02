@@ -7,7 +7,7 @@ import { Blocktop } from "../Components/whybroadfit/Blocktop";
 import { Cardleft } from "../Components/whybroadfit/Cardleft";
 import { Cardright } from "../Components/whybroadfit/Carfright";
 import { Twocolumns } from "../Components/Twocolumns";
-import { Payment } from "../Components/process/Payment";
+import { Payment } from "../Components/whybroadfit/Payment";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect } from "react";

@@ -46,7 +46,7 @@ export default function About() {
                   Broad Fit Financial is a female-owned and operated finance
                   company. Broad Fit was created out of a desire to better
                   support industry relationships through a more transparent and
-                  collaborative process in providing more flexible financing
+                  collaborative process in providing flexible financing
                   structures tailored to each customer’s specific goals and
                   needs.
                   <br />

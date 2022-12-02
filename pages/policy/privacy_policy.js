@@ -54,8 +54,8 @@ export default function Privacy() {
           <p>Broad Fit Financial</p>
           <p>6586 Hypoluxo Rd, Suite 251, Lake Worth, FL 33467</p>
           <p>
-            <a href="mailto:Stephanie@BroadFit.com">
-              Stephanie@BroadFit.com&nbsp;
+            <a href="mailto:webmaster@broadfit.com">
+              webmaster@broadfit.com&nbsp;
             </a>
           </p>
           <p>

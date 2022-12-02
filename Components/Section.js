@@ -94,10 +94,11 @@ export function Section() {
             className={styles.section_card}
           >
             <Image src={img8} alt="YMCAs, JCCs and Non-Profits" />
-            <h4>YMCAs, JCCs, KROC Centers, &amp; Other Non-Profits:</h4>
+            <h4>Non-Profits</h4>
             <p>
-              Supporting community organizations with playgrounds, fitness
-              centers, furniture, pools and more.
+              Supporting YMCAs, JCCs, KROC Centers, and other community
+              organizations with financing for playgrounds, fitness centers,
+              furniture, pools, and more.
             </p>
           </div>
           <div data-aos="fade-up" className={styles.section_card}>
