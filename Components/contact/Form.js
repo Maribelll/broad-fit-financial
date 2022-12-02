@@ -48,8 +48,8 @@ export function Form() {
 
           <input
             required
-            minlength="10"
-            maxlength="20"
+            minLength="10"
+            maxLength="20"
             id="phone"
             type="number"
             name="phone"
