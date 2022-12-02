@@ -135,19 +135,19 @@
     }
   }
 }
-@media (max-width: 780px) {
+@media (max-width: 880px) {
   .container_footer {
+    .footer_img {
+      display: none;
+    }
+    .footer_img2 {
+      position: absolute;
+      display: block;
+      width: 261px;
+      right: 0;
+      bottom: 133px;
+    }
     .footer {
-      .footer_img {
-        display: none;
-      }
-      .footer_img2 {
-        position: absolute;
-        display: block;
-        width: 261px;
-        right: 0;
-        bottom: 133px;
-      }
       #hidden {
         display: block;
       }
