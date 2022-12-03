@@ -17,7 +17,7 @@ export function Cardright() {
           We have a long history working with an expansive network of suppliers
           and partners throughout the health, wellness, and fitness spaces.
         </p>
-        <Link href={"/why_broad_fit"}>
+        <Link href={"/partners_&_memberships"}>
           <a className="main_link">See our network</a>
         </Link>
       </div>
